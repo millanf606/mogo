@@ -83,11 +83,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: CSI: NY\nDespués de que un querido agente de policía es asesinado durante un robo, el equipo de CSI interroga a los sospechosos para llegar a la verdad.\n\nCanal AXN",
+      "description": "EN VIVO AHORA: NCIS: Los Angeles\nDespués de que un empleado del Departamento de Estado y un cirujano plástico son asesinados por un grupo de terroristas, el equipo de NCIS debe buscar al único testigo que puede identificar las caras quirúrgicamente alteradas de los asesinos.\n\nCanal AXN",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "AXNARGH.ar (m3u4u)",
-      "currentProgram": "CSI: NY",
-      "currentProgramDesc": "Después de que un querido agente de policía es asesinado durante un robo, el equipo de CSI interroga a los sospechosos para llegar a la verdad.",
+      "currentProgram": "NCIS: Los Angeles",
+      "currentProgramDesc": "Después de que un empleado del Departamento de Estado y un cirujano plástico son asesinados por un grupo de terroristas, el equipo de NCIS debe buscar al único testigo que puede identificar las caras quirúrgicamente alteradas de los asesinos.",
       "descriptionBase": "Canal AXN"
     },
     {
@@ -119,11 +119,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: CSI: Miami\nHoracio está decidido a encontrar a una familia que ha desaparecido completamente.\n\nCanal TNT Series",
+      "description": "EN VIVO AHORA: CSI: Miami\nEl equipo investiga el asesinato de la madre de una joven participante en un concurso de belleza.\n\nCanal TNT Series",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "TNTSERH.ar (m3u4u)",
       "currentProgram": "CSI: Miami",
-      "currentProgramDesc": "Horacio está decidido a encontrar a una familia que ha desaparecido completamente.",
+      "currentProgramDesc": "El equipo investiga el asesinato de la madre de una joven participante en un concurso de belleza.",
       "descriptionBase": "Canal TNT Series"
     },
     {
@@ -281,11 +281,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Había una vez una estrella\nUn joven tiene la responsabilidad de cuidar de sus hermanos menores después de que sus padres fallecen. Uno de ellos está muy enfermo, por eso, el joven decide buscar la ayuda de su abuelo.\n\nCanal Las Estrellas",
+      "description": "EN VIVO AHORA: Sor Metiche\nUna monja gana un concurso de canto y así impide que el edificio del convento sea demolido por sus antiguos dueños.\n\nCanal Las Estrellas",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "ESTREHD.co (m3u4u)",
-      "currentProgram": "Había una vez una estrella",
-      "currentProgramDesc": "Un joven tiene la responsabilidad de cuidar de sus hermanos menores después de que sus padres fallecen. Uno de ellos está muy enfermo, por eso, el joven decide buscar la ayuda de su abuelo.",
+      "currentProgram": "Sor Metiche",
+      "currentProgramDesc": "Una monja gana un concurso de canto y así impide que el edificio del convento sea demolido por sus antiguos dueños.",
       "descriptionBase": "Canal Las Estrellas"
     },
     {
@@ -317,11 +317,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Kilos mortales: sus vidas hoy\nNo se puede permitir que Maja se someta a una cirugía bariátrica, a menos que deje de comer emocionalmente. Sin embargo, parece que Justin puede terminar enorgulleciendo al Dr. Now.\n\nCanal Home & Health",
+      "description": "EN VIVO AHORA: Kilos mortales: sus vidas hoy\nHay mucho que ganar y perder para Brianne en el segundo año de su viaje, en el que pierde peso y gana independencia. Volver con Erica se convierte en la máxima prioridad para Annjeanette, que elige el amor incluso sobre su propia salud.\n\nCanal Home & Health",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
       "tvgId": "DHEALHD.co (m3u4u)",
       "currentProgram": "Kilos mortales: sus vidas hoy",
-      "currentProgramDesc": "No se puede permitir que Maja se someta a una cirugía bariátrica, a menos que deje de comer emocionalmente. Sin embargo, parece que Justin puede terminar enorgulleciendo al Dr. Now.",
+      "currentProgramDesc": "Hay mucho que ganar y perder para Brianne en el segundo año de su viaje, en el que pierde peso y gana independencia. Volver con Erica se convierte en la máxima prioridad para Annjeanette, que elige el amor incluso sobre su propia salud.",
       "descriptionBase": "Canal Home & Health"
     },
     {
@@ -397,149 +397,149 @@
       "descriptionBase": "Canal Caracol Colombia"
     },
     {
-    "id": "mogo-canal-canal-cartoon-network",
-    "type": "tv",
-    "name": "Cartoon Network",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cartoonn_stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cartoon-network_m.png",
-    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Infantil"
-    ],
-    "description": "",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "DISNLS.ar (m3u4u)",
-    "currentProgram": "",
-    "currentProgramDesc": "",
-    "descriptionBase": "Canal Cartoon Network"
-  },
-  {
-    "id": "mogo-canal-canal-nickelodeon",
-    "type": "tv",
-    "name": "Nickelodeon",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nick_stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nickelodeon_m.png",
-    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Infantil"
-    ],
-    "description": "",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "NKLACHD.ar (m3u4u)",
-    "currentProgram": "",
-    "currentProgramDesc": "",
-    "descriptionBase": "Canal Nickelodeon"
-  },
-  {
-    "id": "mogo-canal-canal-nick-jr.",
-    "type": "tv",
-    "name": "Nick Jr.",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nickjr_stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nick-jr_m.png",
-    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Infantil"
-    ],
-    "description": "",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "NICKJMH.ar (m3u4u)",
-    "currentProgram": "",
-    "currentProgramDesc": "",
-    "descriptionBase": "Canal Nick Jr."
-  },
-  {
-    "id": "mogo-canal-canal-disney-channel",
-    "type": "tv",
-    "name": "Disney Channel",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disney_stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disney-channel_m.png",
-    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Infantil"
-    ],
-    "description": "",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "DISNLS.ar (m3u4u)",
-    "currentProgram": "",
-    "currentProgramDesc": "",
-    "descriptionBase": "Canal Disney Channel"
-  },
-  {
-    "id": "mogo-canal-canal-disney-jr",
-    "type": "tv",
-    "name": "Disney Jr.",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disneyjr_stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disney-jr_m.png",
-    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Infantil"
-    ],
-    "description": "",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "DISNJS.co (m3u4u)",
-    "currentProgram": "",
-    "currentProgramDesc": "",
-    "descriptionBase": "Canal Disney Jr."
-  },
-  {
-    "id": "mogo-canal-canal-discovery-kids",
-    "type": "tv",
-    "name": "Discovery Kids",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery-kids_stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery-kids_m.png",
-    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Infantil"
-    ],
-    "description": "",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "DKNL.co (m3u4u)",
-    "currentProgram": "",
-    "currentProgramDesc": "",
-    "descriptionBase": "Canal Discovery Kids"
-  },
-  {
-    "id": "mogo-canal-canal-dreamworks",
-    "type": "tv",
-    "name": "Dreamworks",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/drean_stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/dreamworks_m.png",
-    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Infantil"
-    ],
-    "description": "",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "DREAMWS.co (m3u4u)",
-    "currentProgram": "",
-    "currentProgramDesc": "",
-    "descriptionBase": "Canal Dreamworks"
-  },
-  {
-    "id": "mogo-canal-canal-adult-swim",
-    "type": "tv",
-    "name": "Adult Swim",
-    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/as_stm.png",
-    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/as_m.png",
-    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-    "posterShape": "poster",
-    "genres": [
-      "Infantil"
-    ],
-    "description": "",
-    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-    "tvgId": "ADSMX.mx (m3u4u)",
-    "currentProgram": "",
-    "currentProgramDesc": "",
-    "descriptionBase": "Canal Adult Swim"
-  },
+      "id": "mogo-canal-canal-cartoon-network",
+      "type": "tv",
+      "name": "Cartoon Network",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cartoonn_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cartoon-network_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "EN VIVO AHORA: Phineas y Ferb\nPhineas y Ferb crean una caricatura donde ellos son héroes y Candace es la villana. Los niños crean una máquina que fabrica arcoíris para ayudar a Isabella a ver su primer arcoíris.\n\nCanal Cartoon Network",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "DISNLS.ar (m3u4u)",
+      "currentProgram": "Phineas y Ferb",
+      "currentProgramDesc": "Phineas y Ferb crean una caricatura donde ellos son héroes y Candace es la villana. Los niños crean una máquina que fabrica arcoíris para ayudar a Isabella a ver su primer arcoíris.",
+      "descriptionBase": "Canal Cartoon Network"
+    },
+    {
+      "id": "mogo-canal-canal-nickelodeon",
+      "type": "tv",
+      "name": "Nickelodeon",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nick_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nickelodeon_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "EN VIVO AHORA: Wylde Pak\nLa familia se prepara para un viaje al mercado asiático local. Después de su batalla para conseguir una galleta rara, Jack se siente más parte de la familia.\n\nCanal Nickelodeon",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "NKLACHD.ar (m3u4u)",
+      "currentProgram": "Wylde Pak",
+      "currentProgramDesc": "La familia se prepara para un viaje al mercado asiático local. Después de su batalla para conseguir una galleta rara, Jack se siente más parte de la familia.",
+      "descriptionBase": "Canal Nickelodeon"
+    },
+    {
+      "id": "mogo-canal-canal-nick-jr.",
+      "type": "tv",
+      "name": "Nick Jr.",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nickjr_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nick-jr_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "EN VIVO AHORA: Deer Squad\nRammy está renovando el campo de entrenamiento para preparar a los animales del bosque para el invierno. El Sr. Steel está por revelar una nueva estatua en la ciudad, pero pierde la atención de la gente porque todos van al estreno de una película.\n\nCanal Nick Jr.",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "NICKJMH.ar (m3u4u)",
+      "currentProgram": "Deer Squad",
+      "currentProgramDesc": "Rammy está renovando el campo de entrenamiento para preparar a los animales del bosque para el invierno. El Sr. Steel está por revelar una nueva estatua en la ciudad, pero pierde la atención de la gente porque todos van al estreno de una película.",
+      "descriptionBase": "Canal Nick Jr."
+    },
+    {
+      "id": "mogo-canal-canal-disney-channel",
+      "type": "tv",
+      "name": "Disney Channel",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disney_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disney-channel_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "EN VIVO AHORA: Phineas y Ferb\nPhineas y Ferb crean una caricatura donde ellos son héroes y Candace es la villana. Los niños crean una máquina que fabrica arcoíris para ayudar a Isabella a ver su primer arcoíris.\n\nCanal Disney Channel",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "DISNLS.ar (m3u4u)",
+      "currentProgram": "Phineas y Ferb",
+      "currentProgramDesc": "Phineas y Ferb crean una caricatura donde ellos son héroes y Candace es la villana. Los niños crean una máquina que fabrica arcoíris para ayudar a Isabella a ver su primer arcoíris.",
+      "descriptionBase": "Canal Disney Channel"
+    },
+    {
+      "id": "mogo-canal-canal-disney-jr",
+      "type": "tv",
+      "name": "Disney Jr.",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disneyjr_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disney-jr_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "EN VIVO AHORA: Bluey: Compilaciones\nUna serie de recopilaciones protagonizadas por Bluey, sus amigos y su familia.\n\nCanal Disney Jr.",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "DISNJS.co (m3u4u)",
+      "currentProgram": "Bluey: Compilaciones",
+      "currentProgramDesc": "Una serie de recopilaciones protagonizadas por Bluey, sus amigos y su familia.",
+      "descriptionBase": "Canal Disney Jr."
+    },
+    {
+      "id": "mogo-canal-canal-discovery-kids",
+      "type": "tv",
+      "name": "Discovery Kids",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery-kids_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery-kids_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "EN VIVO AHORA: 44 gatos\nLos Buffycats quieren organizar algo especial para Pascua, y Pilou le pide ayuda a su tía Lizzy, la mejor organizadora de fiestas de todos los tiempos.\n\nCanal Discovery Kids",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "DKNL.co (m3u4u)",
+      "currentProgram": "44 gatos",
+      "currentProgramDesc": "Los Buffycats quieren organizar algo especial para Pascua, y Pilou le pide ayuda a su tía Lizzy, la mejor organizadora de fiestas de todos los tiempos.",
+      "descriptionBase": "Canal Discovery Kids"
+    },
+    {
+      "id": "mogo-canal-canal-dreamworks",
+      "type": "tv",
+      "name": "Dreamworks",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/drean_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/dreamworks_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "EN VIVO AHORA: Turbo FAST\nTurbo y Látigo son invitados a cenar a casa del Conde. Aunque llegan temiendo por sus vidas, pronto descubrirán que las intenciones del Conde son diferentes a las que ellos pensaban.\n\nCanal Dreamworks",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "DREAMWS.co (m3u4u)",
+      "currentProgram": "Turbo FAST",
+      "currentProgramDesc": "Turbo y Látigo son invitados a cenar a casa del Conde. Aunque llegan temiendo por sus vidas, pronto descubrirán que las intenciones del Conde son diferentes a las que ellos pensaban.",
+      "descriptionBase": "Canal Dreamworks"
+    },
+    {
+      "id": "mogo-canal-canal-adult-swim",
+      "type": "tv",
+      "name": "Adult Swim",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/as_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/as_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "EN VIVO AHORA: Dragon Ball Z\nBuscando enfurecer a Gohan, Cell crea pequeños seres similares a él y los hace atacar a los guerreros que están fuera de la pelea.\n\nCanal Adult Swim",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "ADSMX.mx (m3u4u)",
+      "currentProgram": "Dragon Ball Z",
+      "currentProgramDesc": "Buscando enfurecer a Gohan, Cell crea pequeños seres similares a él y los hace atacar a los guerreros que están fuera de la pelea.",
+      "descriptionBase": "Canal Adult Swim"
+    },
     {
       "id": "mogo-canal-canal-hbo",
       "type": "tv",
