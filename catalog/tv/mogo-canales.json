@@ -701,6 +701,150 @@
       "currentProgram": "Liga de la justicia",
       "currentProgramDesc": "Gracias a su renovada fe en la humanidad e inspirado por el acto de altruísmo de Superman, Bruce Wayne pide ayuda a su nueva aliada, Diana Prince, para enfrentar a un enemigo aún más peligroso.",
       "descriptionBase": "Canal HBO"
-    }
+    },
+      {
+    "id": "mogo-canal-canal-hbo-2",
+    "type": "tv",
+    "name": "HBO 2",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/hbo-2-stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/hbo-2_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Premium"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "HBO2LA.mx (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal HBO 2"
+  },
+  {
+    "id": "mogo-canal-canal-hbo-plus",
+    "type": "tv",
+    "name": "HBO Plus",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/plus_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/hbo-plus-panamericano-hd_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Premium"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "HBOPPHD.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal HBO Plus"
+  },
+  {
+    "id": "mogo-canal-canal-hbo-signature",
+    "type": "tv",
+    "name": "HBO Signature",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/signature_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/signature_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Premium"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "HBOSLHD.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal HBO Signature"
+  },
+  {
+    "id": "mogo-canal-canal-hbo-family",
+    "type": "tv",
+    "name": "HBO Family",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/hbo-family_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/family_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Premium"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "HBOFMEH.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal HBO Family"
+  },
+  {
+    "id": "mogo-canal-canal-hbo-mundi",
+    "type": "tv",
+    "name": "HBO Mundi",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/mundi_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/mundi_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Premium"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "MUNLA.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal HBO Mundi"
+  },
+  {
+    "id": "mogo-canal-canal-hbo-pop",
+    "type": "tv",
+    "name": "HBO Pop",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/hbo-pop_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/hbo-pop_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Premium"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "POPLA.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal HBO Pop"
+  },
+  {
+    "id": "mogo-canal-canal-hbo-xtreme",
+    "type": "tv",
+    "name": "HBO Xtreme",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/xtreme_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/xtreme_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Premium"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "HBOXLAH.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal HBO Xtreme"
+  },
+  {
+    "id": "mogo-canal-canal-universal-cinema",
+    "type": "tv",
+    "name": "Universal Cinema",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/ucinema_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/universal-cin_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Premium"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "UNICI.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Universal Cinema"
+  }
   ]
 }
