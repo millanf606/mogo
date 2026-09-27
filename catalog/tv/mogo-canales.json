@@ -1043,6 +1043,186 @@
       "currentProgram": "Inglaterra vs. España",
       "currentProgramDesc": "",
       "descriptionBase": "Canal SKY Sports 2"
-    }
+    },
+      {
+    "id": "mogo-canal-canal-natgeo",
+    "type": "tv",
+    "name": "NatGeo",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nat_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/nat-geo_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "NGLAT.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal NatGeo"
+  },
+  {
+    "id": "mogo-canal-canal-discovery-channel",
+    "type": "tv",
+    "name": "Discovery Channel",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/disco_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "TDCL.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Discovery Channel"
+  },
+  {
+    "id": "mogo-canal-canal-animal-planet",
+    "type": "tv",
+    "name": "Animal Planet",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/animal_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/animal_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "ANIPL.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Animal Planet"
+  },
+  {
+    "id": "mogo-canal-canal-discovery-turbo",
+    "type": "tv",
+    "name": "Discovery Turbo",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/turbo_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/turbo_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "DTURBOL.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Discovery Turbo"
+  },
+  {
+    "id": "mogo-canal-canal-tlc",
+    "type": "tv",
+    "name": "TLC",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/tlc_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/tlc_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "TLCLASP.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal TLC"
+  },
+  {
+    "id": "mogo-canal-canal-history",
+    "type": "tv",
+    "name": "History",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/history_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/history_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "HISTSOU.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal History"
+  },
+  {
+    "id": "mogo-canal-canal-h2",
+    "type": "tv",
+    "name": "H2",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/h2_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/h2_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "H2LAT.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal H2"
+  },
+  {
+    "id": "mogo-canal-canal-discovery-science",
+    "type": "tv",
+    "name": "Discovery Science",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/science_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery-science_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "DSCIENL.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Discovery Science"
+  },
+  {
+    "id": "mogo-canal-canal-discovery-world",
+    "type": "tv",
+    "name": "Discovery World",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discow_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery-w_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "DWRLDHD.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Discovery World"
+  },
+  {
+    "id": "mogo-canal-canal-discovery-theater",
+    "type": "tv",
+    "name": "Discovery Theater",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery-the_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/discovery-the_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Mundo"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "DTHLAHD.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Discovery Theater"
+  }
   ]
 }
