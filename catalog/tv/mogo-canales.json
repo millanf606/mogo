@@ -306,6 +306,24 @@
       "currentProgramDesc": "Un hombre de poder, casado con una joven, oculta secretos que camuflan un presente aparentemente perfecto.",
       "descriptionBase": "Canal Tlnovelas"
     },
+   {
+      "id": "mogo-canal-canal-hh",
+      "type": "tv",
+      "name": "Home & Health",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/h-a-h_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/h-a-h_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "EN VIVO AHORA: Sin información de programa\n\nCanal Home & Health",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "DHEALHD.co (m3u4u)",
+      "currentProgram": "Sin información de programa",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal Home & Health"
+    },
     {
       "id": "mogo-canal-canal-telemundo-internacional",
       "type": "tv",
@@ -325,22 +343,40 @@
       "descriptionBase": "Canal Telemundo Internacional"
     },
     {
-      "id": "mogo-canal-canal-hh",
+      "id": "mogo-canal-canal-gourmet",
       "type": "tv",
-      "name": "Home & Health",
-      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/h-a-h_stm.png",
-      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/h-a-h_m.png",
+      "name": "El Gourmet",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/gourmet_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/gourmet_m.png",
       "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "EN VIVO AHORA: Sin información de programa\n\nCanal Home & Health",
+      "description": "",
       "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
-      "tvgId": "DHEALHD.co (m3u4u)",
-      "currentProgram": "Sin información de programa",
+      "tvgId": "GOURMETN.ar (m3u4u)",
+      "currentProgram": "",
       "currentProgramDesc": "",
-      "descriptionBase": "Canal Home & Health"
+      "descriptionBase": "Canal El Gourmet"
+    },
+{
+      "id": "mogo-canal-canal-hgtv",
+      "type": "tv",
+      "name": "HGTV",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hgtv_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hgtv_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "HGTVLAS.ar (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal HGTV"
     },
     {
       "id": "mogo-canal-canal-caracol-colombia",
