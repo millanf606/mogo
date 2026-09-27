@@ -540,6 +540,150 @@
       "currentProgramDesc": "",
       "descriptionBase": "Canal Adult Swim"
     },
+      {
+    "id": "mogo-canal-canal-tnt",
+    "type": "tv",
+    "name": "TNT",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/tnt_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/tnt_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Cine"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "TNTLH.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal TNT"
+  },
+  {
+    "id": "mogo-canal-canal-cinecanal",
+    "type": "tv",
+    "name": "Cinecanal",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cinecanal_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cinecanal-1_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Cine"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "CCL.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Cinecanal"
+  },
+  {
+    "id": "mogo-canal-canal-studio-universal",
+    "type": "tv",
+    "name": "Studio Universal",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/estudio_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/studio-universal_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Cine"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "STULCOH.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Studio Universal"
+  },
+  {
+    "id": "mogo-canal-canal-cinemax",
+    "type": "tv",
+    "name": "Cinemax",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cine_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cinemax-sur_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Cine"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "CINELWH.mx (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Cinemax"
+  },
+  {
+    "id": "mogo-canal-canal-dhe",
+    "type": "tv",
+    "name": "DHE",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/dhe_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/dhe_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Cine"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "CNLDHEH.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal DHE"
+  },
+  {
+    "id": "mogo-canal-canal-space",
+    "type": "tv",
+    "name": "Space",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/space_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/space_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Cine"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "SPACES.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Space"
+  },
+  {
+    "id": "mogo-canal-canal-cine-sony",
+    "type": "tv",
+    "name": "Cine Sony",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cinesony_m_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/sony-cine_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Cine"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "SOCINH.us (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Cine Sony"
+  },
+  {
+    "id": "mogo-canal-canal-sony-movies",
+    "type": "tv",
+    "name": "Sony Movies",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/sonymovie_m_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/sony-movies_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Cine"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "SONYMH.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal Sony Movies"
+  },
     {
       "id": "mogo-canal-canal-hbo",
       "type": "tv",
