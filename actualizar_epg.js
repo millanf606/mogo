@@ -59,32 +59,60 @@ function parsearFechaXMLTV(str) {
   return new Date(Date.UTC(y, m, d, h, min));
 }
 
-function buscarProgramaActual(xmlResult, tvgId) {
+function buscarProgramas(xmlResult, tvgId) {
+  const vacio = { 
+    actual: { titulo: "Sin información de programa", descripcion: "" }, 
+    siguiente: null 
+  };
+
   if (!xmlResult || !xmlResult.tv || !xmlResult.tv.programme) {
-    return { titulo: "Sin guía disponible", descripcion: "" };
+    return vacio;
   }
 
   const ahora = new Date();
-  const programas = xmlResult.tv.programme.filter(p => p.$&& p.$.channel === tvgId);
 
-  for (const prog of programas) {
-    const inicio = parsearFechaXMLTV(prog.$.start);
-    const fin = parsearFechaXMLTV(prog.$.stop);
+  // 1. Filtrar programas de este canal
+  const programasRaw = xmlResult.tv.programme.filter(p => p.$&& p.$.channel === tvgId);
 
-    if (inicio && fin && ahora >= inicio && ahora < fin) {
-      let titulo = prog.title ? prog.title[0] : "Programa sin título";
-      if (typeof titulo === 'object') titulo = titulo._ || titulo;
+  // 2. Mapear y ordenar cronológicamente
+  const programas = programasRaw.map(prog => {
+    let titulo = prog.title ? prog.title[0] : "Programa sin título";
+    if (typeof titulo === 'object') titulo = titulo._ || titulo;
 
-      let descripcion = "";
-      if (prog.desc && prog.desc[0]) {
-        descripcion = typeof prog.desc[0] === 'object' ? (prog.desc[0]._ || '') : prog.desc[0];
+    let descripcion = "";
+    if (prog.desc && prog.desc[0]) {
+      descripcion = typeof prog.desc[0] === 'object' ? (prog.desc[0]._ || '') : prog.desc[0];
+    }
+
+    return {
+      titulo,
+      descripcion,
+      inicio: parsearFechaXMLTV(prog.$.start),
+      fin: parsearFechaXMLTV(prog.$.stop)
+    };
+  })
+  .filter(p => p.inicio && p.fin)
+  .sort((a, b) => a.inicio - b.inicio);
+
+  // 3. Buscar el programa actual y el siguiente
+  let actual = null;
+  let siguiente = null;
+
+  for (let i = 0; i < programas.length; i++) {
+    const p = programas[i];
+    if (ahora >= p.inicio && ahora < p.fin) {
+      actual = p;
+      if (i + 1 < programas.length) {
+        siguiente = programas[i + 1];
       }
-
-      return { titulo, descripcion };
+      break;
     }
   }
 
-  return { titulo: "Sin información de programa", descripcion: "" };
+  return {
+    actual: actual || { titulo: "Sin información de programa", descripcion: "" },
+    siguiente
+  };
 }
 
 async function procesarTodo() {
@@ -112,23 +140,36 @@ async function procesarTodo() {
         continue;
       }
 
-      // Descargar EPG y obtener datos del programa actual
+      // Descargar EPG y obtener datos del programa actual y siguiente
       const xmlData = await descargarYParsearEPG(meta.epgUrl);
-      const programa = buscarProgramaActual(xmlData, meta.tvgId);
+      const { actual, siguiente } = buscarProgramas(xmlData, meta.tvgId);
 
-      console.log(`[${meta.name}] -> Programa actual: ${programa.titulo}`);
+      console.log(`[${meta.name}] -> Actual: ${actual.titulo} | Siguiente: ${siguiente ? siguiente.titulo : 'N/A'}`);
 
-      // Actualizar campos del programa
-      meta.currentProgram = programa.titulo;
-      meta.currentProgramDesc = programa.descripcion;
+      // Actualizar campos de programa actual
+      meta.currentProgram = actual.titulo;
+      meta.currentProgramDesc = actual.descripcion;
 
-      const infoPrograma = programa.descripcion 
-        ? `EN VIVO AHORA: ${programa.titulo}\n${programa.descripcion}`
-        : `EN VIVO AHORA: ${programa.titulo}`;
+      // Construir la sección de "EN VIVO AHORA"
+      let infoPrograma = actual.descripcion 
+        ? `EN VIVO AHORA: ${actual.titulo}\n${actual.descripcion}`
+        : `EN VIVO AHORA: ${actual.titulo}`;
 
+      // Agregar la línea de "A CONTINUACIÓN" si existe un programa siguiente
+      if (siguiente) {
+        infoPrograma += `\n\nA CONTINUACIÓN: ${siguiente.titulo}`;
+        if (siguiente.descripcion) {
+          infoPrograma += `\n${siguiente.descripcion}`;
+        }
+      }
+
+      // Limpieza de descripciones previas para evitar acumulación
       if (!meta.descriptionBase) {
         meta.descriptionBase = meta.description 
-          ? meta.description.replace(/^EN VIVO AHORA:[\s\S]*?\n\n/, '') 
+          ? meta.description
+              .replace(/^EN VIVO AHORA:[\s\S]*?(?=\n\n[^\n]|\n\n$\vert{}$)/, '')
+              .replace(/^A CONTINUACIÓN:[\s\S]*?(?=\n\n[^\n]|\n\n$\vert{}$)/, '')
+              .trim()
           : `Canal ${meta.name}`;
       }
 
@@ -151,7 +192,7 @@ async function procesarTodo() {
       };
 
       fs.writeFileSync(rutaMetaIndividual, JSON.stringify(contenidoMetaIndividual, null, 2), 'utf8');
-      console.log(`  └─ Archivo generado: ${rutaMetaIndividual}`);
+      console.log(`   └─ Archivo generado: ${rutaMetaIndividual}`);
     }
 
     // 4. Guardar el catálogo principal actualizado
