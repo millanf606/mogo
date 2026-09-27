@@ -845,6 +845,204 @@
       "currentProgram": "Náufrago",
       "currentProgramDesc": "Tras un accidente aéreo, Chuck Noland, ingeniero de Federal Express, intenta sobrevivir durante años en una isla completamente desierta.",
       "descriptionBase": "Canal Universal Cinema"
-    }
+    },
+      {
+    "id": "mogo-canal-canal-espn",
+    "type": "tv",
+    "name": "ESPN",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "ESPARH.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal ESPN"
+  },
+  {
+    "id": "mogo-canal-canal-espn-2",
+    "type": "tv",
+    "name": "ESPN 2",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn-2_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "ESP2SH.ar (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal ESPN 2"
+  },
+  {
+    "id": "mogo-canal-canal-espn-3",
+    "type": "tv",
+    "name": "ESPN 3",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn-3_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "ESPN3AN.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal ESPN 3"
+  },
+  {
+    "id": "mogo-canal-canal-espn-4",
+    "type": "tv",
+    "name": "ESPN 4",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn-4_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "ESPN4SH.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal ESPN 4"
+  },
+  {
+    "id": "mogo-canal-canal-espn-5",
+    "type": "tv",
+    "name": "ESPN 5",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn-5_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "ESPN5SH.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal ESPN 5"
+  },
+  {
+    "id": "mogo-canal-canal-espn-6",
+    "type": "tv",
+    "name": "ESPN 6",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn-6_stm.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "ESPN6SH.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal ESPN 6"
+  },
+  {
+    "id": "mogo-canal-canal-espn-7",
+    "type": "tv",
+    "name": "ESPN 7",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/espn-7_stm.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "ESPN7SS.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal ESPN 7"
+  },
+  {
+    "id": "mogo-canal-canal-dsports",
+    "type": "tv",
+    "name": "DSports",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/directv-sports_m_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/directv-sports_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "SPOCOHD.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal DSports"
+  },
+  {
+    "id": "mogo-canal-canal-dsports-2",
+    "type": "tv",
+    "name": "DSports 2",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/directv-sports_m_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/directv-sports-2_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "SPO2HD.co (m3u4u)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal DSports 2"
+  },
+  {
+    "id": "mogo-canal-canal-sky-sports",
+    "type": "tv",
+    "name": "SKY Sports",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/sky_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/sky_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "Canal.Sky.Sports.16.mx (src05)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal SKY Sports"
+  },
+  {
+    "id": "mogo-canal-canal-sky-sports-2",
+    "type": "tv",
+    "name": "SKY Sports 2",
+    "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/sky_stm.png",
+    "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/sky_m.png",
+    "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+    "posterShape": "poster",
+    "genres": [
+      "Deportes"
+    ],
+    "description": "",
+    "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+    "tvgId": "Canal.Sky.Sports.24.mx (src05)",
+    "currentProgram": "",
+    "currentProgramDesc": "",
+    "descriptionBase": "Canal SKY Sports 2"
+  }
   ]
 }
