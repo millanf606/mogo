@@ -323,6 +323,24 @@
       "currentProgram": "Eva la trailera",
       "currentProgramDesc": "Eva creía que lo tenía todo en la vida: un buen marido, una familia perfecta y una situación económica estable. Pero entonces el destino le arroja una serie de obstáculos y traiciones que la llevan al borde de precipicio.",
       "descriptionBase": "Canal Telemundo Internacional"
+    },    
+{
+      "id": "mogo-canal-canal-hh",
+      "type": "tv",
+      "name": "Home & Health",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/h-a-h_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/h-a-h_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "DHEALHD.co (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal Home & Health"
     },
     {
       "id": "mogo-canal-canal-caracol-colombia",
