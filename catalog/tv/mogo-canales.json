@@ -199,6 +199,60 @@
       "descriptionBase": "Canal Universal TV"
     },
     {
+      "id": "mogo-canal-canal-hola",
+      "type": "tv",
+      "name": "HolaTV",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hola-tv_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hola-tv_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "HolaTV.ar (src09)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal HolaTV"
+    },
+    {
+      "id": "mogo-canal-canal-e",
+      "type": "tv",
+      "name": "E! Entertainment",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/hola-tv_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/e-ent_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "Canal.E!.Entertainment.Television.(México).mx (src05)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal E! Entertainment"
+    },
+    {
+      "id": "mogo-canal-canal-id",
+      "type": "tv",
+      "name": "Investigation Discovery",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/discovery-id_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/discovery-id_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "ID.-.Investigation.Discovery.co (src05)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal Investigation Discovery"
+    },
+    {
       "id": "mogo-canal-canal-pasiones",
       "type": "tv",
       "name": "Pasiones",
