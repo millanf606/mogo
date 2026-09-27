@@ -107,6 +107,42 @@
       "currentProgram": "Programa pagado",
       "currentProgramDesc": "Programa que muestra diversos productos para la venta.",
       "descriptionBase": "Canal AMC"
+    }, 
+{
+      "id": "mogo-canal-canal-tnt-series",
+      "type": "tv",
+      "name": "TNT Series",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/tnt-series_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/tnt-series_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "TNTSERH.ar (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal TNT Series"
+    },
+    {
+      "id": "mogo-canal-canal-comedy-central",
+      "type": "tv",
+      "name": "Comedy Central",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/comedy-central_stm.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/refs/heads/main/pngch/comedy-central_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "COMCCEH.co (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Comedy Central"
     },
     {
       "id": "mogo-canal-canal-fx",
