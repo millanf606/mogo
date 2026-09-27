@@ -1,7 +1,11 @@
 {
   "streams": [
     {
-      "title": "Warner Channel",
+      "title": "Warner Channel ",
+      "url": "http://170.244.209.30:8000/play/a0nt/index.m3u8?hls"
+    },
+    {
+      "title": "Warner Channel Central",
       "url": "http://200.69.92.222:8000/play/a02m/index.m3u8?hls"
     }
   ]
