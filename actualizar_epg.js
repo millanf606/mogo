@@ -4,6 +4,9 @@ const axios = require('axios');
 const xml2js = require('xml2js');
 const zlib = require('zlib');
 
+// Variable para el desfasaje UTC (se le restan 4 horas a la hora UTC de la EPG)
+const UTC = 4;
+
 // Rutas principales del proyecto
 const RUTA_CATALOGO = './catalog/tv/mogo-canales.json';
 const CARPETA_META = './meta/tv';
@@ -11,11 +14,18 @@ const CARPETA_META = './meta/tv';
 // Caché para no repetir descargas de la misma EPG
 const epgCache = {};
 
-// Función auxiliar para obtener la hora en formato 24h (HH:mm)
+// Función auxiliar para obtener la hora ajustada con la variable UTC en formato 24h (HH:mm)
 function obtenerHoraHHMM(fecha) {
   if (!fecha || !(fecha instanceof Date) || isNaN(fecha)) return '';
-  const horas = String(fecha.getHours()).padStart(2, '0');
-  const minutos = String(fecha.getMinutes()).padStart(2, '0');
+  
+  // Clonamos la fecha para no alterar la original
+  const fechaAjustada = new Date(fecha.getTime());
+  
+  // Restamos las horas configuradas en la variable UTC
+  fechaAjustada.setUTCHours(fechaAjustada.getUTCHours() - UTC);
+
+  const horas = String(fechaAjustada.getUTCHours()).padStart(2, '0');
+  const minutos = String(fechaAjustada.getUTCMinutes()).padStart(2, '0');
   return `${horas}:${minutos}`;
 }
 
@@ -158,7 +168,7 @@ async function procesarTodo() {
       meta.currentProgram = actual.titulo;
       meta.currentProgramDesc = actual.descripcion;
 
-      // Obtener horas formateadas en HH:mm
+      // Obtener horas formateadas restándole la variable UTC
       const horaActual = obtenerHoraHHMM(actual.inicio);
       const prefixActual = horaActual ? `${horaActual} - ` : '';
 
