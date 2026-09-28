@@ -11,6 +11,14 @@ const CARPETA_META = './meta/tv';
 // Caché para no repetir descargas de la misma EPG
 const epgCache = {};
 
+// Función auxiliar para obtener la hora en formato 24h (HH:mm)
+function obtenerHoraHHMM(fecha) {
+  if (!fecha || !(fecha instanceof Date) || isNaN(fecha)) return '';
+  const horas = String(fecha.getHours()).padStart(2, '0');
+  const minutos = String(fecha.getMinutes()).padStart(2, '0');
+  return `${horas}:${minutos}`;
+}
+
 async function descargarYParsearEPG(epgUrl) {
   if (epgCache[epgUrl]) {
     return epgCache[epgUrl];
@@ -61,7 +69,7 @@ function parsearFechaXMLTV(str) {
 
 function buscarProgramas(xmlResult, tvgId) {
   const vacio = { 
-    actual: { titulo: "Sin información de programa", descripcion: "" }, 
+    actual: { titulo: "Sin información de programa", descripcion: "", inicio: null }, 
     siguiente: null 
   };
 
@@ -110,7 +118,7 @@ function buscarProgramas(xmlResult, tvgId) {
   }
 
   return {
-    actual: actual || { titulo: "Sin información de programa", descripcion: "" },
+    actual: actual || { titulo: "Sin información de programa", descripcion: "", inicio: null },
     siguiente
   };
 }
@@ -150,14 +158,21 @@ async function procesarTodo() {
       meta.currentProgram = actual.titulo;
       meta.currentProgramDesc = actual.descripcion;
 
+      // Obtener horas formateadas en HH:mm
+      const horaActual = obtenerHoraHHMM(actual.inicio);
+      const prefixActual = horaActual ? `${horaActual} - ` : '';
+
       // Construir la sección de "EN VIVO AHORA"
       let infoPrograma = actual.descripcion 
-        ? `EN VIVO AHORA: ${actual.titulo}\n${actual.descripcion}`
-        : `EN VIVO AHORA: ${actual.titulo}`;
+        ? `${prefixActual}EN VIVO AHORA: ${actual.titulo}\n${actual.descripcion}`
+        : `${prefixActual}EN VIVO AHORA: ${actual.titulo}`;
 
       // Agregar la línea de "A CONTINUACIÓN" si existe un programa siguiente
       if (siguiente) {
-        infoPrograma += `\n\nA CONTINUACIÓN: ${siguiente.titulo}`;
+        const horaSiguiente = obtenerHoraHHMM(siguiente.inicio);
+        const prefixSiguiente = horaSiguiente ? `${horaSiguiente} - ` : '';
+
+        infoPrograma += `\n\n${prefixSiguiente}A CONTINUACIÓN: ${siguiente.titulo}`;
         if (siguiente.descripcion) {
           infoPrograma += `\n${siguiente.descripcion}`;
         }
@@ -167,8 +182,8 @@ async function procesarTodo() {
       if (!meta.descriptionBase) {
         meta.descriptionBase = meta.description 
           ? meta.description
-              .replace(/^EN VIVO AHORA:[\s\S]*?(?=\n\n[^\n]|\n\n$\vert{}$)/, '')
-              .replace(/^A CONTINUACIÓN:[\s\S]*?(?=\n\n[^\n]|\n\n$\vert{}$)/, '')
+              .replace(/^(?:\d{2}:\d{2}\s*-\s*)?EN VIVO AHORA:[\s\S]*?(?=\n\n[^\n]|\n\n$)/, '')
+              .replace(/^(?:\d{2}:\d{2}\s*-\s*)?A CONTINUACIÓN:[\s\S]*?(?=\n\n[^\n]|\n\n$)/, '')
               .trim()
           : `Canal ${meta.name}`;
       }
