@@ -112,7 +112,7 @@ function buscarProgramas(xmlResult, tvgId) {
   .filter(p => p.inicio && p.fin)
   .sort((a, b) => a.inicio - b.inicio);
 
-  // 3. Buscar el programa actual y el siguiente
+  // 3. Buscar el programa actual y el siguiente (omitiendo bloques duplicados de la EPG)
   let actual = null;
   let siguiente = null;
 
@@ -120,8 +120,14 @@ function buscarProgramas(xmlResult, tvgId) {
     const p = programas[i];
     if (ahora >= p.inicio && ahora < p.fin) {
       actual = p;
-      if (i + 1 < programas.length) {
-        siguiente = programas[i + 1];
+
+      // Buscar el siguiente programa que NO sea idéntico al actual
+      for (let j = i + 1; j < programas.length; j++) {
+        const candidato = programas[j];
+        if (candidato.descripcion !== actual.descripcion || candidato.titulo !== actual.titulo) {
+          siguiente = candidato;
+          break;
+        }
       }
       break;
     }
