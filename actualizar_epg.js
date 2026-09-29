@@ -176,7 +176,7 @@ async function procesarTodo() {
 
       // Obtener horas formateadas restándole la variable UTC
       const horaActual = obtenerHoraHHMM(actual.inicio);
-      const prefixActual = horaActual ? `${horaActual} - ` : '';
+      const prefixActual = horaActual ? `${horaActual} │ ` : '';
 
       // Construir la sección de "EN VIVO AHORA"
       let infoPrograma = actual.descripcion 
