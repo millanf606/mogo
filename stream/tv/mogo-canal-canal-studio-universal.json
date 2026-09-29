@@ -2,6 +2,10 @@
   "streams": [
     {
       "title": "Studio Universal",
+      "url": "http://38.134.250.110:8000/play/a005/index.m3u8?hls"
+    },
+    {
+      "title": "Studio Universal alternativo",
       "url": "http://181.78.197.59:8000/play/a06t/index.m3u8?hls"
     }
   ]
