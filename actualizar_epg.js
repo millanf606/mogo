@@ -4,6 +4,10 @@ const axios = require('axios');
 const xml2js = require('xml2js');
 const zlib = require('zlib');
 
+// Clave API de TMDb y URL de imagen por defecto
+const TMDB_API_KEY = "7a2b393f2c3bce74038c6ea37a9f3abd";
+const FONDO_POR_DEFECTO = "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png";
+
 // Variable para el desfasaje UTC (se le restan 4 horas a la hora UTC de la EPG)
 const UTC = 4;
 
@@ -11,22 +15,59 @@ const UTC = 4;
 const RUTA_CATALOGO = './catalog/tv/mogo-canales.json';
 const CARPETA_META = './meta/tv';
 
-// Caché para no repetir descargas de la misma EPG
+// Cachés para optimizar rendimiento
 const epgCache = {};
+const tmdbCache = {};
 
 // Función auxiliar para obtener la hora ajustada con la variable UTC en formato 24h (HH:mm)
 function obtenerHoraHHMM(fecha) {
   if (!fecha || !(fecha instanceof Date) || isNaN(fecha)) return '';
   
-  // Clonamos la fecha para no alterar la original
   const fechaAjustada = new Date(fecha.getTime());
-  
-  // Restamos las horas configuradas en la variable UTC
   fechaAjustada.setUTCHours(fechaAjustada.getUTCHours() - UTC);
 
   const horas = String(fechaAjustada.getUTCHours()).padStart(2, '0');
   const minutos = String(fechaAjustada.getUTCMinutes()).padStart(2, '0');
   return `${horas}:${minutos}`;
+}
+
+/**
+ * Busca la imagen de fondo (backdrop) en TMDb según el título.
+ * Si no encuentra resultado o no hay backdrop, retorna FONDO_POR_DEFECTO.
+ */
+async function obtenerFondoTMDB(titulo) {
+  if (!titulo || titulo.trim() === "" || titulo === "Sin información de programa" || titulo === "Programa sin título") {
+    return FONDO_POR_DEFECTO;
+  }
+
+  const tituloLimpio = titulo.trim();
+
+  // Revisar en caché previa
+  if (tmdbCache[tituloLimpio]) {
+    return tmdbCache[tituloLimpio];
+  }
+
+  try {
+    // Usamos 'multi' para buscar simultáneamente en películas y series (tv)
+    const url = `https://api.themoviedb.org/3/search/multi?api_key=${TMDB_API_KEY}&query=${encodeURIComponent(tituloLimpio)}&language=es-ES`;
+    const response = await axios.get(url, { timeout: 10000 });
+    const resultados = response.data?.results || [];
+
+    // Filtrar el primer resultado que tenga 'backdrop_path'
+    const coincide = resultados.find(item => item.backdrop_path && (item.media_type === 'movie' || item.media_type === 'tv'));
+
+    if (coincide && coincide.backdrop_path) {
+      const fondoUrl = `https://image.tmdb.org/t/p/w1280${coincide.backdrop_path}`;
+      tmdbCache[tituloLimpio] = fondoUrl;
+      return fondoUrl;
+    }
+  } catch (error) {
+    console.error(`Error buscando fondo en TMDb para "${tituloLimpio}":`, error.message);
+  }
+
+  // Si no se encuentra o falla la API, guardamos y retornamos la imagen por defecto
+  tmdbCache[tituloLimpio] = FONDO_POR_DEFECTO;
+  return FONDO_POR_DEFECTO;
 }
 
 async function descargarYParsearEPG(epgUrl) {
@@ -112,7 +153,7 @@ function buscarProgramas(xmlResult, tvgId) {
   .filter(p => p.inicio && p.fin)
   .sort((a, b) => a.inicio - b.inicio);
 
-  // 3. Buscar el programa actual y el siguiente (omitiendo bloques duplicados de la EPG)
+  // 3. Buscar el programa actual y el siguiente
   let actual = null;
   let siguiente = null;
 
@@ -121,7 +162,6 @@ function buscarProgramas(xmlResult, tvgId) {
     if (ahora >= p.inicio && ahora < p.fin) {
       actual = p;
 
-      // Buscar el siguiente programa que NO sea idéntico al actual
       for (let j = i + 1; j < programas.length; j++) {
         const candidato = programas[j];
         if (candidato.descripcion !== actual.descripcion || candidato.titulo !== actual.titulo) {
@@ -174,6 +214,9 @@ async function procesarTodo() {
       meta.currentProgram = actual.titulo;
       meta.currentProgramDesc = actual.descripcion;
 
+      // --- BÚSQUEDA Y ASIGNACIÓN DEL FONDO (BACKGROUND) ---
+      meta.background = await obtenerFondoTMDB(actual.titulo);
+
       // Obtener horas formateadas restándole la variable UTC
       const horaActual = obtenerHoraHHMM(actual.inicio);
       const prefixActual = horaActual ? `${horaActual} │ ` : '';
@@ -223,7 +266,7 @@ async function procesarTodo() {
       };
 
       fs.writeFileSync(rutaMetaIndividual, JSON.stringify(contenidoMetaIndividual, null, 2), 'utf8');
-      console.log(`   └─ Archivo generado: ${rutaMetaIndividual}`);
+      console.log(`    └─ Archivo generado: ${rutaMetaIndividual} (Fondo: ${meta.background})`);
     }
 
     // 4. Guardar el catálogo principal actualizado
