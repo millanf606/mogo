@@ -186,7 +186,7 @@ async function procesarTodo() {
       // Agregar la línea de "A CONTINUACIÓN" si existe un programa siguiente
       if (siguiente) {
         const horaSiguiente = obtenerHoraHHMM(siguiente.inicio);
-        const prefixSiguiente = horaSiguiente ? `${horaSiguiente} - ` : '';
+        const prefixSiguiente = horaSiguiente ? `${horaSiguiente} │ ` : '';
 
         infoPrograma += `\n\n${prefixSiguiente}A CONTINUACIÓN: ${siguiente.titulo}`;
         if (siguiente.descripcion) {
