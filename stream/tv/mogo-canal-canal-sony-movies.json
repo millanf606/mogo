@@ -1,12 +1,16 @@
 {
   "streams": [
     {
-      "title": "Sony",
+      "title": "Sony Movies",
       "url": "http://190.121.140.222:8081/SONY-MOVIES/index.m3u8?hls"
     },
         {
-      "title": "Sony alternativo",
+      "title": "Sony Movies alternativo",
       "url": "http://38.252.238.18:8000/play/a01e/index.m3u8?hls"
+    },
+        {
+      "title": "Sony Movies alternativo",
+      "url": "http://190.61.90.17:40000/play/a03s/index.m3u8?hls"
     }
   ]
 }
