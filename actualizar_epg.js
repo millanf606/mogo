@@ -14,6 +14,7 @@ const UTC = 4;
 // Rutas principales del proyecto
 const RUTA_CATALOGO = './catalog/tv/mogo-canales.json';
 const CARPETA_META = './meta/tv';
+const RUTA_MANIFEST = './manifest.json'; // Ruta al manifest del addon
 
 // Cachés para optimizar rendimiento
 const epgCache = {};
@@ -29,6 +30,38 @@ function obtenerHoraHHMM(fecha) {
   const horas = String(fechaAjustada.getUTCHours()).padStart(2, '0');
   const minutos = String(fechaAjustada.getUTCMinutes()).padStart(2, '0');
   return `${horas}:${minutos}`;
+}
+
+/**
+ * Incrementa automáticamente la versión patch (x.y.Z -> x.y.Z+1) en manifest.json
+ * para forzar a Stremio a refrescar la caché del catálogo en GitHub Pages.
+ */
+function incrementarVersionManifest() {
+  try {
+    if (!fs.existsSync(RUTA_MANIFEST)) {
+      console.warn(`⚠️ No se encontró el archivo ${RUTA_MANIFEST}. Omitiendo incremento de versión.`);
+      return;
+    }
+
+    const manifestData = JSON.parse(fs.readFileSync(RUTA_MANIFEST, 'utf8'));
+    if (!manifestData.version) {
+      manifestData.version = "1.0.0";
+    }
+
+    const partes = manifestData.version.split('.').map(n => parseInt(n, 10) || 0);
+    if (partes.length < 3) {
+      while (partes.length < 3) partes.push(0);
+    }
+
+    // Incrementa la versión patch
+    partes[2] += 1;
+    manifestData.version = partes.join('.');
+
+    fs.writeFileSync(RUTA_MANIFEST, JSON.stringify(manifestData, null, 2), 'utf8');
+    console.log(`📌 Versión del manifest actualizada automáticamente a: ${manifestData.version}`);
+  } catch (error) {
+    console.error('Error al actualizar la versión del manifest:', error.message);
+  }
 }
 
 /**
@@ -271,7 +304,11 @@ async function procesarTodo() {
 
     // 4. Guardar el catálogo principal actualizado
     fs.writeFileSync(RUTA_CATALOGO, JSON.stringify(json, null, 2), 'utf8');
-    console.log('✅ Catálogo y archivos meta individuales actualizados con éxito.');
+    
+    // 5. Incrementar la versión del manifest para forzar refresco en Stremio
+    incrementarVersionManifest();
+
+    console.log('✅ Catálogo, metas e incremento de versión completados con éxito.');
 
   } catch (error) {
     console.error('Error procesando el flujo:', error.message);
