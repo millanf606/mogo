@@ -13,6 +13,9 @@ const UTC = 4;
 
 // Rutas principales del proyecto
 const RUTA_CATALOGO = './catalog/tv/mogo-canales.json';
+const CARPETA_SUB_CATALOGO = './catalog/tv/mogo-canales';
+const RUTA_ACTUALIZAR_JSON = path.join(CARPETA_SUB_CATALOGO, 'genre=Actualizar.json');
+const RUTA_TODOS_JSON = path.join(CARPETA_SUB_CATALOGO, 'genre=Todos.json');
 const CARPETA_META = './meta/tv';
 const RUTA_MANIFEST = './manifest.json'; // Ruta al manifest del addon
 
@@ -49,9 +52,7 @@ function incrementarVersionManifest() {
     }
 
     const partes = manifestData.version.split('.').map(n => parseInt(n, 10) || 0);
-    if (partes.length < 3) {
-      while (partes.length < 3) partes.push(0);
-    }
+    while (partes.length < 3) partes.push(0);
 
     // Incrementa la versión patch
     partes[2] += 1;
@@ -214,9 +215,12 @@ function buscarProgramas(xmlResult, tvgId) {
 
 async function procesarTodo() {
   try {
-    // 1. Asegurar que exista la carpeta meta/tv/
+    // 1. Asegurar que existan las carpetas necesarias
     if (!fs.existsSync(CARPETA_META)) {
       fs.mkdirSync(CARPETA_META, { recursive: true });
+    }
+    if (!fs.existsSync(CARPETA_SUB_CATALOGO)) {
+      fs.mkdirSync(CARPETA_SUB_CATALOGO, { recursive: true });
     }
 
     // 2. Leer el catálogo único principal
@@ -302,13 +306,27 @@ async function procesarTodo() {
       console.log(`    └─ Archivo generado: ${rutaMetaIndividual} (Fondo: ${meta.background})`);
     }
 
-    // 4. Guardar el catálogo principal actualizado
-    fs.writeFileSync(RUTA_CATALOGO, JSON.stringify(json, null, 2), 'utf8');
+    // 4. Formatear la estructura final con metas y cacheMaxAge: 0
+    const catalogoFinal = {
+      metas: listaCanales,
+      cacheMaxAge: 0 // Le indica a Stremio que invalide la caché
+    };
+
+    // Guardar catálogo principal
+    fs.writeFileSync(RUTA_CATALOGO, JSON.stringify(catalogoFinal, null, 2), 'utf8');
     
-    // 5. Incrementar la versión del manifest para forzar refresco en Stremio
+    // 5. Generar copias exactas en la subcarpeta requeridas por la opción "extra"
+    fs.writeFileSync(RUTA_ACTUALIZAR_JSON, JSON.stringify(catalogoFinal, null, 2), 'utf8');
+    fs.writeFileSync(RUTA_TODOS_JSON, JSON.stringify(catalogoFinal, null, 2), 'utf8');
+    console.log(`📁 Archivos del catálogo creados con éxito:
+      - ${RUTA_CATALOGO}
+      - ${RUTA_ACTUALIZAR_JSON}
+      - ${RUTA_TODOS_JSON}`);
+
+    // 6. Incrementar la versión del manifest para forzar refresco en Stremio
     incrementarVersionManifest();
 
-    console.log('✅ Catálogo, metas e incremento de versión completados con éxito.');
+    console.log('✅ Catálogo, metas, subcarpetas extra e incremento de versión completados con éxito.');
 
   } catch (error) {
     console.error('Error procesando el flujo:', error.message);
