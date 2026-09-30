@@ -1,6 +1,6 @@
 {
   "id": "community.mogo.canales",
-  "version": "1.0.8",
+  "version": "1.0.7",
   "name": "MoGo",
   "description": "Complemento de canales en vivo",
   "logo": "https://raw.githubusercontent.com/millanf606/prueba/refs/heads/main/mogologo.png",
@@ -19,7 +19,17 @@
     {
       "type": "tv",
       "id": "mogo-canales",
-      "name": "MoGo"
+      "name": "MoGo",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Actualizar",
+            "Todos"
+          ]
+        }
+      ]
     }
   ],
   "behaviorHints": {
