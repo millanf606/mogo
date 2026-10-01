@@ -306,10 +306,12 @@ async function procesarTodo() {
       console.log(`    └─ Archivo generado: ${rutaMetaIndividual} (Fondo: ${meta.background})`);
     }
 
-    // 4. Formatear la estructura final con metas y cacheMaxAge: 0
+    // 4. Formatear la estructura final con directivas estrictas anti-caché para Stremio
     const catalogoFinal = {
       metas: listaCanales,
-      cacheMaxAge: 0 // Le indica a Stremio que invalide la caché
+      cacheMaxAge: 0,
+      staleRevalidate: 0,
+      staleError: 0
     };
 
     // Guardar catálogo principal
