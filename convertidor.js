@@ -209,3 +209,10 @@ function processSourceFiles() {
 
 // Ejecutar proceso
 processSourceFiles();
+
+/* Exportamos la función para poder usarla en otros archivos
+module.exports = {
+  processSourceFiles,
+  parseM3U // OPCIONAL: Puedes exportar otras funciones si necesitas testearlas por separado
+};
+*/
