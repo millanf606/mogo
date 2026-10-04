@@ -1,0 +1,11 @@
+#EXTM3U url-tvg="http://m3u4u.com/xml/3wk1y2xxrgf6rpmxygz7" x-generator="https://m3u4u.com/"
+#EXTINF:-1 group-title="Noticias" tvg-logo="https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cnn_m.png" tvg-id="CNNHDC.mx (m3u4u)",CNN Internacional
+http://72.1.184.5:8089/play/a07b/index.m3u8
+#EXTINF:-1 group-title="Noticias" tvg-logo="https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cnn-espanol_m.png" tvg-id="CNNL.co (m3u4u)",CNN en Español
+http://187.102.208.209:8000/play/a066/index.m3u8
+#EXTINF:-1 group-title="Noticias" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s69367_white_360w_270h.png" tvg-id="RTSPAN.ar (m3u4u)",RT
+http://45.171.108.253:8888/RT/index.m3u8
+#EXTINF:-1 group-title="Noticias" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s47620_dark_360w_270h.png" tvg-id="TELESUR.ar (m3u4u)",TeleSur
+http://45.171.108.253:8888/TELESUR/index.m3u8
+#EXTINF:-1 group-title="Noticias" tvg-logo="https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/dw_m.png" tvg-id="DWLA.ar (m3u4u)",DW America
+http://187.102.208.209:8000/play/a07y/index.m3u8
