@@ -7,8 +7,7 @@ const CATALOG_DIR = path.join(__dirname, 'catalog', 'tv');
 const STREAMS_DIR = path.join(__dirname, 'stream', 'tv');
 
 /**
- * Función para limpiar el nombre del canal eliminando puntos al final de las palabras/nombre.
- * Ejemplo: "HBO 2." -> "HBO 2", "Jr." -> "Jr"
+ * Limpia el nombre del canal eliminando puntos al final.
  */
 function cleanChannelName(name) {
   if (!name) return "";
@@ -16,19 +15,16 @@ function cleanChannelName(name) {
 }
 
 /**
- * Normaliza el nombre del canal para generar un ID apto para URL/Slug:
- * - Convierte a minúsculas.
- * - Quita tildes/caracteres especiales.
- * - Reemplaza espacios y caracteres no alfanuméricos por guiones.
+ * Normaliza el nombre del canal para generar un ID apto para URL/Slug.
  */
 function slugify(text) {
   return text
     .toString()
     .toLowerCase()
-    .normalize('NFD') // Separa caracteres de sus tildes
-    .replace(/[\u0300-\u036f]/g, '') // Elimina tildes
-    .replace(/[^a-z0-9]+/g, '-') // Reemplaza espacios y símbolos por '-'
-    .replace(/^-+|-+$/g, ''); // Elimina guiones al principio o al final
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
 
 function parseM3U(m3uContent) {
@@ -50,16 +46,13 @@ function parseM3U(m3uContent) {
     const line = lines[i].trim();
 
     if (line.startsWith('#EXTINF:')) {
-      // Extraer parámetros con expresiones regulares
       const groupTitleMatch = line.match(/group-title="([^"]+)"/i);
       const tvgLogoMatch = line.match(/tvg-logo="([^"]+)"/i);
       const tvgIdMatch = line.match(/tvg-id="([^"]+)"/i);
 
-      // El nombre del canal está después de la última coma en la línea #EXTINF
       const commaIndex = line.lastIndexOf(',');
       let rawChannelName = commaIndex !== -1 ? line.substring(commaIndex + 1) : "";
       
-      // Aplicar regla: quitar puntos al final
       const channelName = cleanChannelName(rawChannelName);
 
       currentExtInf = {
@@ -73,7 +66,6 @@ function parseM3U(m3uContent) {
         const channelSlug = slugify(currentExtInf.channelName);
         const channelId = `mogo-canal-canal-${channelSlug}`;
 
-        // Reemplazar '_stm' por '_m' en el logo para generar el poster
         let posterUrl = currentExtInf.tvgLogo;
         let logoUrl = currentExtInf.tvgLogo;
 
@@ -81,7 +73,7 @@ function parseM3U(m3uContent) {
           posterUrl = logoUrl.replace('_stm', '_m');
         }
 
-        // Estructura 1: Catálogo de Metas
+        // Estructura de Meta
         const metaItem = {
           id: channelId,
           type: "tv",
@@ -99,7 +91,7 @@ function parseM3U(m3uContent) {
           descriptionBase: `Canal ${currentExtInf.channelName}`
         };
 
-        // Estructura 2: Streams individual por canal
+        // Estructura de Stream
         const streamUrl = line.endsWith('?hls') ? line : `${line}?hls`;
         const streamData = {
           id: channelId,
@@ -116,31 +108,20 @@ function parseM3U(m3uContent) {
         metas.push(metaItem);
         streams.push(streamData);
 
-        // Reiniciar temporal para el siguiente canal
         currentExtInf = null;
       }
     }
   }
 
-  // Objeto Primer Código (Metas)
-  const catalogJson = {
-    metas: metas,
-    cacheMaxAge: 0,
-    staleRevalidate: 0,
-    staleError: 0
-  };
-
-  return { catalogJson, streams };
+  return { metas, streams };
 }
 
 function processSourceFiles() {
-  // Verificar si la carpeta /source existe
   if (!fs.existsSync(SOURCE_DIR)) {
-    console.error(`Error: La carpeta '${SOURCE_DIR}' no existe. Por favor créala y coloca dentro tu archivo .m3u o .m3u8.`);
+    console.error(`Error: La carpeta '${SOURCE_DIR}' no existe.`);
     return;
   }
 
-  // Crear carpetas de salida si no existen
   if (!fs.existsSync(CATALOG_DIR)) {
     fs.mkdirSync(CATALOG_DIR, { recursive: true });
   }
@@ -149,7 +130,6 @@ function processSourceFiles() {
     fs.mkdirSync(STREAMS_DIR, { recursive: true });
   }
 
-  // Buscar archivos .m3u o .m3u8 en la carpeta source
   const files = fs.readdirSync(SOURCE_DIR).filter(file => file.endsWith('.m3u') || file.endsWith('.m3u8'));
 
   if (files.length === 0) {
@@ -157,41 +137,68 @@ function processSourceFiles() {
     return;
   }
 
-  // Tomar el primer archivo M3U encontrado
   const sourceFilePath = path.join(SOURCE_DIR, files[0]);
-  console.log(`Leyendo archivo: ${sourceFilePath}`);
+  console.log(`Leyendo archivo M3U: ${sourceFilePath}`);
 
   const m3uContent = fs.readFileSync(sourceFilePath, 'utf-8');
+  const { metas: parsedMetas, streams: parsedStreams } = parseM3U(m3uContent);
 
-  // Procesar el contenido M3U
-  const { catalogJson, streams } = parseM3U(m3uContent);
-
-  // 1. Guardar el catálogo principal (mogo-canales.json)
+  // 1. Manejo incremental de catalog/tv/mogo-canales.json
   const catalogFilePath = path.join(CATALOG_DIR, 'mogo-canales.json');
-  fs.writeFileSync(catalogFilePath, JSON.stringify(catalogJson, null, 2), 'utf-8');
-  console.log(`- Catálogo generado/actualizado: ${catalogFilePath}`);
+  let catalogData = {
+    metas: [],
+    cacheMaxAge: 0,
+    staleRevalidate: 0,
+    staleError: 0
+  };
 
-  // 2. Guardar un archivo .json de stream por cada canal (omitiendo si ya existe)
-  let createdCount = 0;
-  let skippedCount = 0;
+  if (fs.existsSync(catalogFilePath)) {
+    try {
+      const existingContent = fs.readFileSync(catalogFilePath, 'utf-8');
+      catalogData = JSON.parse(existingContent);
+      console.log(`- Archivo '${catalogFilePath}' encontrado. Se procesarán adiciones.`);
+    } catch (err) {
+      console.error(`Error al leer '${catalogFilePath}', se creará uno nuevo:`, err.message);
+    }
+  }
 
-  streams.forEach(streamItem => {
-    const streamFilePath = path.join(STREAMS_DIR, `${streamItem.id}.json`);
+  // Conjunto de IDs existentes en el catálogo
+  const existingIds = new Set((catalogData.metas || []).map(item => item.id));
 
-    // Validación de existencia antes de guardar
-    if (fs.existsSync(streamFilePath)) {
-      console.log(`[Omitido] Ya existe: ${streamItem.id}.json`);
-      skippedCount++;
-    } else {
-      fs.writeFileSync(streamFilePath, JSON.stringify(streamItem.json, null, 2), 'utf-8');
-      createdCount++;
+  let addedCatalogCount = 0;
+
+  parsedMetas.forEach(metaItem => {
+    if (!existingIds.has(metaItem.id)) {
+      catalogData.metas.push(metaItem);
+      existingIds.add(metaItem.id);
+      addedCatalogCount++;
     }
   });
 
-  console.log(`\nResumen de procesamiento:`);
-  console.log(`- Archivos de stream creados: ${createdCount}`);
-  console.log(`- Archivos de stream omitidos (ya existían): ${skippedCount}`);
-  console.log("¡Proceso completado exitosamente!");
+  // Guardar catálogo actualizado
+  fs.writeFileSync(catalogFilePath, JSON.stringify(catalogData, null, 2), 'utf-8');
+
+  // 2. Manejo de archivos de stream individuales (no sobrescribir existentes)
+  let createdStreamCount = 0;
+  let skippedStreamCount = 0;
+
+  parsedStreams.forEach(streamItem => {
+    const streamFilePath = path.join(STREAMS_DIR, `${streamItem.id}.json`);
+
+    if (fs.existsSync(streamFilePath)) {
+      skippedStreamCount++;
+    } else {
+      fs.writeFileSync(streamFilePath, JSON.stringify(streamItem.json, null, 2), 'utf-8');
+      createdStreamCount++;
+    }
+  });
+
+  console.log(`\nResumen de ejecución:`);
+  console.log(`- Canales nuevos añadidos al catálogo: ${addedCatalogCount}`);
+  console.log(`- Total de canales en el catálogo: ${catalogData.metas.length}`);
+  console.log(`- Nuevos archivos de stream creados: ${createdStreamCount}`);
+  console.log(`- Archivos de stream omitidos (ya existían): ${skippedStreamCount}`);
+  console.log("\n¡Proceso completado exitosamente!");
 }
 
 // Ejecutar proceso
