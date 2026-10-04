@@ -3,8 +3,14 @@ const path = require('path');
 
 // Rutas de carpetas de entrada y salida
 const SOURCE_DIR = path.join(__dirname, 'source');
+/** Directorios 
 const CATALOG_DIR = path.join(__dirname, 'catalog', 'tv');
 const STREAMS_DIR = path.join(__dirname, 'stream', 'tv');
+*/
+
+/** Para pruebas */
+const CATALOG_DIR = path.join(__dirname, 'test');
+const STREAMS_DIR = path.join(__dirname, 'test');
 
 /**
  * Limpia el nombre del canal eliminando puntos al final.
