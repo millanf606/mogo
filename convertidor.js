@@ -3,7 +3,8 @@ const path = require('path');
 
 // Rutas de carpetas de entrada y salida
 const SOURCE_DIR = path.join(__dirname, 'source');
-const OUTPUT_DIR = path.join(__dirname, 'catalog', 'tv');
+const CATALOG_DIR = path.join(__dirname, 'catalog', 'tv');
+const STREAMS_DIR = path.join(__dirname, 'stream', 'tv');
 
 /**
  * Función para limpiar el nombre del canal eliminando puntos al final de las palabras/nombre.
@@ -98,15 +99,22 @@ function parseM3U(m3uContent) {
           descriptionBase: `Canal ${currentExtInf.channelName}`
         };
 
-        // Estructura 2: Streams
+        // Estructura 2: Streams individual por canal
         const streamUrl = line.endsWith('?hls') ? line : `${line}?hls`;
-        const streamItem = {
-          title: currentExtInf.channelName,
-          url: streamUrl
+        const streamData = {
+          id: channelId,
+          json: {
+            streams: [
+              {
+                title: currentExtInf.channelName,
+                url: streamUrl
+              }
+            ]
+          }
         };
 
         metas.push(metaItem);
-        streams.push(streamItem);
+        streams.push(streamData);
 
         // Reiniciar temporal para el siguiente canal
         currentExtInf = null;
@@ -115,19 +123,14 @@ function parseM3U(m3uContent) {
   }
 
   // Objeto Primer Código (Metas)
-  const primerCodigoJson = {
+  const catalogJson = {
     metas: metas,
     cacheMaxAge: 0,
     staleRevalidate: 0,
     staleError: 0
   };
 
-  // Objeto Segundo Código (Streams)
-  const segundoCodigoJson = {
-    streams: streams
-  };
-
-  return { primerCodigoJson, segundoCodigoJson };
+  return { catalogJson, streams };
 }
 
 function processSourceFiles() {
@@ -137,9 +140,13 @@ function processSourceFiles() {
     return;
   }
 
-  // Crear la carpeta /catalog/tv si no existe (con recursive: true crea ambas)
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  // Crear carpetas de salida si no existen
+  if (!fs.existsSync(CATALOG_DIR)) {
+    fs.mkdirSync(CATALOG_DIR, { recursive: true });
+  }
+
+  if (!fs.existsSync(STREAMS_DIR)) {
+    fs.mkdirSync(STREAMS_DIR, { recursive: true });
   }
 
   // Buscar archivos .m3u o .m3u8 en la carpeta source
@@ -157,18 +164,21 @@ function processSourceFiles() {
   const m3uContent = fs.readFileSync(sourceFilePath, 'utf-8');
 
   // Procesar el contenido M3U
-  const { primerCodigoJson, segundoCodigoJson } = parseM3U(m3uContent);
+  const { catalogJson, streams } = parseM3U(m3uContent);
 
-  // Definir la ruta del archivo catalog/tv/mogo-canales.json
-  const catalogFilePath = path.join(OUTPUT_DIR, 'mogo-canales.json');
+  // 1. Guardar el catálogo principal
+  const catalogFilePath = path.join(CATALOG_DIR, 'mogo-canales.json');
+  fs.writeFileSync(catalogFilePath, JSON.stringify(catalogJson, null, 2), 'utf-8');
+  console.log(`- Catálogo generado: ${catalogFilePath}`);
 
-  // Guardar los resultados
-  fs.writeFileSync(catalogFilePath, JSON.stringify(primerCodigoJson, null, 2), 'utf-8');
-  fs.writeFileSync('streams.json', JSON.stringify(segundoCodigoJson, null, 2), 'utf-8');
+  // 2. Guardar un archivo .json de stream por cada canal
+  streams.forEach(streamItem => {
+    const streamFilePath = path.join(STREAMS_DIR, `${streamItem.id}.json`);
+    fs.writeFileSync(streamFilePath, JSON.stringify(streamItem.json, null, 2), 'utf-8');
+  });
 
+  console.log(`- Se generaron ${streams.length} archivos individuales de stream en: ${STREAMS_DIR}`);
   console.log("¡Proceso completado exitosamente!");
-  console.log(`- Generado: ${catalogFilePath}`);
-  console.log("- Generado: streams.json");
 }
 
 // Ejecutar proceso
