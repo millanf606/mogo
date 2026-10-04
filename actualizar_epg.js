@@ -4,6 +4,20 @@ const axios = require('axios');
 const xml2js = require('xml2js');
 const zlib = require('zlib');
 
+// Importamos la función desde convertidor.js
+const { processSourceFiles } = require('./convertidor');
+
+// Variable de control
+const update = false;
+
+// Ejecución condicional
+if (update) {
+  console.log("Iniciando actualización...");
+  processSourceFiles();
+} else {
+  console.log("Actualización deshabilitada (update = false).");
+}
+
 // Clave API de TMDb y URL de imagen por defecto
 const TMDB_API_KEY = "7a2b393f2c3bce74038c6ea37a9f3abd";
 const FONDO_POR_DEFECTO = "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png";
