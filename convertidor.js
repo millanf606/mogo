@@ -81,7 +81,7 @@ function parseM3U(m3uContent) {
           posterUrl = logoUrl.replace('_stm', '_m');
         }
 
-        // Estructura 1: Catalogo de Metas
+        // Estructura 1: Catálogo de Metas
         const metaItem = {
           id: channelId,
           type: "tv",
@@ -166,18 +166,31 @@ function processSourceFiles() {
   // Procesar el contenido M3U
   const { catalogJson, streams } = parseM3U(m3uContent);
 
-  // 1. Guardar el catálogo principal
+  // 1. Guardar el catálogo principal (mogo-canales.json)
   const catalogFilePath = path.join(CATALOG_DIR, 'mogo-canales.json');
   fs.writeFileSync(catalogFilePath, JSON.stringify(catalogJson, null, 2), 'utf-8');
-  console.log(`- Catálogo generado: ${catalogFilePath}`);
+  console.log(`- Catálogo generado/actualizado: ${catalogFilePath}`);
 
-  // 2. Guardar un archivo .json de stream por cada canal
+  // 2. Guardar un archivo .json de stream por cada canal (omitiendo si ya existe)
+  let createdCount = 0;
+  let skippedCount = 0;
+
   streams.forEach(streamItem => {
     const streamFilePath = path.join(STREAMS_DIR, `${streamItem.id}.json`);
-    fs.writeFileSync(streamFilePath, JSON.stringify(streamItem.json, null, 2), 'utf-8');
+
+    // Validación de existencia antes de guardar
+    if (fs.existsSync(streamFilePath)) {
+      console.log(`[Omitido] Ya existe: ${streamItem.id}.json`);
+      skippedCount++;
+    } else {
+      fs.writeFileSync(streamFilePath, JSON.stringify(streamItem.json, null, 2), 'utf-8');
+      createdCount++;
+    }
   });
 
-  console.log(`- Se generaron ${streams.length} archivos individuales de stream en: ${STREAMS_DIR}`);
+  console.log(`\nResumen de procesamiento:`);
+  console.log(`- Archivos de stream creados: ${createdCount}`);
+  console.log(`- Archivos de stream omitidos (ya existían): ${skippedCount}`);
   console.log("¡Proceso completado exitosamente!");
 }
 
