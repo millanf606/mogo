@@ -3,10 +3,6 @@ const path = require('path');
 
 // Rutas de carpetas de entrada y salida
 const SOURCE_DIR = path.join(__dirname, 'source');
-/** Directorios 
-const CATALOG_DIR = path.join(__dirname, 'catalog', 'tv');
-const STREAMS_DIR = path.join(__dirname, 'stream', 'tv');
-*/
 
 /** Para pruebas */
 const CATALOG_DIR = path.join(__dirname, 'test');
@@ -36,7 +32,6 @@ function slugify(text) {
 function parseM3U(m3uContent) {
   const lines = m3uContent.split(/\r?\n/);
   
-  // Extraer epgUrl desde #EXTM3U url-tvg="..."
   let epgUrl = "";
   const headerMatch = m3uContent.match(/url-tvg="([^"]+)"/i);
   if (headerMatch) {
@@ -79,7 +74,6 @@ function parseM3U(m3uContent) {
           posterUrl = logoUrl.replace('_logo', '_poster');
         }
 
-        // Estructura de Meta
         const metaItem = {
           id: channelId,
           type: "tv",
@@ -97,7 +91,6 @@ function parseM3U(m3uContent) {
           descriptionBase: `Canal ${currentExtInf.channelName}`
         };
 
-        // Estructura de Stream
         const streamUrl = line.endsWith('?hls') ? line : `${line}?hls`;
         const streamData = {
           id: channelId,
@@ -149,7 +142,6 @@ function processSourceFiles() {
   const m3uContent = fs.readFileSync(sourceFilePath, 'utf-8');
   const { metas: parsedMetas, streams: parsedStreams } = parseM3U(m3uContent);
 
-  // 1. Manejo incremental de catalog/tv/mogo-canales.json
   const catalogFilePath = path.join(CATALOG_DIR, 'mogo-canales.json');
   let catalogData = {
     metas: [],
@@ -168,9 +160,7 @@ function processSourceFiles() {
     }
   }
 
-  // Conjunto de IDs existentes en el catálogo
   const existingIds = new Set((catalogData.metas || []).map(item => item.id));
-
   let addedCatalogCount = 0;
 
   parsedMetas.forEach(metaItem => {
@@ -181,10 +171,8 @@ function processSourceFiles() {
     }
   });
 
-  // Guardar catálogo actualizado
   fs.writeFileSync(catalogFilePath, JSON.stringify(catalogData, null, 2), 'utf-8');
 
-  // 2. Manejo de archivos de stream individuales (no sobrescribir existentes)
   let createdStreamCount = 0;
   let skippedStreamCount = 0;
 
@@ -208,11 +196,10 @@ function processSourceFiles() {
 }
 
 // Ejecutar proceso
-processSourceFiles();
+/*processSourceFiles();*/
 
-/* Exportamos la función para poder usarla en otros archivos
+// Exportamos la función para poder usarla en otros archivos
 module.exports = {
   processSourceFiles,
   parseM3U // OPCIONAL: Puedes exportar otras funciones si necesitas testearlas por separado
 };
-*/
