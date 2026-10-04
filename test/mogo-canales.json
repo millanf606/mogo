@@ -1,0 +1,97 @@
+{
+  "metas": [
+    {
+      "id": "mogo-canal-canal-cnn-internacional",
+      "type": "tv",
+      "name": "CNN Internacional",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cnn_m.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cnn_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Noticias"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/xml/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "CNNHDC.mx (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal CNN Internacional"
+    },
+    {
+      "id": "mogo-canal-canal-cnn-en-espanol",
+      "type": "tv",
+      "name": "CNN en Español",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cnn-espanol_m.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/cnn-espanol_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Noticias"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/xml/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "CNNL.co (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal CNN en Español"
+    },
+    {
+      "id": "mogo-canal-canal-rt",
+      "type": "tv",
+      "name": "RT",
+      "poster": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s69367_white_360w_270h.png",
+      "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s69367_white_360w_270h.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Noticias"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/xml/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "RTSPAN.ar (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal RT"
+    },
+    {
+      "id": "mogo-canal-canal-telesur",
+      "type": "tv",
+      "name": "TeleSur",
+      "poster": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s47620_dark_360w_270h.png",
+      "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s47620_dark_360w_270h.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Noticias"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/xml/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "TELESUR.ar (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal TeleSur"
+    },
+    {
+      "id": "mogo-canal-canal-dw-america",
+      "type": "tv",
+      "name": "DW America",
+      "poster": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/dw_m.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/iptvtest/main/pngch/dw_m.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Noticias"
+      ],
+      "description": "",
+      "epgUrl": "http://m3u4u.com/xml/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "DWLA.ar (m3u4u)",
+      "currentProgram": "",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal DW America"
+    }
+  ],
+  "cacheMaxAge": 0,
+  "staleRevalidate": 0,
+  "staleError": 0
+}
