@@ -76,7 +76,7 @@ function parseM3U(m3uContent) {
         let logoUrl = currentExtInf.tvgLogo;
 
         if (logoUrl.includes('_stm')) {
-          posterUrl = logoUrl.replace('_stm', '_m');
+          posterUrl = logoUrl.replace('_logo', '_poster');
         }
 
         // Estructura de Meta
