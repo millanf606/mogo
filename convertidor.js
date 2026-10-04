@@ -70,7 +70,7 @@ function parseM3U(m3uContent) {
         let posterUrl = currentExtInf.tvgLogo;
         let logoUrl = currentExtInf.tvgLogo;
 
-        if (logoUrl.includes('_stm')) {
+        if (logoUrl.includes('_logo')) {
           posterUrl = logoUrl.replace('_logo', '_poster');
         }
 
