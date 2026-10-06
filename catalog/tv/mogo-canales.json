@@ -828,6 +828,24 @@
       "currentProgramDesc": "Los mejores amigos Griff y Doug se dirigen a la selva amazónica para filmar una nueva versión de su película favorita, \"Anaconda\". Sin embargo, la vida pronto imita al arte cuando una anaconda gigante sedienta de sangre comienza a cazarlos.",
       "descriptionBase": "Canal HBO Xtreme"
     },
+        {
+      "id": "mogo-canal-canal-universal-premiere",
+      "type": "tv",
+      "name": "Universal Premiere",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/universal-premiere_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/universal-premiere_logo.png",
+      "background": "https://image.tmdb.org/t/p/w1280/ltt9yiCGmCQZunmxtkhtPxzmDzx.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Premium"
+      ],
+      "description": "14:55 │ EN VIVO AHORA: Dora y la ciudad perdida\nDora se pone al frente de un equipo formado por su amigo peludo Botas; Diego, un misterioso habitante de la jungla; y un desorganizado grupo de adolescentes para salvar a los padres de Dora y resolver el misterio de una ciudad perdida de oro.\n\n16:40 │ A CONTINUACIÓN: Jurassic World: Dominio\nCuatro años después de la destrucción de la Isla Nublar, los dinosaurios viven y cazan junto a los humanos en todo el mundo. Este frágil equilibrio remodelará el futuro de la especie humana.\n\nCanal Universal Cinema",
+      "epgUrl": "http://m3u4u.com/epg/3wk1y2xxrgf6rpmxygz7",
+      "tvgId": "UNIPR.co (m3u4u)",
+      "currentProgram": "Dora y la ciudad perdida",
+      "currentProgramDesc": "Dora se pone al frente de un equipo formado por su amigo peludo Botas; Diego, un misterioso habitante de la jungla; y un desorganizado grupo de adolescentes para salvar a los padres de Dora y resolver el misterio de una ciudad perdida de oro.",
+      "descriptionBase": "Canal Universal Premiere"
+    },
     {
       "id": "mogo-canal-canal-universal-cinema",
       "type": "tv",
