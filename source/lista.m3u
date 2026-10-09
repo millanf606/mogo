@@ -143,6 +143,8 @@ http://45.166.93.156:9999/play/a0i9/index.m3u8
 http://190.93.224.42/ESPN/index.m3u8
 #EXTINF:-1 group-title="Deportes" tvg-logo="https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn_logo.png" tvg-id="ESPARH.mx (m3u4u)" tvg-shift="-4",ESPN Oeste
 http://181.78.197.59:8000/play/a07z/index.m3u8
+#EXTINF:-1 group-title="Deportes" tvg-logo="https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn_logo.png" tvg-id="ESPN.us (m3u4u)" tvg-shift="-4",ESPN Norte
+http://190.197.41.183/ESPN/index.m3u8
 #EXTINF:-1 group-title="Deportes" tvg-logo="https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-2_logo.png" tvg-id="ESP2SH.ar (m3u4u)" tvg-shift="-4",ESPN 2
 http://181.78.14.26:4000/play/a02p/index.m3u8
 #EXTINF:-1 group-title="Deportes" tvg-logo="https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-2_logo.png" tvg-id="ESP2NH.mx (m3u4u)" tvg-shift="-4",ESPN 2 Oeste
