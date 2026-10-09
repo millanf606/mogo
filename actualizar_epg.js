@@ -8,7 +8,7 @@ const zlib = require('zlib');
 const { processSourceFiles } = require('./convertidor');
 
 // Variable de control
-const update = false;
+const update = true;
 
 // Ejecución condicional
 if (update) {
