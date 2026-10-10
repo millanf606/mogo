@@ -1,8 +1,12 @@
 {
   "streams": [
     {
-      "title": "AMC",
+      "title": "AMC HD",
       "url": "http://181.78.197.59:8000/play/a06w/index.m3u8?hls"
+    },
+        {
+      "title": "AMC SD",
+      "url": "http://170.244.209.30:8000/play/a038/index.m3u8?hls"
     }
   ]
 }
