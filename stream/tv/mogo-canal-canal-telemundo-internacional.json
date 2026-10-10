@@ -1,12 +1,16 @@
 {
   "streams": [
     {
-      "title": "Telemundo HD",
+      "title": "Telemundo Internacional HD",
       "url": "http://72.1.184.5:8089/play/a05h/index.m3u8?hls"
     },
     {
-      "title": "Telemundo HD",
+      "title": "Telemundo Internacional HD",
       "url": "http://45.171.64.30:6060/play/a02i/index.m3u8?hls"
+    },
+    {
+      "title": "Telemundo Internacional SD",
+      "url": "http://187.102.208.209:8000/play/a0a8/index.m3u8?hls"
     }
   ]
 }
