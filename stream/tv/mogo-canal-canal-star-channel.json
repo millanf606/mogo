@@ -1,8 +1,12 @@
 {
   "streams": [
     {
-      "title": "Star Channel",
-      "url": "http://72.1.184.5:8089/play/a06e/index.m3u8?hls"
+      "title": "Star Channel HD",
+      "url": "http://72.1.184.5:8089/play/a06e/index.m3u8?hls http://72.1.184.5:8089/play/a03h/index.m3u8?hls"
+    },
+        {
+      "title": "Star Channel SD",
+      "url": "http://72.1.184.5:8089/play/a03h/index.m3u8?hls"
     }
   ]
 }
