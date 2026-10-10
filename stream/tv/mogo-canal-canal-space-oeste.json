@@ -1,8 +1,13 @@
 {
   "streams": [
     {
-      "title": "Space Oeste",
+      "title": "Space Oeste HD",
       "url": "http://181.78.197.59:8000/play/a09e/index.m3u8?hls"
+    },
+        {
+      "title": "Space Oeste HD",
+      "url": "http://38.134.250.110:8000/play/a007/index.m3u8?hls"
     }
+    
   ]
 }
