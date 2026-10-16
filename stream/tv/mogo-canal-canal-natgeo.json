@@ -1,16 +1,16 @@
 {
   "streams": [
     {
-      "title": "NatGeo",
+      "title": "NatGeo hd",
       "url": "http://187.102.208.209:8000/play/a08z/index.m3u8?hls"
     },
         {
-      "title": "NatGeo ALT",
+      "title": "NatGeo SD",
       "url": "http://181.78.21.38:8000/play/a0ag/index.m3u8?hls"
     },
         {
-      "title": "NatGeo ALT",
-      "url": "http://170.244.209.30:8000/play/a044/index.m3u8?hls"
+      "title": "NatGeo DD",
+      "url": "https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO.m3u8?hls"
     }
   ]
 }
