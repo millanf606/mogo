@@ -762,16 +762,16 @@
       "name": "Cinecanal",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/cinecanal_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/cinecanal_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/dV5AKLfihrUTfAqh7dj9MG3OUWl.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Cine"
       ],
-      "description": "19:27 │ EN VIVO AHORA: Un buen año\nUn banquero londinense hereda el viñedo de su tío en Provenza, pero luego conoce a una prima estadounidense que le dice que la propiedad es de ella.\n\nCanal Cinecanal",
+      "description": "EN VIVO AHORA: Sin información de programa\n\nCanal Cinecanal",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "CCL.co (m3u4u)",
-      "currentProgram": "Un buen año",
-      "currentProgramDesc": "Un banquero londinense hereda el viñedo de su tío en Provenza, pero luego conoce a una prima estadounidense que le dice que la propiedad es de ella.",
+      "currentProgram": "Sin información de programa",
+      "currentProgramDesc": "",
       "descriptionBase": "Canal Cinecanal"
     },
     {
@@ -1343,11 +1343,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "19:00 │ EN VIVO AHORA: Fútbol Americano NFL\nDesde el Empower Field at Mile High, en Colorado, Estados Unidos.\n\nCanal ESPN 7",
+      "description": "EN VIVO AHORA: Sin información de programa\n\nCanal ESPN 7",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPN7SS.co (m3u4u)",
-      "currentProgram": "Fútbol Americano NFL",
-      "currentProgramDesc": "Desde el Empower Field at Mile High, en Colorado, Estados Unidos.",
+      "currentProgram": "Sin información de programa",
+      "currentProgramDesc": "",
       "descriptionBase": "Canal ESPN 7"
     },
     {
