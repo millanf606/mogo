@@ -1,8 +1,12 @@
 {
   "streams": [
     {
-      "title": "Telemundo",
+      "title": "Telemundo HD",
       "url": "http://45.170.34.136/TELEMUNDO/index.m3u8?hls"
+    },
+        {
+      "title": "Telemundo",
+      "url": "http://181.78.49.179:8000/play/universo?hls"
     }
   ]
 }
