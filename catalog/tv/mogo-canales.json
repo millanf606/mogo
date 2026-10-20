@@ -1098,6 +1098,24 @@
       "currentProgramDesc": "Una artista y su anciana madre regresan a la que fue su casa familiar, convertida ahora en un hotel remoto. A medida que afloran los recuerdos, surgen secretos ocultos en esta inquietante exploración de la familia y la pérdida.",
       "descriptionBase": "Canal Universal Cinema"
     },
+     {
+      "id": "mogo-canal-canal-espn-deportes",
+      "type": "tv",
+      "name": "ESPN",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-depor_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-depor_logo.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Deportes"
+      ],
+      "description": "16:55 │ EN VIVO AHORA: ESPN F360\nCon lo mejor de la actualidad del fútbol argentino y del exterior, con la noticia al instante, goles, curiosidades, entrevistas y la indispensable cuota de humor.\n\n18:00 │ A CONTINUACIÓN: Equipo F\nEl debate de cada fecha llega a la pantalla. El mejor equipo para analizar todo lo que pasó el fin de semana.\n\nCanal ESPN",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "ESPND.mx (m3u4u)",
+      "currentProgram": "ESPN F360",
+      "currentProgramDesc": "Con lo mejor de la actualidad del fútbol argentino y del exterior, con la noticia al instante, goles, curiosidades, entrevistas y la indispensable cuota de humor.",
+      "descriptionBase": "Canal ESPN Deportes"
+    },
     {
       "id": "mogo-canal-canal-espn",
       "type": "tv",
