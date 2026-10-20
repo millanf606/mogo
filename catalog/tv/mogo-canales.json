@@ -1351,42 +1351,6 @@
       "descriptionBase": "Canal ESPN 7"
     },
     {
-      "id": "mogo-canal-canal-dsports",
-      "type": "tv",
-      "name": "DSports",
-      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/directv-sports_poster.png",
-      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/directv-sports_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-      "posterShape": "poster",
-      "genres": [
-        "Deportes"
-      ],
-      "description": "12:00 │ EN VIVO AHORA: De Fútbol Se Habla Así Argentina\nEl debate futbolero más caliente del fútbol argentino de la mano de Toti Pasman y un gran equipo.\n\n14:00 │ A CONTINUACIÓN: Puede Pasar\nMucho más que resultados: el Mundial se vive con estilo propio en Puede Pasar, con la conducción de Gustavo Kuffner.\n\nCanal DSports",
-      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
-      "tvgId": "SPOCOHD.co (m3u4u)",
-      "currentProgram": "De Fútbol Se Habla Así Argentina",
-      "currentProgramDesc": "El debate futbolero más caliente del fútbol argentino de la mano de Toti Pasman y un gran equipo.",
-      "descriptionBase": "Canal DSports"
-    },
-    {
-      "id": "mogo-canal-canal-dsports-2",
-      "type": "tv",
-      "name": "DSports 2",
-      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/directv-sports_2-poster.png",
-      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/directv-sports_2-logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
-      "posterShape": "poster",
-      "genres": [
-        "Deportes"
-      ],
-      "description": "13:00 │ EN VIVO AHORA: Todo en 30\nEn treinta minutos repaso de los mejores eventos deportivos. Lo más destacado de fútbol, básquet, tenis y todos los eventos que se transmitan en la pantalla de DIRECTV Sports.\n\n13:30 │ A CONTINUACIÓN: DSPORTS Historias\nRecopilación de los mejores momentos de los encuentros entre Boca Juniors y Vasco da Gama.\n\nCanal DSports 2",
-      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
-      "tvgId": "SPO2HD.co (m3u4u)",
-      "currentProgram": "Todo en 30",
-      "currentProgramDesc": "En treinta minutos repaso de los mejores eventos deportivos. Lo más destacado de fútbol, básquet, tenis y todos los eventos que se transmitan en la pantalla de DIRECTV Sports.",
-      "descriptionBase": "Canal DSports 2"
-    },
-    {
       "id": "mogo-canal-canal-sky-sports",
       "type": "tv",
       "name": "SKY Sports",
