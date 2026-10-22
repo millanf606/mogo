@@ -1,8 +1,12 @@
 {
   "streams": [
     {
-      "title": "Warner Channel",
-      "url": "http://200.69.92.222:8000/play/a02m/index.m3u8?hls"
+      "title": "Warner Channel HD",
+      "url": "http://72.1.184.5:8089/play/a0an/index.m3u8?hls"
+    },
+        {
+      "title": "Warner Channel SD",
+      "url": "http://72.1.184.5:8089/play/a01l/index.m3u8?hls"
     }
   ]
 }
