@@ -10,7 +10,11 @@
     },
 	    {
       "title": "ESPN 2 DD",
-      "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8?hls"
+      "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8?hls http://190.97.251.144:8000/play/a0d6/index.m3u8?hls"
+    },
+	    {
+      "title": "ESPN 2 SD",
+      "url": "http://190.97.251.144:8000/play/a0d6/index.m3u8?hls"
     }
   ]
 }
