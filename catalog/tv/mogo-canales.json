@@ -1,5 +1,23 @@
 {
   "metas": [
+        {
+      "id": "mogo-canal-canal-venevision",
+      "type": "tv",
+      "name": "Venevision",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/vene_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/vene_logo.png",
+      "background": "https://image.tmdb.org/t/p/w1280/j4TnCy7lNPrE8mX5n5ydCoLA7xW.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Nacional"
+      ],
+      "description": "15:05 │ EN VIVO AHORA: Next Goal Wins\nPoco antes del comienzo de las eliminatorias de clasificación para la Copa del Mundo de la FIFA 2014, Thomas Rogen acepta entrenar a la peor selección nacional de fútbol del planeta: Samoa Americana. No solo eso, quiere hacerlos campeones.\n\n17:21 │ A CONTINUACIÓN: Mira cómo corren\nLondres, década de 1950. El inspector Stoppard y la agente novata Stalker investigan el asesinato de una de las estrellas del reparto de una obra de teatro. Las pesquisas los introducen en un mundo tan sofisticado como sórdido.\n\nCanal Star Channel",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "VENEVISION.ve (src09)",
+      "currentProgram": "Next Goal Wins",
+      "currentProgramDesc": "Poco antes del comienzo de las eliminatorias de clasificación para la Copa del Mundo de la FIFA 2014, Thomas Rogen acepta entrenar a la peor selección nacional de fútbol del planeta: Samoa Americana. No solo eso, quiere hacerlos campeones.",
+      "descriptionBase": "Canal Venevision"
+    },
     {
       "id": "mogo-canal-canal-star-channel",
       "type": "tv",
