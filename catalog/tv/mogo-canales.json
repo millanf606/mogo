@@ -18,6 +18,24 @@
       "currentProgramDesc": "Talk Show",
       "descriptionBase": "Canal Venevision"
     },
+        {
+      "id": "mogo-canal-canal-vtv",
+      "type": "tv",
+      "name": "VTV",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/vtv_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/vtv_logo.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Nacional"
+      ],
+      "description": "09:00 │ EN VIVO AHORA: Desiguales\nTalk Show\n\n10:00 │ A CONTINUACIÓN: El gordo y la flaca\nEspectáculo\n\nCanal Venevision",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "VTV.ve (src09)",
+      "currentProgram": "Desiguales",
+      "currentProgramDesc": "Talk Show",
+      "descriptionBase": "Canal VTV"
+    },
     {
       "id": "mogo-canal-canal-star-channel",
       "type": "tv",
