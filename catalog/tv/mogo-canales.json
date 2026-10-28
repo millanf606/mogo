@@ -18,6 +18,24 @@
       "currentProgramDesc": "",
       "descriptionBase": "Canal Venevision"
     },
+        {
+      "id": "mogo-canal-canal-televen",
+      "type": "tv",
+      "name": "Televen",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/televen_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/televen_logo.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Nacional"
+      ],
+      "description": "EN VIVO AHORA: Sin información de programa\n\nCanal Venevision",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "TELEVEN.ve (src09)",
+      "currentProgram": "Sin información de programa",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal Televen"
+    },
     {
       "id": "mogo-canal-canal-vtv",
       "type": "tv",
