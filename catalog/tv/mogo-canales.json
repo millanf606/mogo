@@ -24,16 +24,16 @@
       "name": "Televen",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/televen_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/televen_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/4mOTIpOOyU1CxiFKR5BeBn5IMqU.jpg",
       "posterShape": "poster",
       "genres": [
         "Nacional"
       ],
-      "description": "04:00 │ EN VIVO AHORA: El noticiero - Emisión meridiana\nNoticiero\n\n05:00 │ A CONTINUACIÓN: Mi verdad oculta\nTelenovela\n\nCanal Televen",
+      "description": "05:00 │ EN VIVO AHORA: Mi verdad oculta\nTelenovela\n\n06:00 │ A CONTINUACIÓN: Trapos íntimos\nTelenovela\n\nCanal Televen",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELEVEN.ve (src09)",
-      "currentProgram": "El noticiero - Emisión meridiana",
-      "currentProgramDesc": "Noticiero",
+      "currentProgram": "Mi verdad oculta",
+      "currentProgramDesc": "Telenovela",
       "descriptionBase": "Canal Televen"
     },
     {
@@ -47,11 +47,11 @@
       "genres": [
         "Nacional"
       ],
-      "description": "02:30 │ EN VIVO AHORA: Entrevista - Yiset Cabrera y Michel Caballero\nEntrevista\n\n05:00 │ A CONTINUACIÓN: Pedro Márquez\nVariedades\n\nCanal VTV",
+      "description": "05:00 │ EN VIVO AHORA: Pedro Márquez\nVariedades\n\n06:00 │ A CONTINUACIÓN: Noticiero digital\nNoticiero\n\nCanal VTV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "VTV.ve (src09)",
-      "currentProgram": "Entrevista - Yiset Cabrera y Michel Caballero",
-      "currentProgramDesc": "Entrevista",
+      "currentProgram": "Pedro Márquez",
+      "currentProgramDesc": "Variedades",
       "descriptionBase": "Canal VTV"
     },
     {
@@ -83,11 +83,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:24 │ EN VIVO AHORA: The Big Bang Theory\nEn ausencia de Leonard, Sheldon y Penny estrechan vínculos. Por otro lado, Howard intenta ayudar a Raj luego de su ruptura con Lucy. Además, Amy y Bernadette viajan juntas a una convención de biología.\n\n04:47 │ A CONTINUACIÓN: The Big Bang Theory\nCuando Leonard regresa, Sheldon se siente decepcionado porque su amigo quiere pasar más tiempo con Penny que con él. Además, el plan de Howard para ayudar a su madre tiene efectos secundarios desastrosos.\n\nCanal Warner Channel Oeste",
+      "description": "04:47 │ EN VIVO AHORA: The Big Bang Theory\nCuando Leonard regresa, Sheldon se siente decepcionado porque su amigo quiere pasar más tiempo con Penny que con él. Además, el plan de Howard para ayudar a su madre tiene efectos secundarios desastrosos.\n\n05:10 │ A CONTINUACIÓN: The Big Bang Theory\nRaj organiza una búsqueda del tesoro. Durante el juego, Howard y Amy descubren que comparten gustos musicales. Leonard la pasa mal con su compañera de equipo, Bernadette, porque se pone demasiado competitiva. Además, Penny y Sheldon hacen una buena dupla.\n\nCanal Warner Channel Oeste",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "WARCOL.co (m3u4u)",
       "currentProgram": "The Big Bang Theory",
-      "currentProgramDesc": "En ausencia de Leonard, Sheldon y Penny estrechan vínculos. Por otro lado, Howard intenta ayudar a Raj luego de su ruptura con Lucy. Además, Amy y Bernadette viajan juntas a una convención de biología.",
+      "currentProgramDesc": "Cuando Leonard regresa, Sheldon se siente decepcionado porque su amigo quiere pasar más tiempo con Penny que con él. Además, el plan de Howard para ayudar a su madre tiene efectos secundarios desastrosos.",
       "descriptionBase": "Canal Warner Channel Oeste"
     },
     {
@@ -96,16 +96,16 @@
       "name": "Warner Channel",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/warner_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/warner_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/kK2bP2ZWF2up3Y2uzBJupHCaMos.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5NrSIzfcBOFI9HRGV4nRYgMGhDU.jpg",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:23 │ EN VIVO AHORA: Search Party\nDory observa a la gente reunirse para su funeral. La pandilla recibe un regalo de Chip.\n\n04:27 │ A CONTINUACIÓN: All American\nDespués de un viaje espontáneo a la cabaña que deja al Vortex sin Internet, Olivia decide pasar su tiempo ayudando a Spencer con sus últimos estudios de caso sobre relaciones. Jordan hace un descubrimiento inesperado sobre Layla.\n\nCanal Warner Channel",
+      "description": "05:00 │ EN VIVO AHORA: Cobra Kai\nMiguel ayuda a Johnny a formular el mensaje perfecto en las redes sociales. Kreese busca nuevos reclutas, mientras que Daniel y Amanda intentan acabar con Cobra Kai.\n\n06:52 │ A CONTINUACIÓN: Shrek para siempre\nDespués de que Rumpelstiltskin lo engaña para hacer un pacto, Shrek se encuentra a sí mismo en una versión alterna de Muy Muy Lejano, donde él y Fiona nunca se conocieron.\n\nCanal Warner Channel",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "WOLEARH.ar (m3u4u)",
-      "currentProgram": "Search Party",
-      "currentProgramDesc": "Dory observa a la gente reunirse para su funeral. La pandilla recibe un regalo de Chip.",
+      "currentProgram": "Cobra Kai",
+      "currentProgramDesc": "Miguel ayuda a Johnny a formular el mensaje perfecto en las redes sociales. Kreese busca nuevos reclutas, mientras que Daniel y Amanda intentan acabar con Cobra Kai.",
       "descriptionBase": "Canal Warner Channel"
     },
     {
@@ -150,16 +150,16 @@
       "name": "AXN",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/axn_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/axn_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/tLccUh3uazZ9TkLhe53UwprJhI4.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xadC4VMl6UPRdBINAUgTBmYL7BF.jpg",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:10 │ EN VIVO AHORA: Hawaii Five-0\nCuando una joven es asesinada, el equipo debe determinar por qué tuvo ese final y si la persona culpable fue un profesional contratado.\n\n05:00 │ A CONTINUACIÓN: Unforgettable\nCarrie y Al investigan el asesinato de un defensor público, y ellos creen que el homicida tiene un plan más grande que podría resultar en otra muerte.\n\nCanal AXN",
+      "description": "05:00 │ EN VIVO AHORA: Unforgettable\nCarrie y Al investigan el asesinato de un defensor público, y ellos creen que el homicida tiene un plan más grande que podría resultar en otra muerte.\n\n06:00 │ A CONTINUACIÓN: Unforgettable\nUn adolescente, que parece no tener enemigos, es asesinado; Carrie le pide ayuda a su tía (Marilu Henner) alejada.\n\nCanal AXN",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "AXNARGH.ar (m3u4u)",
-      "currentProgram": "Hawaii Five-0",
-      "currentProgramDesc": "Cuando una joven es asesinada, el equipo debe determinar por qué tuvo ese final y si la persona culpable fue un profesional contratado.",
+      "currentProgram": "Unforgettable",
+      "currentProgramDesc": "Carrie y Al investigan el asesinato de un defensor público, y ellos creen que el homicida tiene un plan más grande que podría resultar en otra muerte.",
       "descriptionBase": "Canal AXN"
     },
     {
@@ -173,7 +173,7 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:30 │ EN VIVO AHORA: Planet Action\nUn espacio único que reúne los detrás de cámaras de las películas de acción más relevantes de Hollywood.\n\n06:00 │ A CONTINUACIÓN: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\nCanal AMC",
+      "description": "05:00 │ EN VIVO AHORA: Planet Action\nUn espacio único que reúne los detrás de cámaras de las películas de acción más relevantes de Hollywood.\n\n06:00 │ A CONTINUACIÓN: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\nCanal AMC",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "AMCANSD.mx (m3u4u)",
       "currentProgram": "Planet Action",
@@ -191,11 +191,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "03:51 │ EN VIVO AHORA: CSI: Miami\nUn traficante de drogas recibe un disparo en su mansión. Un sospechoso es arrestado por el delito y afirma que le vende marihuana a Delko.\n\n04:34 │ A CONTINUACIÓN: Hollywood One on One\nLas celebridades de Hollywood dan cuenta de su vida personal y profesional, y se sinceran sobre sus próximos proyectos.\n\nCanal TNT Series",
+      "description": "05:00 │ EN VIVO AHORA: CSI: Miami\nCuando un hombre es asesinado mientras intenta pagar el rescate de su hijo secuestrado, el equipo CSI es llamado y muere un miembro del grupo.\n\n05:45 │ A CONTINUACIÓN: CSI: Miami\nDisparos provenientes desde un barco provocan la muerte de un bañista en la playa, y el equipo CSI protege a un testigo de ocho años durante la búsqueda del asesino.\n\nCanal TNT Series",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TNTSERH.ar (m3u4u)",
       "currentProgram": "CSI: Miami",
-      "currentProgramDesc": "Un traficante de drogas recibe un disparo en su mansión. Un sospechoso es arrestado por el delito y afirma que le vende marihuana a Delko.",
+      "currentProgramDesc": "Cuando un hombre es asesinado mientras intenta pagar el rescate de su hijo secuestrado, el equipo CSI es llamado y muere un miembro del grupo.",
       "descriptionBase": "Canal TNT Series"
     },
     {
@@ -227,11 +227,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:40 │ EN VIVO AHORA: Key & Peele\nSketches incluyen llamando la atención de la multitud; un reportero de tráfico experimenta una turbulencia.\n\n05:00 │ A CONTINUACIÓN: Key & Peele\nLos sketches incluyen la reacción de un vecindario ante una criatura. Se analiza la experiencia universitaria de la gente negra. El presidente Obama utiliza un traductor de ira.\n\nCanal Comedy Central",
+      "description": "05:00 │ EN VIVO AHORA: Key & Peele\nLos sketches incluyen la reacción de un vecindario ante una criatura. Se analiza la experiencia universitaria de la gente negra. El presidente Obama utiliza un traductor de ira.\n\n05:20 │ A CONTINUACIÓN: Broad City\nIlana recibe una nueva oportunidad en Ofertas, Ofertas, Ofertas; Abbi trata de mantener su lado competitivo con el cheque de Soulstice Games Day.\n\nCanal Comedy Central",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "COMCCEH.co (m3u4u)",
       "currentProgram": "Key & Peele",
-      "currentProgramDesc": "Sketches incluyen llamando la atención de la multitud; un reportero de tráfico experimenta una turbulencia.",
+      "currentProgramDesc": "Los sketches incluyen la reacción de un vecindario ante una criatura. Se analiza la experiencia universitaria de la gente negra. El presidente Obama utiliza un traductor de ira.",
       "descriptionBase": "Canal Comedy Central"
     },
     {
@@ -281,11 +281,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:30 │ EN VIVO AHORA: Tendencias SXXI\nLa creatividad francesa siempre ha sido fértil en los terrenos de la moda, la artesanía, el diseño, la belleza y la gastronomía.\n\n05:00 │ A CONTINUACIÓN: Coronas y palacios\nUn recorrido por el mundo de la realeza. Una mirada a la vida de los representantes más importantes de las monarquías.\n\nCanal Hola TV",
+      "description": "05:00 │ EN VIVO AHORA: Coronas y palacios\nUn recorrido por el mundo de la realeza. Una mirada a la vida de los representantes más importantes de las monarquías.\n\n05:30 │ A CONTINUACIÓN: Espléndida\nUn espacio en el que se brindan consejos de salud, belleza y bienestar. Además, se recuerdan los logros históricos de mujeres.\n\nCanal Hola TV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HolaTV.ar (src09)",
-      "currentProgram": "Tendencias SXXI",
-      "currentProgramDesc": "La creatividad francesa siempre ha sido fértil en los terrenos de la moda, la artesanía, el diseño, la belleza y la gastronomía.",
+      "currentProgram": "Coronas y palacios",
+      "currentProgramDesc": "Un recorrido por el mundo de la realeza. Una mirada a la vida de los representantes más importantes de las monarquías.",
       "descriptionBase": "Canal Hola TV"
     },
     {
@@ -299,7 +299,7 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "03:50 │ EN VIVO AHORA: Love Island\n\n05:40 │ A CONTINUACIÓN: Escuela imparables\n\nCanal E! Entertainment",
+      "description": "04:50 │ EN VIVO AHORA: Love Island\n\n05:40 │ A CONTINUACIÓN: Escuela imparables\n\nCanal E! Entertainment",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "Canal.E!.Entertainment.Television.(México).mx (src05)",
       "currentProgram": "Love Island",
@@ -330,16 +330,16 @@
       "name": "Pasiones",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/pasiones_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/pasiones_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/1LmJem0n7GgvefCZXQEPil3jquS.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:00 │ EN VIVO AHORA: Corona de lágrimas\nRefugio es una mujer sacrificada y madre abnegada que lo da todo por sus tres hijos, Patricio, Ignacio y Edmundo. Mientras que su madre tiene un trabajo modesto, Edmundo estudia medicina, Patricio estudia derecho e Ignacio terminó solamente la secundaria y se dedicó a trabajar en vez de estudiar, lo que lo convirtió en el apoyo monetario de su madre. Ella tiene que sobrepasar muchas vicisitudes y problemas que la hacen depresiva, pero lo peor comienza cuando el hombre que fue el causante de su desgracia y la de sus hijos se atraviesa en el camino.\n\n05:00 │ A CONTINUACIÓN: La chica del momento\nBeatriz se convierte en publicista de una fábrica de jabones del país, revolucionando la publicidad en los años cincuenta. Criada por su abuela paterna, decide embarcarse rumbo a Río de Janeiro cuando encuentra una foto de su madre en una revista.\n\nCanal Pasiones",
+      "description": "05:00 │ EN VIVO AHORA: La chica del momento\nBeatriz se convierte en publicista de una fábrica de jabones del país, revolucionando la publicidad en los años cincuenta. Criada por su abuela paterna, decide embarcarse rumbo a Río de Janeiro cuando encuentra una foto de su madre en una revista.\n\n06:00 │ A CONTINUACIÓN: Tres hermanas\nUna historia de lazos fraternales. Un grupo de jóvenes pasan a la adultez mediante un camino lleno de problemas y situaciones que las hacen crecer.\n\nCanal Pasiones",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "PASNLA.co (m3u4u)",
-      "currentProgram": "Corona de lágrimas",
-      "currentProgramDesc": "Refugio es una mujer sacrificada y madre abnegada que lo da todo por sus tres hijos, Patricio, Ignacio y Edmundo. Mientras que su madre tiene un trabajo modesto, Edmundo estudia medicina, Patricio estudia derecho e Ignacio terminó solamente la secundaria y se dedicó a trabajar en vez de estudiar, lo que lo convirtió en el apoyo monetario de su madre. Ella tiene que sobrepasar muchas vicisitudes y problemas que la hacen depresiva, pero lo peor comienza cuando el hombre que fue el causante de su desgracia y la de sus hijos se atraviesa en el camino.",
+      "currentProgram": "La chica del momento",
+      "currentProgramDesc": "Beatriz se convierte en publicista de una fábrica de jabones del país, revolucionando la publicidad en los años cincuenta. Criada por su abuela paterna, decide embarcarse rumbo a Río de Janeiro cuando encuentra una foto de su madre en una revista.",
       "descriptionBase": "Canal Pasiones"
     },
     {
@@ -384,16 +384,16 @@
       "name": "Tlnovelas",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/tlnovelas_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/tlnovelas_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/mm8TG5P4wKpIRjQksfu9q5n8CEG.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wnBTCuXQpaO92qHr5LJazm5dDus.jpg",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "03:20 │ EN VIVO AHORA: Cuna de lobos\nLa matriarca de una familia lucha contra todo y utiliza sus más bajos instintos con tal de conseguir el poder y la fortuna que tanto desea.\n\n04:50 │ A CONTINUACIÓN: Para volver a amar\nLa historia de seis parejas que tienen dificultades en sus matrimonios y los problemas que tienen que enfrentar día a día. Las esposas que luchan por sacar adelante el hogar tratando de equilibrar su vida hogareña con sus trabajos.\n\nCanal Tlnovelas",
+      "description": "04:50 │ EN VIVO AHORA: Para volver a amar\nLa historia de seis parejas que tienen dificultades en sus matrimonios y los problemas que tienen que enfrentar día a día. Las esposas que luchan por sacar adelante el hogar tratando de equilibrar su vida hogareña con sus trabajos.\n\n05:35 │ A CONTINUACIÓN: El privilegio de amar\nLa relación entre Luciana y Andrés se deteriora cada vez más. Por otro lado, José María cree que Lorenza ha aceptado su amor.\n\nCanal Tlnovelas",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TLNOHI.co (m3u4u)",
-      "currentProgram": "Cuna de lobos",
-      "currentProgramDesc": "La matriarca de una familia lucha contra todo y utiliza sus más bajos instintos con tal de conseguir el poder y la fortuna que tanto desea.",
+      "currentProgram": "Para volver a amar",
+      "currentProgramDesc": "La historia de seis parejas que tienen dificultades en sus matrimonios y los problemas que tienen que enfrentar día a día. Las esposas que luchan por sacar adelante el hogar tratando de equilibrar su vida hogareña con sus trabajos.",
       "descriptionBase": "Canal Tlnovelas"
     },
     {
@@ -443,7 +443,7 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:00 │ EN VIVO AHORA: En casa con Telemundo\nUna oferta ligera, de formato accesible y familiar que incluye entrevistas con estrellas y buenas noticias.\n\n08:00 │ A CONTINUACIÓN: La mesa caliente\nUn equipo de mujeres audaces y empoderadas debate desde diversas perspectivas sobre el entretenimiento y los temas más candentes y controversiales que afectan a la comunidad latina en Estados Unidos.\n\nCanal Telemundo",
+      "description": "05:00 │ EN VIVO AHORA: En casa con Telemundo\nUna oferta ligera, de formato accesible y familiar que incluye entrevistas con estrellas y buenas noticias.\n\n08:00 │ A CONTINUACIÓN: La mesa caliente\nUn equipo de mujeres audaces y empoderadas debate desde diversas perspectivas sobre el entretenimiento y los temas más candentes y controversiales que afectan a la comunidad latina en Estados Unidos.\n\nCanal Telemundo",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELESAP.us (m3u4u)",
       "currentProgram": "En casa con Telemundo",
@@ -461,11 +461,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:30 │ EN VIVO AHORA: La panadería dulce de Juan Manuel\nEn esta ocasión, Juan Manuel muestra cómo preparar un clásico de la viennoiserie francesa y un clásico de la panadería argentina: pain au chocolat y sacramentos.\n\n05:00 │ A CONTINUACIÓN: Sonia en su huerta\nSonia comparte recetas con dos productos de su huerta: aguacates y espárragos.\n\nCanal El Gourmet",
+      "description": "05:00 │ EN VIVO AHORA: Sonia en su huerta\nSonia comparte recetas con dos productos de su huerta: aguacates y espárragos.\n\n05:30 │ A CONTINUACIÓN: Los Petersen pastas y pizzas\nDos recetas imperdibles: los clásicos ñoquis a la romana y panuozzo.\n\nCanal El Gourmet",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "GOURMETN.ar (m3u4u)",
-      "currentProgram": "La panadería dulce de Juan Manuel",
-      "currentProgramDesc": "En esta ocasión, Juan Manuel muestra cómo preparar un clásico de la viennoiserie francesa y un clásico de la panadería argentina: pain au chocolat y sacramentos.",
+      "currentProgram": "Sonia en su huerta",
+      "currentProgramDesc": "Sonia comparte recetas con dos productos de su huerta: aguacates y espárragos.",
       "descriptionBase": "Canal El Gourmet"
     },
     {
@@ -479,11 +479,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:15 │ EN VIVO AHORA: Mi casa en los suburbios\nUna mujer soltera busca su primera casa para estar más cerca de su familia en Pawling, Nueva York. Davina y Kristin le presentan algunas opciones.\n\n05:00 │ A CONTINUACIÓN: Nuestro hogar en la montaña\nUna pareja de California quiere mudarse a las montañas de Boulder, Colorado. Buscan una casa con oficina, una cocina amplia, mucho espacio y cerca de senderos para caminar.\n\nCanal HGTV",
+      "description": "05:00 │ EN VIVO AHORA: Nuestro hogar en la montaña\nUna pareja de California quiere mudarse a las montañas de Boulder, Colorado. Buscan una casa con oficina, una cocina amplia, mucho espacio y cerca de senderos para caminar.\n\n05:21 │ A CONTINUACIÓN: La mejor inversión\nRenovación de una casa vacacional en Hilton Head, S.C.\n\nCanal HGTV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HGTVLAS.ar (m3u4u)",
-      "currentProgram": "Mi casa en los suburbios",
-      "currentProgramDesc": "Una mujer soltera busca su primera casa para estar más cerca de su familia en Pawling, Nueva York. Davina y Kristin le presentan algunas opciones.",
+      "currentProgram": "Nuestro hogar en la montaña",
+      "currentProgramDesc": "Una pareja de California quiere mudarse a las montañas de Boulder, Colorado. Buscan una casa con oficina, una cocina amplia, mucho espacio y cerca de senderos para caminar.",
       "descriptionBase": "Canal HGTV"
     },
     {
@@ -497,11 +497,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "04:15 │ EN VIVO AHORA: The Rookie\nLos agentes Nolan y Harper investigan un asesinato cuyas implicaciones afectan a la seguridad nacional. El agente Bradford se ve obligado a enfrentarse al pasado cuando se cruza en su camino un vagabundo que sirvió en el Ejército.\n\n05:00 │ A CONTINUACIÓN: The Rookie\nEl oficial Nolan se entera de que su identidad ha sido robada y podría poner en peligro su posición como oficial. El sargento Gray debe testificar en la audiencia de libertad condicional del hombre que le disparó y asesinó a su compañero.\n\nCanal USA",
+      "description": "05:00 │ EN VIVO AHORA: The Rookie\nEl oficial Nolan se entera de que su identidad ha sido robada y podría poner en peligro su posición como oficial. El sargento Gray debe testificar en la audiencia de libertad condicional del hombre que le disparó y asesinó a su compañero.\n\n05:45 │ A CONTINUACIÓN: The Rookie\nLos oficiales Chen y Bradford se dirigen a las audiciones de \"American Idol\" en Los Ángeles. El oficial Chen enfrenta a Ryan Seacrest y al jurado. Además, Chen se hace amigo de un reportero cuyas intenciones no son claras.\n\nCanal USA",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "USALA.co (m3u4u)",
       "currentProgram": "The Rookie",
-      "currentProgramDesc": "Los agentes Nolan y Harper investigan un asesinato cuyas implicaciones afectan a la seguridad nacional. El agente Bradford se ve obligado a enfrentarse al pasado cuando se cruza en su camino un vagabundo que sirvió en el Ejército.",
+      "currentProgramDesc": "El oficial Nolan se entera de que su identidad ha sido robada y podría poner en peligro su posición como oficial. El sargento Gray debe testificar en la audiencia de libertad condicional del hombre que le disparó y asesinó a su compañero.",
       "descriptionBase": "Canal USA"
     },
     {
@@ -564,16 +564,16 @@
       "name": "HBO Family",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-family_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-family_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/WqN2eD2R2GOGds5iiZDJcHh7JS.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/3dhuShnYmB0UOQrn8v8gT9DBf0T.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "03:25 │ EN VIVO AHORA: Una Navidad en Hollywood\nJessica es una joven y prometedora cineasta de Hollywood que es famosa por dirigir películas navideñas. Sin embargo, cuando Christopher, un apuesto ejecutivo de televisión, aparece amenazando con detener la producción de su última película, Reena.\n\n04:57 │ A CONTINUACIÓN: Cigüeñas: La historia que no te contaron\nJunior, una cigüeña, y su amiga Tulip, la única humana de Montaña Cigüeña, deben entregar a una bebé que salió de la máquina de hacer bebés por error. Tendrán que hacerlo lo antes posible, para que su jefe no se entere y se enoje con ellos. Emprenden así un viaje repleto de aventuras asombrosas.\n\nCanal HBO Family",
+      "description": "04:57 │ EN VIVO AHORA: Cigüeñas: La historia que no te contaron\nJunior, una cigüeña, y su amiga Tulip, la única humana de Montaña Cigüeña, deben entregar a una bebé que salió de la máquina de hacer bebés por error. Tendrán que hacerlo lo antes posible, para que su jefe no se entere y se enoje con ellos. Emprenden así un viaje repleto de aventuras asombrosas.\n\n06:25 │ A CONTINUACIÓN: Shrek 2\nLos padres de la princesa y reyes de Muy, Muy Lejano invitan a cenar Shrek y Fiona, pero el rey Harold descubre que su yerno es un ogro y acude al Hada Madrina para alejar a Shrek de Fiona y lograr que se case con el guapo Príncipe Encantador.\n\nCanal HBO Family",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HBOFMHD.co (m3u4u)",
-      "currentProgram": "Una Navidad en Hollywood",
-      "currentProgramDesc": "Jessica es una joven y prometedora cineasta de Hollywood que es famosa por dirigir películas navideñas. Sin embargo, cuando Christopher, un apuesto ejecutivo de televisión, aparece amenazando con detener la producción de su última película, Reena.",
+      "currentProgram": "Cigüeñas: La historia que no te contaron",
+      "currentProgramDesc": "Junior, una cigüeña, y su amiga Tulip, la única humana de Montaña Cigüeña, deben entregar a una bebé que salió de la máquina de hacer bebés por error. Tendrán que hacerlo lo antes posible, para que su jefe no se entere y se enoje con ellos. Emprenden así un viaje repleto de aventuras asombrosas.",
       "descriptionBase": "Canal HBO Family"
     },
     {
@@ -587,11 +587,11 @@
       "genres": [
         "Infantil"
       ],
-      "description": "04:39 │ EN VIVO AHORA: Steven Universe\nSteven cree que su helado favorito es la clave para invocar su escudo mágico y prueba su teoría contra un monstruo gigante.\n\n04:50 │ A CONTINUACIÓN: Steven Universe\nSteven Universe está destinado a formar parte de un grupo de mágicos guardianes de la humanidad: las Gemas de Cristal.\n\nCanal Cartoon Network",
+      "description": "04:50 │ EN VIVO AHORA: Steven Universe\nSteven Universe está destinado a formar parte de un grupo de mágicos guardianes de la humanidad: las Gemas de Cristal.\n\n05:02 │ A CONTINUACIÓN: El mundo de Craig\nCraig y sus amigos, Kelsey y J.P., se adentran en un mundo salvaje dominado por tribus de niños que establecen sus propias leyes.\n\nCanal Cartoon Network",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TOONLS.co (m3u4u)",
       "currentProgram": "Steven Universe",
-      "currentProgramDesc": "Steven cree que su helado favorito es la clave para invocar su escudo mágico y prueba su teoría contra un monstruo gigante.",
+      "currentProgramDesc": "Steven Universe está destinado a formar parte de un grupo de mágicos guardianes de la humanidad: las Gemas de Cristal.",
       "descriptionBase": "Canal Cartoon Network"
     },
     {
@@ -600,16 +600,16 @@
       "name": "Nickelodeon",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nickelodeon_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nickelodeon_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/1pnaMzcTXU6LmBd9rf4ZvNGBnce.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "04:30 │ EN VIVO AHORA: Henry Danger\nLas identidades secretas de Kid Danger y Capitán Man peligran debido a que un accidente destruyó un invento de Charlotte.\n\n04:55 │ A CONTINUACIÓN: Una casa de locos\nLisa busca el próximo gran avance científico. Luna decide si tocar en una banda con sus amigos o tocar con profesionales.\n\nCanal Nickelodeon",
+      "description": "04:55 │ EN VIVO AHORA: Una casa de locos\nLisa busca el próximo gran avance científico. Luna decide si tocar en una banda con sus amigos o tocar con profesionales.\n\n05:20 │ A CONTINUACIÓN: Una casa de locos\nLincoln tiene 11 años e intenta sobrevivir a la locura de su casa, en la que vive con sus padres y sus diez peculiares hermanas mayores.\n\nCanal Nickelodeon",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "NKLACHD.ar (m3u4u)",
-      "currentProgram": "Henry Danger",
-      "currentProgramDesc": "Las identidades secretas de Kid Danger y Capitán Man peligran debido a que un accidente destruyó un invento de Charlotte.",
+      "currentProgram": "Una casa de locos",
+      "currentProgramDesc": "Lisa busca el próximo gran avance científico. Luna decide si tocar en una banda con sus amigos o tocar con profesionales.",
       "descriptionBase": "Canal Nickelodeon"
     },
     {
@@ -618,16 +618,16 @@
       "name": "Nick Jr",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nick-jr_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nick-jr_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/okEw8d8WUeA9ysTlBb8bwkpojt4.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "04:35 │ EN VIVO AHORA: Tim Rex en el espacio\nTim, Tommy y Tía encuentran un juguete perdido y prometen devolverlo. Kai está muy emocionado por viajar en el Nebulizador. Tim y Kai intentan fotografiar al escurridizo SpaceBug.\n\n04:55 │ A CONTINUACIÓN: Rubble & Crew\nEl regalo de Speed Meister para el Señor Tortuga sale mal, y tiene que llamar a Rubble y su equipo para que le ayuden. Rubble ayuda a Lucas a construir el volcán para la Feria de Ciencias.\n\nCanal Nick Jr",
+      "description": "04:55 │ EN VIVO AHORA: Rubble & Crew\nEl regalo de Speed Meister para el Señor Tortuga sale mal, y tiene que llamar a Rubble y su equipo para que le ayuden. Rubble ayuda a Lucas a construir el volcán para la Feria de Ciencias.\n\n05:20 │ A CONTINUACIÓN: Santiago de los mares\nSantiago y su tripulación salen en búsqueda del Halcón Dorado. La espada mágica de Santiago es transportada a la isla de las Cosas Perdidas.\n\nCanal Nick Jr",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "NICKJMH.ar (m3u4u)",
-      "currentProgram": "Tim Rex en el espacio",
-      "currentProgramDesc": "Tim, Tommy y Tía encuentran un juguete perdido y prometen devolverlo. Kai está muy emocionado por viajar en el Nebulizador. Tim y Kai intentan fotografiar al escurridizo SpaceBug.",
+      "currentProgram": "Rubble & Crew",
+      "currentProgramDesc": "El regalo de Speed Meister para el Señor Tortuga sale mal, y tiene que llamar a Rubble y su equipo para que le ayuden. Rubble ayuda a Lucas a construir el volcán para la Feria de Ciencias.",
       "descriptionBase": "Canal Nick Jr"
     },
     {
@@ -654,16 +654,16 @@
       "name": "Disney Jr",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/disney-jr_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/disney-jr_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/69ZmzcyVbq55iC8ZHTxw2VDeQtc.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uLDHCg5pxc9gniPmJXLYc5Ee5Ka.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "04:30 │ EN VIVO AHORA: Supergatitos\nCuando Amara lleva un cachorro perdido al \"Purr N Play\", Bitsy se pregunta si habrá suficiente atención para ella. Los SuperKitties deben detener a quien haya robado los trucos de magia de Abraca Dan.\n\n05:00 │ A CONTINUACIÓN: Disney Junior Ariel\nAriel vive con sus amigos divertidas aventuras de sirena llenas de acción en el místico país submarino de Atlántica.\n\nCanal Disney Jr",
+      "description": "05:00 │ EN VIVO AHORA: Disney Junior Ariel\nAriel vive con sus amigos divertidas aventuras de sirena llenas de acción en el místico país submarino de Atlántica.\n\n05:30 │ A CONTINUACIÓN: La guardia del león\nOno sustituye al búfago (el pájaro que convive con ellos y les quita los insectos del cuerpo) de una manada de rinocerontes porque su búfago habitual se ha enfadado. Mientras tanto, la Guardia intenta que ave y rinocerontes se reconcilien.\n\nCanal Disney Jr",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DISNJS.co (m3u4u)",
-      "currentProgram": "Supergatitos",
-      "currentProgramDesc": "Cuando Amara lleva un cachorro perdido al \"Purr N Play\", Bitsy se pregunta si habrá suficiente atención para ella. Los SuperKitties deben detener a quien haya robado los trucos de magia de Abraca Dan.",
+      "currentProgram": "Disney Junior Ariel",
+      "currentProgramDesc": "Ariel vive con sus amigos divertidas aventuras de sirena llenas de acción en el místico país submarino de Atlántica.",
       "descriptionBase": "Canal Disney Jr"
     },
     {
@@ -672,16 +672,16 @@
       "name": "Discovery Kids",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/discovery-kids_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/discovery-kids_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/9MGENou2YmwCUA50ioHBSg8D85V.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/8Jnrk1NcaLpu6VD30MZENWS6ZhH.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "04:26 │ EN VIVO AHORA: Mini Beat Power Rockers\nEs San Valentín y Dolores tiene un regalo especial para Jay. El sombrero de Carlos desaparece, creando caos en la ciudad.\n\n04:50 │ A CONTINUACIÓN: ¡Agente Binky al rescate!\nBinky y Gracie impresionan a Gordon con sus habilidades felinas y deciden entrenarlo para que se convierta en un gato. La celebración anual de los juegos PURST se ve interrumpida cuando un extraterrestre (nombre en clave: saltamontes) aparece y quiere competir.\n\nCanal Discovery Kids",
+      "description": "04:50 │ EN VIVO AHORA: ¡Agente Binky al rescate!\nBinky y Gracie impresionan a Gordon con sus habilidades felinas y deciden entrenarlo para que se convierta en un gato. La celebración anual de los juegos PURST se ve interrumpida cuando un extraterrestre (nombre en clave: saltamontes) aparece y quiere competir.\n\n05:12 │ A CONTINUACIÓN: ¡Agente Binky al rescate!\nCada año, Humano Pequeño pone leche y galletas, pero se las come un alienígena con un traje rojo, así que el equipo intentará evitarlo esta vez. Las mascotas agitan un regalo de Navidad y un montón de robots surgen de él.\n\nCanal Discovery Kids",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DKNL.co (m3u4u)",
-      "currentProgram": "Mini Beat Power Rockers",
-      "currentProgramDesc": "Es San Valentín y Dolores tiene un regalo especial para Jay. El sombrero de Carlos desaparece, creando caos en la ciudad.",
+      "currentProgram": "¡Agente Binky al rescate!",
+      "currentProgramDesc": "Binky y Gracie impresionan a Gordon con sus habilidades felinas y deciden entrenarlo para que se convierta en un gato. La celebración anual de los juegos PURST se ve interrumpida cuando un extraterrestre (nombre en clave: saltamontes) aparece y quiere competir.",
       "descriptionBase": "Canal Discovery Kids"
     },
     {
@@ -690,16 +690,16 @@
       "name": "Dreamworks",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dreamworks_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dreamworks_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/fUhIeUfqPreLuEmgDuhb9LAdxHp.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/bVml4IQKIS5DfPqgDoaZoRLlxIY.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "04:30 │ EN VIVO AHORA: Kung Fu Panda: The Paws of Destiny\nPo descubre que fue envenenado y se dirige a un oasis de caravanas con la esperanza de descubrir quién es el perpetrador.\n\n05:00 │ A CONTINUACIÓN: El amanecer de los Croods\nGrug termina tras las rejas por un delito que no cometió y escapa para limpiar su nombre.\n\nCanal Dreamworks",
+      "description": "05:00 │ EN VIVO AHORA: El amanecer de los Croods\nGrug termina tras las rejas por un delito que no cometió y escapa para limpiar su nombre.\n\n05:30 │ A CONTINUACIÓN: El amanecer de los Croods\nAcusados de robar comida del valle, a los Croods se les permite demostrar su inocencia. Kevin le da consejos a Thunk para atraer chicas.\n\nCanal Dreamworks",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DREAMWS.co (m3u4u)",
-      "currentProgram": "Kung Fu Panda: The Paws of Destiny",
-      "currentProgramDesc": "Po descubre que fue envenenado y se dirige a un oasis de caravanas con la esperanza de descubrir quién es el perpetrador.",
+      "currentProgram": "El amanecer de los Croods",
+      "currentProgramDesc": "Grug termina tras las rejas por un delito que no cometió y escapa para limpiar su nombre.",
       "descriptionBase": "Canal Dreamworks"
     },
     {
@@ -708,16 +708,16 @@
       "name": "Adult Swim",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/as_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/as_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/bIHCUqaapZdRjd2kzSDiwzYyrpC.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "04:34 │ EN VIVO AHORA: [as] Smalls\nUna serie de cortos.\n\n04:47 │ A CONTINUACIÓN: Teen Titans\nBeast Boy debe dar una lección a unos hermanos problemáticos.\n\nCanal Adult Swim",
+      "description": "04:47 │ EN VIVO AHORA: Teen Titans\nBeast Boy debe dar una lección a unos hermanos problemáticos.\n\n05:08 │ A CONTINUACIÓN: Teen Titans\nLa celda de poder de Cíborg cede durante una batalla.\n\nCanal Adult Swim",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ADSMX.mx (m3u4u)",
-      "currentProgram": "[as] Smalls",
-      "currentProgramDesc": "Una serie de cortos.",
+      "currentProgram": "Teen Titans",
+      "currentProgramDesc": "Beast Boy debe dar una lección a unos hermanos problemáticos.",
       "descriptionBase": "Canal Adult Swim"
     },
     {
@@ -726,16 +726,16 @@
       "name": "TNT Oeste",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/tnt_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/tnt_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/a6aOiUBrOTnLnQ7zYNjEhLlpRqx.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kEuQWHte2erRpAICrYqkAZaZAAY.jpg",
       "posterShape": "poster",
       "genres": [
         "Cine"
       ],
-      "description": "04:12 │ EN VIVO AHORA: Hollywood One on One\n\n05:00 │ A CONTINUACIÓN: Batman y Robin\nBatman y su compañero Robin deben enfrentarse a un nuevo villano, el Sr. Frío, que intentará congelar a todos los habitantes de Gotham.\n\nCanal TNT Oeste",
+      "description": "05:00 │ EN VIVO AHORA: Batman y Robin\nBatman y su compañero Robin deben enfrentarse a un nuevo villano, el Sr. Frío, que intentará congelar a todos los habitantes de Gotham.\n\n06:28 │ A CONTINUACIÓN: El especialista\nUna mujer contrata los servicios de un experto en explosivos para vengarse de los gánsteres que asesinaron a sus padres.\n\nCanal TNT Oeste",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TNTLCHH.co (m3u4u)",
-      "currentProgram": "Hollywood One on One",
-      "currentProgramDesc": "",
+      "currentProgram": "Batman y Robin",
+      "currentProgramDesc": "Batman y su compañero Robin deben enfrentarse a un nuevo villano, el Sr. Frío, que intentará congelar a todos los habitantes de Gotham.",
       "descriptionBase": "Canal TNT Oeste"
     },
     {
@@ -780,16 +780,16 @@
       "name": "TCM",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/tcm_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/tcm_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/8hhN3TEKrJPBHz3FXkwnQi5rUga.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/a6aOiUBrOTnLnQ7zYNjEhLlpRqx.jpg",
       "posterShape": "poster",
       "genres": [
         "Cine"
       ],
-      "description": "03:41 │ EN VIVO AHORA: Caída del cielo\nDos solitarios y una broma del azar que los conduce por el mismo camino.\n\n04:50 │ A CONTINUACIÓN: Hollywood One on One\nLas celebridades de Hollywood dan cuenta de su vida personal y profesional, y se sinceran sobre sus próximos proyectos.\n\nCanal TCM",
+      "description": "05:00 │ EN VIVO AHORA: Hollywood One on One\nLas celebridades de Hollywood dan cuenta de su vida personal y profesional, y se sinceran sobre sus próximos proyectos.\n\n06:12 │ A CONTINUACIÓN: They Died With Their Boots On\nGeorge Armstrong Custer pasa de ser un cadete de West Point a un general en Little Bighorn.\n\nCanal TCM",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TCML.co (m3u4u)",
-      "currentProgram": "Caída del cielo",
-      "currentProgramDesc": "Dos solitarios y una broma del azar que los conduce por el mismo camino.",
+      "currentProgram": "Hollywood One on One",
+      "currentProgramDesc": "Las celebridades de Hollywood dan cuenta de su vida personal y profesional, y se sinceran sobre sus próximos proyectos.",
       "descriptionBase": "Canal TCM"
     },
     {
@@ -888,16 +888,16 @@
       "name": "Space",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/space_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/space_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/dyysEEonr5tPcgItlfHItfx5ZCY.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ci4N1AAjQ0cvmKRemBn9cIksIIO.jpg",
       "posterShape": "poster",
       "genres": [
         "Cine"
       ],
-      "description": "02:53 │ EN VIVO AHORA: El tirador\nUn ex-francotirador es obligado a volver al servicio militar y planea vengarse de sus poderosos enemigos después de ser traicionado y herido.\n\n05:00 │ A CONTINUACIÓN: Operación frontera: Brasil\nLa rutina nocturna de la Policía Federal de Carreteras en el combate a la delincuencia en la frontera brasileña.\n\nCanal Space",
+      "description": "05:00 │ EN VIVO AHORA: Operación frontera: Brasil\nLa rutina nocturna de la Policía Federal de Carreteras en el combate a la delincuencia en la frontera brasileña.\n\n06:00 │ A CONTINUACIÓN: Legado de Mentiras\nMartín Baxter, un exagente del MI6, regresa al mundo del espionaje dentro de las altas esferas. Allí descubre una impactante verdad sobre ciertas operaciones realizadas por servicios secretos desconocidos.\n\nCanal Space",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "SPACES.ar (m3u4u)",
-      "currentProgram": "El tirador",
-      "currentProgramDesc": "Un ex-francotirador es obligado a volver al servicio militar y planea vengarse de sus poderosos enemigos después de ser traicionado y herido.",
+      "currentProgram": "Operación frontera: Brasil",
+      "currentProgramDesc": "La rutina nocturna de la Policía Federal de Carreteras en el combate a la delincuencia en la frontera brasileña.",
       "descriptionBase": "Canal Space"
     },
     {
@@ -960,16 +960,16 @@
       "name": "HBO",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/6zKjoOOb3OZnZuiHtQZn4Kd69Gq.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/6KJcFFE1iBPC0Xj0iPCcmMvS5WK.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "02:58 │ EN VIVO AHORA: Teléfono negro 2\nEl mal trasciende a la muerte, y el teléfono negro vuelve a sonar cuando el Raptor amenaza a Gwen desde la tumba.\n\n05:00 │ A CONTINUACIÓN: R.I.P.D. Departamento de policía mortal\nEl veterano Roy Pulsifer lleva toda su vida en el Departamento de Policía Mortal del Más Allá, siguiendo la pista de unos delincuentes muy especiales que intentan escaparse del Juicio Final escondiéndose entre los habitantes de la Tierra. Cuando se descubre un plan que podría acabar con la vida en el planeta, Roy y su nuevo compañero, Nick Walker, tendrán que restablecer el equilibrio cósmico si no quieren que el túnel al Más Allá empiece a mandar almas furiosas en la dirección equivocada.\n\nCanal HBO",
+      "description": "05:00 │ EN VIVO AHORA: R.I.P.D. Departamento de policía mortal\nEl veterano Roy Pulsifer lleva toda su vida en el Departamento de Policía Mortal del Más Allá, siguiendo la pista de unos delincuentes muy especiales que intentan escaparse del Juicio Final escondiéndose entre los habitantes de la Tierra. Cuando se descubre un plan que podría acabar con la vida en el planeta, Roy y su nuevo compañero, Nick Walker, tendrán que restablecer el equilibrio cósmico si no quieren que el túnel al Más Allá empiece a mandar almas furiosas en la dirección equivocada.\n\n06:41 │ A CONTINUACIÓN: Cómo entrenar a tu dragón 3\nHipo descubre que Chimuelo no es la única Furia Nocturna y debe buscar el Mundo Oculto, una utopía secreta para descubrir finalmente sus destinos como dragón y jinete.\n\nCanal HBO",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HBOEHD.co (m3u4u)",
-      "currentProgram": "Teléfono negro 2",
-      "currentProgramDesc": "El mal trasciende a la muerte, y el teléfono negro vuelve a sonar cuando el Raptor amenaza a Gwen desde la tumba.",
+      "currentProgram": "R.I.P.D. Departamento de policía mortal",
+      "currentProgramDesc": "El veterano Roy Pulsifer lleva toda su vida en el Departamento de Policía Mortal del Más Allá, siguiendo la pista de unos delincuentes muy especiales que intentan escaparse del Juicio Final escondiéndose entre los habitantes de la Tierra. Cuando se descubre un plan que podría acabar con la vida en el planeta, Roy y su nuevo compañero, Nick Walker, tendrán que restablecer el equilibrio cósmico si no quieren que el túnel al Más Allá empiece a mandar almas furiosas en la dirección equivocada.",
       "descriptionBase": "Canal HBO"
     },
     {
@@ -1014,16 +1014,16 @@
       "name": "HBO Plus",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-plus_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-plus_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/tv1cMZ3fmVTKH1FiNljjMrCvyz9.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lQzSMhkAl90iXPirjnLbRHkxApC.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "03:35 │ EN VIVO AHORA: Eliminar amigo\nUn año después de su suicidio, el vengativo espíritu de una adolescente acosada se venga a través de la computadora de quienes, con sus humillaciones, la empujaron hacia la muerte.\n\n05:00 │ A CONTINUACIÓN: No descansarás\nEl médico obliga a Julie a guardar reposo absoluto durante el embarazo, pero, entonces, ella empieza a experimentar sucesos paranormales y ver figuras fantasmagóricas mientras está tumbada en la cama.\n\nCanal HBO Plus",
+      "description": "05:00 │ EN VIVO AHORA: No descansarás\nEl médico obliga a Julie a guardar reposo absoluto durante el embarazo, pero, entonces, ella empieza a experimentar sucesos paranormales y ver figuras fantasmagóricas mientras está tumbada en la cama.\n\n06:35 │ A CONTINUACIÓN: La maldición del collar\nLaura Davis recibe un collar antiguo como regalo, pero sus hijas descubren una fuerza siniestra, oculta en su interior, que amenaza con destruir todo lo que aman.\n\nCanal HBO Plus",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HBOPPHD.ar (m3u4u)",
-      "currentProgram": "Eliminar amigo",
-      "currentProgramDesc": "Un año después de su suicidio, el vengativo espíritu de una adolescente acosada se venga a través de la computadora de quienes, con sus humillaciones, la empujaron hacia la muerte.",
+      "currentProgram": "No descansarás",
+      "currentProgramDesc": "El médico obliga a Julie a guardar reposo absoluto durante el embarazo, pero, entonces, ella empieza a experimentar sucesos paranormales y ver figuras fantasmagóricas mientras está tumbada en la cama.",
       "descriptionBase": "Canal HBO Plus"
     },
     {
@@ -1032,16 +1032,16 @@
       "name": "HBO Signature",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/signature_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/signature_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/j2V5P9I56CMrhB7KRGk6J1bPvly.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/qK2hJo7UhIjeu5qUSok7rZajryE.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "03:20 │ EN VIVO AHORA: Todo lo que respira\nMientras legiones de pájaros caen de los cielos de Nueva Delhi y la ciudad arde con malestar social, dos hermanos corren para salvar a una de las víctimas: una majestuosa cometa negra, un ave de rapiña esencial para el ecosistema de su ciudad.\n\n05:00 │ A CONTINUACIÓN: In The Same Breath: ¿Qué es verdad y qué es mentira?\nAnálisis de cómo las excusas del Gobierno chino para ocultar el origen de la pandemia se han convertido en un triunfo del Partido Comunista.\n\nCanal HBO Signature",
+      "description": "05:00 │ EN VIVO AHORA: In The Same Breath: ¿Qué es verdad y qué es mentira?\nAnálisis de cómo las excusas del Gobierno chino para ocultar el origen de la pandemia se han convertido en un triunfo del Partido Comunista.\n\n06:45 │ A CONTINUACIÓN: La indestructible Tatiana Suarez\nLa crónica de la luchadora de MMA, Tatiana Suárez, acerca de su regreso al deporte después de una herida que la ausentó por cuatro años. Suárez reflexiona sobre su camino de una luchadora prodigio a una atleta profesional y el legado que deja.\n\nCanal HBO Signature",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HBOSLHD.ar (m3u4u)",
-      "currentProgram": "Todo lo que respira",
-      "currentProgramDesc": "Mientras legiones de pájaros caen de los cielos de Nueva Delhi y la ciudad arde con malestar social, dos hermanos corren para salvar a una de las víctimas: una majestuosa cometa negra, un ave de rapiña esencial para el ecosistema de su ciudad.",
+      "currentProgram": "In The Same Breath: ¿Qué es verdad y qué es mentira?",
+      "currentProgramDesc": "Análisis de cómo las excusas del Gobierno chino para ocultar el origen de la pandemia se han convertido en un triunfo del Partido Comunista.",
       "descriptionBase": "Canal HBO Signature"
     },
     {
@@ -1050,16 +1050,16 @@
       "name": "HBO Mundi",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/mundi_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/mundi_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/vNPY4oCSUp7CxbHkKJNRx1fmCl0.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/cZyFIHao8gUf8t7gQmsdHcwF4aA.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "02:23 │ EN VIVO AHORA: El triángulo de la tristeza\nLos modelos Carl y Yaya, junto con varios multimillonarios, quedan atrapados tras una tormenta en su yate de lujo. El barco se hunde y todos quedan varados en una isla desierta. En su afán por sobrevivir, las jerarquías cambian y, de repente, todos se encuentran en una situación casi postapocalíptica, en la que ha desaparecido toda civilización.\n\n05:00 │ A CONTINUACIÓN: El hombre lobo\nLuego de ausentarse de su ancestral hogar en Blackmoor por muchos años, el aristócrata Lawrence Talbot regresa para encontrar a su hermano desaparecido a petición de su prometida, Gwen. Él descubre que una criatura está relacionada con una maldición antigua que transforma a las personas en licántropos cuando la luna está llena. Para salvar a la aldea y proteger a Gwen, él debe eliminar a la bestia sedienta de sangre, pero arrastra un terrible legado familiar.\n\nCanal HBO Mundi",
+      "description": "05:00 │ EN VIVO AHORA: El hombre lobo\nLuego de ausentarse de su ancestral hogar en Blackmoor por muchos años, el aristócrata Lawrence Talbot regresa para encontrar a su hermano desaparecido a petición de su prometida, Gwen. Él descubre que una criatura está relacionada con una maldición antigua que transforma a las personas en licántropos cuando la luna está llena. Para salvar a la aldea y proteger a Gwen, él debe eliminar a la bestia sedienta de sangre, pero arrastra un terrible legado familiar.\n\n06:14 │ A CONTINUACIÓN: Criaturas del faro\nUna joven marinera naufraga en una isla remota, donde es rescatada por el único habitante del lugar: el cuidador del faro.\n\nCanal HBO Mundi",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "MUNLA.ar (m3u4u)",
-      "currentProgram": "El triángulo de la tristeza",
-      "currentProgramDesc": "Los modelos Carl y Yaya, junto con varios multimillonarios, quedan atrapados tras una tormenta en su yate de lujo. El barco se hunde y todos quedan varados en una isla desierta. En su afán por sobrevivir, las jerarquías cambian y, de repente, todos se encuentran en una situación casi postapocalíptica, en la que ha desaparecido toda civilización.",
+      "currentProgram": "El hombre lobo",
+      "currentProgramDesc": "Luego de ausentarse de su ancestral hogar en Blackmoor por muchos años, el aristócrata Lawrence Talbot regresa para encontrar a su hermano desaparecido a petición de su prometida, Gwen. Él descubre que una criatura está relacionada con una maldición antigua que transforma a las personas en licántropos cuando la luna está llena. Para salvar a la aldea y proteger a Gwen, él debe eliminar a la bestia sedienta de sangre, pero arrastra un terrible legado familiar.",
       "descriptionBase": "Canal HBO Mundi"
     },
     {
@@ -1068,16 +1068,16 @@
       "name": "HBO Pop",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-pop_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-pop_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/cFnyfWHL6HjOOVal6lp8e5gqibK.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ktopqLrHDZRBBI984IxDvAJBoKj.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "02:40 │ EN VIVO AHORA: Sensatez y sentimientos\nDos hermanas enfrentan sus problemas románticos en la Inglaterra del siglo XIX donde reinan el dinero y la sociedad.\n\n05:00 │ A CONTINUACIÓN: Mi nombre es Doris\nUn seminario de autoayuda inspira a Doris, una mujer sexagenaria, para perseguir románticamente a su joven y nuevo compañero de trabajo.\n\nCanal HBO Pop",
+      "description": "05:00 │ EN VIVO AHORA: Mi nombre es Doris\nUn seminario de autoayuda inspira a Doris, una mujer sexagenaria, para perseguir románticamente a su joven y nuevo compañero de trabajo.\n\n06:38 │ A CONTINUACIÓN: Notas perfectas\nLa estudiante universitaria Beca sabe que ella no quiere ser parte de un grupo, pero ese es el lugar al que llega después de arribar a su nueva escuela. Entre las chicas malas, buenas y extrañas, Beca descubre que lo único que tienen en común es lo bien que cantan juntas. Ella saca a las mujeres de su zona de comodidad y las obliga a atreverse con canciones más complicadas, con el propósito de ganar una competición.\n\nCanal HBO Pop",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "POPLA.ar (m3u4u)",
-      "currentProgram": "Sensatez y sentimientos",
-      "currentProgramDesc": "Dos hermanas enfrentan sus problemas románticos en la Inglaterra del siglo XIX donde reinan el dinero y la sociedad.",
+      "currentProgram": "Mi nombre es Doris",
+      "currentProgramDesc": "Un seminario de autoayuda inspira a Doris, una mujer sexagenaria, para perseguir románticamente a su joven y nuevo compañero de trabajo.",
       "descriptionBase": "Canal HBO Pop"
     },
     {
@@ -1086,16 +1086,16 @@
       "name": "HBO Xtreme",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo_xtreme_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo_xtreme_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/iGOzuXMymytSWdB8w2R04uyDLAU.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lt3NqorBMWn786m9bzqM0OLdMS8.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "02:29 │ EN VIVO AHORA: El origen\nDom Cobb es un ladrón con una extraña habilidad para entrar a los sueños de la gente y robarles los secretos de sus subconscientes. Su habilidad lo ha vuelto muy popular en el mundo del espionaje corporativo, pero ha tenido un gran costo en la gente que ama. Cobb obtiene la oportunidad de redimirse cuando recibe una tarea imposible: plantar una idea en la mente de una persona. Si tiene éxito, será el crimen perfecto, pero un enemigo se anticipa a sus movimientos.\n\n05:00 │ A CONTINUACIÓN: La batalla de Riddick\nMientras huye de mercenarios, un fugitivo termina en un planeta amenazado por un dictador y su violento ejército.\n\nCanal HBO Xtreme",
+      "description": "05:00 │ EN VIVO AHORA: La batalla de Riddick\nMientras huye de mercenarios, un fugitivo termina en un planeta amenazado por un dictador y su violento ejército.\n\n07:05 │ A CONTINUACIÓN: Jurassic World: Fallen Kingdom\nOwen y Claire regresan a la isla para salvar a los dinosaurios de un volcán a punto de erupción. Juntos descubren un extraño avance evolutivo y una conspiración que amenaza a todo el planeta.\n\nCanal HBO Xtreme",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HBOXLAH.co (m3u4u)",
-      "currentProgram": "El origen",
-      "currentProgramDesc": "Dom Cobb es un ladrón con una extraña habilidad para entrar a los sueños de la gente y robarles los secretos de sus subconscientes. Su habilidad lo ha vuelto muy popular en el mundo del espionaje corporativo, pero ha tenido un gran costo en la gente que ama. Cobb obtiene la oportunidad de redimirse cuando recibe una tarea imposible: plantar una idea en la mente de una persona. Si tiene éxito, será el crimen perfecto, pero un enemigo se anticipa a sus movimientos.",
+      "currentProgram": "La batalla de Riddick",
+      "currentProgramDesc": "Mientras huye de mercenarios, un fugitivo termina en un planeta amenazado por un dictador y su violento ejército.",
       "descriptionBase": "Canal HBO Xtreme"
     },
     {
@@ -1109,11 +1109,11 @@
       "genres": [
         "Premium"
       ],
-      "description": "04:15 │ EN VIVO AHORA: House M.D.\nEl empresario millonario Edward Vogler se convierte en el nuevo presidente de la junta y planea usar las instalaciones como una nueva empresa de biotecnología, por lo que el hospital ya no necesitaría los servicios del Dr. House.\n\n05:00 │ A CONTINUACIÓN: House M.D.\nUn informante de la mafia se desmaya repentinamente en la corte, y House y su equipo intentan curarlo o determinar si está fingiendo.\n\nCanal Universal Premiere",
+      "description": "05:00 │ EN VIVO AHORA: House M.D.\nUn informante de la mafia se desmaya repentinamente en la corte, y House y su equipo intentan curarlo o determinar si está fingiendo.\n\n05:40 │ A CONTINUACIÓN: House M.D.\nHouse y su equipo creen que una reacción adversa a unas pastillas de dieta causó un ataque cardiaco a una niña de 10 años con obesidad, pero finalmente descubren que otra es la causa de su enfermedad.\n\nCanal Universal Premiere",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "UNIPR.co (m3u4u)",
       "currentProgram": "House M.D.",
-      "currentProgramDesc": "El empresario millonario Edward Vogler se convierte en el nuevo presidente de la junta y planea usar las instalaciones como una nueva empresa de biotecnología, por lo que el hospital ya no necesitaría los servicios del Dr. House.",
+      "currentProgramDesc": "Un informante de la mafia se desmaya repentinamente en la corte, y House y su equipo intentan curarlo o determinar si está fingiendo.",
       "descriptionBase": "Canal Universal Premiere"
     },
     {
@@ -1122,16 +1122,16 @@
       "name": "Universal Premiere Oeste",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/universal-premiere_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/universal-premiere_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/j9nU0GHNakbQhoFCDE61OrvMjTC.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "04:15 │ EN VIVO AHORA: FBI\nEl equipo investiga un intercambio de drogas que salió mal luego de que se hallara el cadáver de un estudiante universitario. La detective Hailey Upton se une al equipo temporalmente.\n\n05:00 │ A CONTINUACIÓN: Apolo bajo fuego\nEl grupo terrorista Voltov secuestra a la microbióloga Rachel Moss y la obliga a crear un arma biológica letal. Zara y Vincent ven cómo su misión rutinaria de vigilancia en Bengasi se convierte en una carrera contrarreloj para impedir la propagación del virus antes de que provoque consecuencias devastadoras a nivel mundial.\n\nCanal Universal Premiere Oeste",
+      "description": "05:00 │ EN VIVO AHORA: Apolo bajo fuego\nEl grupo terrorista Voltov secuestra a la microbióloga Rachel Moss y la obliga a crear un arma biológica letal. Zara y Vincent ven cómo su misión rutinaria de vigilancia en Bengasi se convierte en una carrera contrarreloj para impedir la propagación del virus antes de que provoque consecuencias devastadoras a nivel mundial.\n\n05:45 │ A CONTINUACIÓN: House M.D.\nUn brazo severamente fracturado revela problemas ocultos y aplaza el regreso de un lanzador a las Grandes Ligas. House sospecha que consume esteroides.\n\nCanal Universal Premiere Oeste",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "UNIPRM.mx (m3u4u)",
-      "currentProgram": "FBI",
-      "currentProgramDesc": "El equipo investiga un intercambio de drogas que salió mal luego de que se hallara el cadáver de un estudiante universitario. La detective Hailey Upton se une al equipo temporalmente.",
+      "currentProgram": "Apolo bajo fuego",
+      "currentProgramDesc": "El grupo terrorista Voltov secuestra a la microbióloga Rachel Moss y la obliga a crear un arma biológica letal. Zara y Vincent ven cómo su misión rutinaria de vigilancia en Bengasi se convierte en una carrera contrarreloj para impedir la propagación del virus antes de que provoque consecuencias devastadoras a nivel mundial.",
       "descriptionBase": "Canal Universal Premiere Oeste"
     },
     {
@@ -1145,7 +1145,7 @@
       "genres": [
         "Premium"
       ],
-      "description": "04:35 │ EN VIVO AHORA: Hollywood on Set\nSerie de películas que muestra lo que ocurre detrás de escena en los últimos estrenos, entre los que se incluyen \"La Gran Muralla\", \"LEGO Batman Película\" y \"¡Huye!\".\n\n05:25 │ A CONTINUACIÓN: Alerta extrema\nEl piloto Brodie Torrance salva a los pasajeros de la aeronave de un accidente al realizar un aterrizaje forzoso en una isla en guerra. Los rebeldes toman a todos como rehenes, y solo Torrance y un pasajero, un asesino, pueden salvarlos.\n\nCanal Universal Cinema",
+      "description": "05:00 │ EN VIVO AHORA: Hollywood on Set\nSerie de películas que muestra lo que ocurre detrás de escena en los últimos estrenos, entre los que se incluyen \"La Gran Muralla\", \"LEGO Batman Película\" y \"¡Huye!\".\n\n05:25 │ A CONTINUACIÓN: Alerta extrema\nEl piloto Brodie Torrance salva a los pasajeros de la aeronave de un accidente al realizar un aterrizaje forzoso en una isla en guerra. Los rebeldes toman a todos como rehenes, y solo Torrance y un pasajero, un asesino, pueden salvarlos.\n\nCanal Universal Cinema",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "UNICI.co (m3u4u)",
       "currentProgram": "Hollywood on Set",
@@ -1158,16 +1158,16 @@
       "name": "ESPN deportes",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-depor_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-depor_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/rHY3LhSLvwQ3tMO8UFTPdHRX1bG.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Deportes"
       ],
-      "description": "04:00 │ EN VIVO AHORA: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\n05:00 │ A CONTINUACIÓN: Fútbol picante\nLa mesa más picante discute las últimas novedades del fútbol mexicano y analiza la actuación de los futbolistas mexicanos en el exterior.\n\nCanal ESPN Deportes",
+      "description": "05:00 │ EN VIVO AHORA: Fútbol picante\nLa mesa más picante discute las últimas novedades del fútbol mexicano y analiza la actuación de los futbolistas mexicanos en el exterior.\n\n06:00 │ A CONTINUACIÓN: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\nCanal ESPN Deportes",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPND.mx (m3u4u)",
-      "currentProgram": "SportsCenter",
-      "currentProgramDesc": "Las últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.",
+      "currentProgram": "Fútbol picante",
+      "currentProgramDesc": "La mesa más picante discute las últimas novedades del fútbol mexicano y analiza la actuación de los futbolistas mexicanos en el exterior.",
       "descriptionBase": "Canal ESPN Deportes"
     },
     {
@@ -1181,7 +1181,7 @@
       "genres": [
         "Deportes"
       ],
-      "description": "04:00 │ EN VIVO AHORA: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\n08:00 │ A CONTINUACIÓN: Buen día ESPN\nCobertura de la actualidad deportiva con entrevistas, protagonistas y la mejor onda.\n\nCanal ESPN",
+      "description": "05:00 │ EN VIVO AHORA: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\n08:00 │ A CONTINUACIÓN: Buen día ESPN\nCobertura de la actualidad deportiva con entrevistas, protagonistas y la mejor onda.\n\nCanal ESPN",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPARH.ar (m3u4u)",
       "currentProgram": "SportsCenter",
@@ -1194,16 +1194,16 @@
       "name": "ESPN Oeste",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/rHY3LhSLvwQ3tMO8UFTPdHRX1bG.jpg",
       "posterShape": "poster",
       "genres": [
         "Deportes"
       ],
-      "description": "04:00 │ EN VIVO AHORA: Fútbol picante\nLa mesa más picante discute las últimas novedades del fútbol mexicano y analiza la actuación de los futbolistas mexicanos en el exterior.\n\n05:00 │ A CONTINUACIÓN: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\nCanal ESPN Oeste",
+      "description": "05:00 │ EN VIVO AHORA: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\n06:00 │ A CONTINUACIÓN: Enfocados\nSe ofrece una visión global de múltiples deportes, con la conducción de expertos reconocidos que combinan respeto y experiencia.\n\nCanal ESPN Oeste",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPNM.mx (m3u4u)",
-      "currentProgram": "Fútbol picante",
-      "currentProgramDesc": "La mesa más picante discute las últimas novedades del fútbol mexicano y analiza la actuación de los futbolistas mexicanos en el exterior.",
+      "currentProgram": "SportsCenter",
+      "currentProgramDesc": "Las últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.",
       "descriptionBase": "Canal ESPN Oeste"
     },
     {
@@ -1235,11 +1235,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "04:00 │ EN VIVO AHORA: Goles de la Premier League\nEl repaso a las grandes emociones con los goles del campeonato inglés de fútbol.\n\n05:00 │ A CONTINUACIÓN: ESPN F10\nLos fines de semana se llenan de fútbol. Tras la finalización del partido de la fecha de la Copa de la Liga Profesional del fútbol argentino, llega el mejor análisis.\n\nCanal ESPN 2",
+      "description": "05:00 │ EN VIVO AHORA: ESPN F10\nLos fines de semana se llenan de fútbol. Tras la finalización del partido de la fecha de la Copa de la Liga Profesional del fútbol argentino, llega el mejor análisis.\n\n06:00 │ A CONTINUACIÓN: Rolex Paris Masters 2026\nAcción de la segunda ronda del Rolex Paris Masters 2026. Desde la Paris La Défense Arena, en Nanterre, París.\n\nCanal ESPN 2",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESP2SH.ar (m3u4u)",
-      "currentProgram": "Goles de la Premier League",
-      "currentProgramDesc": "El repaso a las grandes emociones con los goles del campeonato inglés de fútbol.",
+      "currentProgram": "ESPN F10",
+      "currentProgramDesc": "Los fines de semana se llenan de fútbol. Tras la finalización del partido de la fecha de la Copa de la Liga Profesional del fútbol argentino, llega el mejor análisis.",
       "descriptionBase": "Canal ESPN 2"
     },
     {
@@ -1248,16 +1248,16 @@
       "name": "ESPN 2 Oeste",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-2_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-2_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/rHY3LhSLvwQ3tMO8UFTPdHRX1bG.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Deportes"
       ],
-      "description": "04:00 │ EN VIVO AHORA: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\n05:00 │ A CONTINUACIÓN: Fútbol picante\nLa mesa más picante discute las últimas novedades del fútbol mexicano y analiza la actuación de los futbolistas mexicanos en el exterior.\n\nCanal ESPN 2 Oeste",
+      "description": "05:00 │ EN VIVO AHORA: Fútbol picante\nLa mesa más picante discute las últimas novedades del fútbol mexicano y analiza la actuación de los futbolistas mexicanos en el exterior.\n\n06:00 │ A CONTINUACIÓN: Rolex Paris Masters 2026\nAcción de la segunda ronda del Rolex Paris Masters 2026. Desde la Paris La Défense Arena, en Nanterre, París.\n\nCanal ESPN 2 Oeste",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESP2NH.mx (m3u4u)",
-      "currentProgram": "SportsCenter",
-      "currentProgramDesc": "Las últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.",
+      "currentProgram": "Fútbol picante",
+      "currentProgramDesc": "La mesa más picante discute las últimas novedades del fútbol mexicano y analiza la actuación de los futbolistas mexicanos en el exterior.",
       "descriptionBase": "Canal ESPN 2 Oeste"
     },
     {
@@ -1271,11 +1271,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "03:00 │ EN VIVO AHORA: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Bodo busca zona de clasificación y Lille sus primeros puntos.\n\n05:00 │ A CONTINUACIÓN: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Villarreal busca mantenerse en zona de clasificación y PSG retener el liderato.\n\nCanal ESPN 3",
+      "description": "05:00 │ EN VIVO AHORA: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Villarreal busca mantenerse en zona de clasificación y PSG retener el liderato.\n\n07:00 │ A CONTINUACIÓN: Fútbol LaLiga\nJornada 11 de la temporada 2026-27 de LaLiga. Desde el Estadio Municipal de Riazor. El Deportivo viene de vencer 2-0 en casa al Racing de Santander en Riazor, mientras que Osasuna viene de caer 2-0 en El Sadar ante el Sevilla.\n\nCanal ESPN 3",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPN3AN.co (m3u4u)",
       "currentProgram": "Fútbol UEFA Champions League",
-      "currentProgramDesc": "Acción de la jornada 4 de la UEFA Champions League 2026-27. Bodo busca zona de clasificación y Lille sus primeros puntos.",
+      "currentProgramDesc": "Acción de la jornada 4 de la UEFA Champions League 2026-27. Villarreal busca mantenerse en zona de clasificación y PSG retener el liderato.",
       "descriptionBase": "Canal ESPN 3"
     },
     {
@@ -1307,11 +1307,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "03:00 │ EN VIVO AHORA: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Shakhtar busca ganar tras perder y Sporting zona de clasificación directa.\n\n05:00 │ A CONTINUACIÓN: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Bodo busca zona de clasificación y Lille sus primeros puntos.\n\nCanal ESPN 4",
+      "description": "05:00 │ EN VIVO AHORA: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Bodo busca zona de clasificación y Lille sus primeros puntos.\n\n07:00 │ A CONTINUACIÓN: ESPN Compact\nCompacto de la fecha 4 de la UEFA Champions League 2026-27. Encuentro entre Barcelona y Aston Villa. Disputado el 3 de noviembre de 2026.\n\nCanal ESPN 4",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPN4SH.co (m3u4u)",
       "currentProgram": "Fútbol UEFA Champions League",
-      "currentProgramDesc": "Acción de la jornada 4 de la UEFA Champions League 2026-27. Shakhtar busca ganar tras perder y Sporting zona de clasificación directa.",
+      "currentProgramDesc": "Acción de la jornada 4 de la UEFA Champions League 2026-27. Bodo busca zona de clasificación y Lille sus primeros puntos.",
       "descriptionBase": "Canal ESPN 4"
     },
     {
@@ -1343,11 +1343,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "03:00 │ EN VIVO AHORA: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Galatasaray busca su segunda victoria al hilo y Stuttgart mantenerse en zona de clasificación directa.\n\n05:00 │ A CONTINUACIÓN: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Los Red Devils buscan romper su racha de dos derrotas y Roma su segunda victoria al hilo.\n\nCanal ESPN 5",
+      "description": "05:00 │ EN VIVO AHORA: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Los Red Devils buscan romper su racha de dos derrotas y Roma su segunda victoria al hilo.\n\n07:00 │ A CONTINUACIÓN: Fútbol UEFA Champions League\nAcción de la jornada 4 de la UEFA Champions League 2026-27. Shakhtar busca ganar tras perder y Sporting zona de clasificación directa.\n\nCanal ESPN 5",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPN5SH.co (m3u4u)",
       "currentProgram": "Fútbol UEFA Champions League",
-      "currentProgramDesc": "Acción de la jornada 4 de la UEFA Champions League 2026-27. Galatasaray busca su segunda victoria al hilo y Stuttgart mantenerse en zona de clasificación directa.",
+      "currentProgramDesc": "Acción de la jornada 4 de la UEFA Champions League 2026-27. Los Red Devils buscan romper su racha de dos derrotas y Roma su segunda victoria al hilo.",
       "descriptionBase": "Canal ESPN 5"
     },
     {
@@ -1379,11 +1379,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "03:00 │ EN VIVO AHORA: ESPN KnockOut\nAnsar Khamzaev se enfrenta a Juliano Prescendo por el título de peso semipesado. Desde el Seneca Niagara Resort & Casino, en Nueva York, Estados Unidos.\n\n05:00 │ A CONTINUACIÓN: Fútbol Eredivisie\nFecha 11 de la Eredivisie 2026-27. PSV empató 1-1 contra Feyenoord en la jornada anterior, en tanto que Willem II fue goleado 1-6 por SC Cambur. Desde el Philips Stadion, en Eindhoven.\n\nCanal ESPN 6",
+      "description": "05:00 │ EN VIVO AHORA: Fútbol Eredivisie\nFecha 11 de la Eredivisie 2026-27. PSV empató 1-1 contra Feyenoord en la jornada anterior, en tanto que Willem II fue goleado 1-6 por SC Cambur. Desde el Philips Stadion, en Eindhoven.\n\n07:00 │ A CONTINUACIÓN: UEFA Champions League Highlights\nResultados y las mejores jugadas de la Copa UEFA de clubes Campeones.\n\nCanal ESPN 6",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPN6SH.co (m3u4u)",
-      "currentProgram": "ESPN KnockOut",
-      "currentProgramDesc": "Ansar Khamzaev se enfrenta a Juliano Prescendo por el título de peso semipesado. Desde el Seneca Niagara Resort & Casino, en Nueva York, Estados Unidos.",
+      "currentProgram": "Fútbol Eredivisie",
+      "currentProgramDesc": "Fecha 11 de la Eredivisie 2026-27. PSV empató 1-1 contra Feyenoord en la jornada anterior, en tanto que Willem II fue goleado 1-6 por SC Cambur. Desde el Philips Stadion, en Eindhoven.",
       "descriptionBase": "Canal ESPN 6"
     },
     {
@@ -1397,11 +1397,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "03:00 │ EN VIVO AHORA: Rugby Top 14 de Francia\nCobertura de la jornada 8 de la Top 14, 2026-27. ASM Clermont se enfrenta a Racing 92. Desde el estadio Marcel-Michelin, en Clermont-Ferrand, Auvernia-Ródano-Alpes.\n\n05:00 │ A CONTINUACIÓN: Fútbol Americano NFL\nSemana 8 de la temporada regular 2026 de la NFL. En el último enfrentamiento, Philadelphia Eagles venció 24-22 a Washington Commanders. En ese duelo, Jayden Daniels lideró la ofensiva de los Commanders con dos anotaciones por vía aérea.\n\nCanal ESPN 7",
+      "description": "05:00 │ EN VIVO AHORA: Fútbol Americano NFL\nSemana 8 de la temporada regular 2026 de la NFL. En el último enfrentamiento, Philadelphia Eagles venció 24-22 a Washington Commanders. En ese duelo, Jayden Daniels lideró la ofensiva de los Commanders con dos anotaciones por vía aérea.\n\n08:00 │ A CONTINUACIÓN: UEFA Champions League Highlights\nResultados y las mejores jugadas de la Copa UEFA de clubes Campeones.\n\nCanal ESPN 7",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPN7SS.co (m3u4u)",
-      "currentProgram": "Rugby Top 14 de Francia",
-      "currentProgramDesc": "Cobertura de la jornada 8 de la Top 14, 2026-27. ASM Clermont se enfrenta a Racing 92. Desde el estadio Marcel-Michelin, en Clermont-Ferrand, Auvernia-Ródano-Alpes.",
+      "currentProgram": "Fútbol Americano NFL",
+      "currentProgramDesc": "Semana 8 de la temporada regular 2026 de la NFL. En el último enfrentamiento, Philadelphia Eagles venció 24-22 a Washington Commanders. En ese duelo, Jayden Daniels lideró la ofensiva de los Commanders con dos anotaciones por vía aérea.",
       "descriptionBase": "Canal ESPN 7"
     },
     {
@@ -1415,11 +1415,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "01:00 │ EN VIVO AHORA: DSPORTS Noticias\nEl noticiero más completo con toda la actualidad deportiva de Colombia y el resto del mundo.\n\n05:00 │ A CONTINUACIÓN: De Fútbol Se Habla Así Colombia\nColombia vuelve a ilusionarse: sigue cada paso de La Tricolor y toda la emoción del Mundial 2026 con la mejor cobertura y la conducción de Tito Puccetti.\n\nCanal ESPN 7",
+      "description": "05:00 │ EN VIVO AHORA: De Fútbol Se Habla Así Colombia\nColombia vuelve a ilusionarse: sigue cada paso de La Tricolor y toda la emoción del Mundial 2026 con la mejor cobertura y la conducción de Tito Puccetti.\n\n06:00 │ A CONTINUACIÓN: DSPORTS Noticias\nEl noticiero más completo con toda la actualidad deportiva de Colombia y el resto del mundo.\n\nCanal ESPN 7",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "SPOCOHD.co (m3u4u)",
-      "currentProgram": "DSPORTS Noticias",
-      "currentProgramDesc": "El noticiero más completo con toda la actualidad deportiva de Colombia y el resto del mundo.",
+      "currentProgram": "De Fútbol Se Habla Así Colombia",
+      "currentProgramDesc": "Colombia vuelve a ilusionarse: sigue cada paso de La Tricolor y toda la emoción del Mundial 2026 con la mejor cobertura y la conducción de Tito Puccetti.",
       "descriptionBase": "Canal ESPN 7"
     },
     {
@@ -1469,7 +1469,7 @@
       "genres": [
         "Deportes"
       ],
-      "description": "02:00 │ EN VIVO AHORA: Fin de emisión\nFin de emisión.\n\n07:00 │ A CONTINUACIÓN: El Post\nDisfruta del programa en directo de El Post, en el que analizamos la jornada de LALIGA EA SPORTS 2024/2025.\n\nCanal DAZN La Liga",
+      "description": "05:00 │ EN VIVO AHORA: Fin de emisión\nFin de emisión.\n\n07:00 │ A CONTINUACIÓN: El Post\nDisfruta del programa en directo de El Post, en el que analizamos la jornada de LALIGA EA SPORTS 2024/2025.\n\nCanal DAZN La Liga",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DAZNLLES.es (m3u4u)",
       "currentProgram": "Fin de emisión",
@@ -1518,16 +1518,16 @@
       "name": "RT",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/russia-today_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/russia-today_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/1tADVruLbywl7P3TOVQmNza3aAO.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "04:30 │ EN VIVO AHORA: Entrevista\nPolíticos, deportistas y artistas cuentan las historias de su vida que permiten descubrir el lado desconocido de la gente famosa e ídolos de todas las generaciones.\n\n05:00 │ A CONTINUACIÓN: Barbados: De turismo y de isleños\nLas impresionantes playas de Barbados cautivan a miles de turistas que cada año vienen a disfrutar de sus lujosos retiros de bienestar. No obstante, a pesar de esta fachada de riqueza el aumento del coste de la vida en el país hace que algunos barbadenses tengan que hacer verdaderos esfuerzos para llegar a fin de mes. Depender en gran medida del turismo deviene en desempleo y falta de oportunidades laborales, lo cual empuja a los jóvenes barbadenses a buscar afuera lo que el país no les ofrece.\n\nCanal RT",
+      "description": "05:00 │ EN VIVO AHORA: Barbados: De turismo y de isleños\nLas impresionantes playas de Barbados cautivan a miles de turistas que cada año vienen a disfrutar de sus lujosos retiros de bienestar. No obstante, a pesar de esta fachada de riqueza el aumento del coste de la vida en el país hace que algunos barbadenses tengan que hacer verdaderos esfuerzos para llegar a fin de mes. Depender en gran medida del turismo deviene en desempleo y falta de oportunidades laborales, lo cual empuja a los jóvenes barbadenses a buscar afuera lo que el país no les ofrece.\n\n05:30 │ A CONTINUACIÓN: Cartas sobre la mesa\nPrograma de debate sobre el mundo hispano.\n\nCanal RT",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "RTSPAN.ar (m3u4u)",
-      "currentProgram": "Entrevista",
-      "currentProgramDesc": "Políticos, deportistas y artistas cuentan las historias de su vida que permiten descubrir el lado desconocido de la gente famosa e ídolos de todas las generaciones.",
+      "currentProgram": "Barbados: De turismo y de isleños",
+      "currentProgramDesc": "Las impresionantes playas de Barbados cautivan a miles de turistas que cada año vienen a disfrutar de sus lujosos retiros de bienestar. No obstante, a pesar de esta fachada de riqueza el aumento del coste de la vida en el país hace que algunos barbadenses tengan que hacer verdaderos esfuerzos para llegar a fin de mes. Depender en gran medida del turismo deviene en desempleo y falta de oportunidades laborales, lo cual empuja a los jóvenes barbadenses a buscar afuera lo que el país no les ofrece.",
       "descriptionBase": "Canal RT"
     },
     {
@@ -1536,16 +1536,16 @@
       "name": "TeleSur",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telesur_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telesur_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/dicdnyYvA8voIodxPaTHlqds7mI.jpg",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "04:30 │ EN VIVO AHORA: Telesur Noticias\nLas noticias más importantes de América Latina y el resto del mundo integrados en una sola voz informativa.\n\n05:00 │ A CONTINUACIÓN: Titulares\nInformación minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.\n\nCanal TeleSur",
+      "description": "05:00 │ EN VIVO AHORA: Titulares\nInformación minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.\n\n05:05 │ A CONTINUACIÓN: El mapa\nUn espacio para el análisis, con la finalidad de profundizar y expandir la geopolítica global en un mundo que evoluciona constantemente.\n\nCanal TeleSur",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELESUR.ar (m3u4u)",
-      "currentProgram": "Telesur Noticias",
-      "currentProgramDesc": "Las noticias más importantes de América Latina y el resto del mundo integrados en una sola voz informativa.",
+      "currentProgram": "Titulares",
+      "currentProgramDesc": "Información minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.",
       "descriptionBase": "Canal TeleSur"
     },
     {
@@ -1554,16 +1554,16 @@
       "name": "DW America",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dw_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dw_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/gQiM9ies07VYOYBMc70IVSDWLnZ.jpg",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "04:30 │ EN VIVO AHORA: Fuerza latina, mujeres inspiradoras de América Latina\nLas mujeres latinoamericanas ganan protagonismo en todos los ámbitos. Con tenacidad y perseverancia, se proponen mejorar el mundo que les rodea y alzan su voz para reclamar derechos, denunciar injusticias y un mayor protagonismo en la sociedad.\n\n05:00 │ A CONTINUACIÓN: Hecho en Alemania\nUn espacio sobre las últimas noticias de negocios.\n\nCanal DW America",
+      "description": "05:00 │ EN VIVO AHORA: Hecho en Alemania\nUn espacio sobre las últimas noticias de negocios.\n\n05:30 │ A CONTINUACIÓN: Zona docu\nHistorias de distintos temas de diversas partes del mundo que dan énfasis en sus aspectos y características principales.\n\nCanal DW America",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DWLA.ar (m3u4u)",
-      "currentProgram": "Fuerza latina, mujeres inspiradoras de América Latina",
-      "currentProgramDesc": "Las mujeres latinoamericanas ganan protagonismo en todos los ámbitos. Con tenacidad y perseverancia, se proponen mejorar el mundo que les rodea y alzan su voz para reclamar derechos, denunciar injusticias y un mayor protagonismo en la sociedad.",
+      "currentProgram": "Hecho en Alemania",
+      "currentProgramDesc": "Un espacio sobre las últimas noticias de negocios.",
       "descriptionBase": "Canal DW America"
     },
     {
@@ -1631,11 +1631,11 @@
       "genres": [
         "Mundo"
       ],
-      "description": "04:16 │ EN VIVO AHORA: Grandes misterios de la historia con Laurence Fishburne\nUno de los monumentos prehistóricos más famosos del mundo: una misteriosa disposición de piedras que han adornado la campiña inglesa por milenios. Nadie sabe cómo se construyó ni por qué.\n\n05:00 │ A CONTINUACIÓN: Lo mejor de El precio de la historia\nEl equipo tira los dados y apuesta por artículos de recuerdo únicos de Las Vegas.\n\nCanal History",
+      "description": "05:00 │ EN VIVO AHORA: Lo mejor de El precio de la historia\nEl equipo tira los dados y apuesta por artículos de recuerdo únicos de Las Vegas.\n\n05:47 │ A CONTINUACIÓN: Lo mejor de El precio de la historia\nMientras Chum urde un plan para convertirse en su propio chofer, Corey surca los cielos en un viaje de negocios. Los sueños de Rick de poseer un Meyers Manx Dune Buggy 1967 topan con pared cuando se queda varado a un lado de la carretera.\n\nCanal History",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HISTSOU.ar (m3u4u)",
-      "currentProgram": "Grandes misterios de la historia con Laurence Fishburne",
-      "currentProgramDesc": "Uno de los monumentos prehistóricos más famosos del mundo: una misteriosa disposición de piedras que han adornado la campiña inglesa por milenios. Nadie sabe cómo se construyó ni por qué.",
+      "currentProgram": "Lo mejor de El precio de la historia",
+      "currentProgramDesc": "El equipo tira los dados y apuesta por artículos de recuerdo únicos de Las Vegas.",
       "descriptionBase": "Canal History"
     },
     {
