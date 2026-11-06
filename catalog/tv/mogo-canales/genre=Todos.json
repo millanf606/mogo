@@ -114,16 +114,16 @@
       "name": "A&E",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/a-e-mundo_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/a-e-mundo_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/wVuVvxpp1ljzlhBrFW22xktyaFL.jpg",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:30 │ EN VIVO AHORA: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\n10:00 │ A CONTINUACIÓN: ¿Quién da má$?\nUna subasta hace que los compradores despierten temprano y miren sus ofertas. Jarrod y Brandi comienzan el día con buen humor, pero las cosas se ponen tensas cuando Dave aparece.\n\nCanal A&E",
+      "description": "10:00 │ EN VIVO AHORA: ¿Quién da má$?\nUna subasta hace que los compradores despierten temprano y miren sus ofertas. Jarrod y Brandi comienzan el día con buen humor, pero las cosas se ponen tensas cuando Dave aparece.\n\n10:20 │ A CONTINUACIÓN: Acumuladores compulsivos\nLos médicos le advierten a una mujer que debe abandonar su desbaratado hogar si quiere sobrevivir al otoño; una mujer llena su casa de pelucas, zapatos y otros objetos.\n\nCanal A&E",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "AENORH.ar (m3u4u)",
-      "currentProgram": "Programa pagado",
-      "currentProgramDesc": "Programa que muestra diversos productos para la venta.",
+      "currentProgram": "¿Quién da má$?",
+      "currentProgramDesc": "Una subasta hace que los compradores despierten temprano y miren sus ofertas. Jarrod y Brandi comienzan el día con buen humor, pero las cosas se ponen tensas cuando Dave aparece.",
       "descriptionBase": "Canal A&E"
     },
     {
@@ -150,16 +150,16 @@
       "name": "AXN",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/axn_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/axn_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/dAepkmD4vdfhS82r2OIqF1nwGR5.jpg",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:00 │ EN VIVO AHORA: NCIS: Criminología naval\nDespués de que el NCIS captura al asesino conocido como \"El Poeta\", el equipo se apresura a descubrir quién ordenó el asesinato de un alto mando de la Marina.\n\n09:55 │ A CONTINUACIÓN: NCIS: Los Angeles\nEl asesinato de un agente federal está ligado a un antiguo sistema de transferencia de dinero; Granger y Kensi trabajan con un equipo de Afganistán.\n\nCanal AXN",
+      "description": "09:55 │ EN VIVO AHORA: NCIS: Los Angeles\nEl asesinato de un agente federal está ligado a un antiguo sistema de transferencia de dinero; Granger y Kensi trabajan con un equipo de Afganistán.\n\n10:50 │ A CONTINUACIÓN: NCIS: New Orleans\nUn entomólogo de la Marina desaparece durante la investigación de un tiroteo, en el que hubo víctimas mortales, que se produjo en un laboratorio. El equipo descubre que, además, alguien se ha llevado un virus extraño y mortífero.\n\nCanal AXN",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "AXNARGH.ar (m3u4u)",
-      "currentProgram": "NCIS: Criminología naval",
-      "currentProgramDesc": "Después de que el NCIS captura al asesino conocido como \"El Poeta\", el equipo se apresura a descubrir quién ordenó el asesinato de un alto mando de la Marina.",
+      "currentProgram": "NCIS: Los Angeles",
+      "currentProgramDesc": "El asesinato de un agente federal está ligado a un antiguo sistema de transferencia de dinero; Granger y Kensi trabajan con un equipo de Afganistán.",
       "descriptionBase": "Canal AXN"
     },
     {
@@ -191,11 +191,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:01 │ EN VIVO AHORA: CSI: Miami\nIncidentes extraños ocurren en el laboratorio de CSI después de que el equipo comienza su investigación en la muerte de un practicante de santería.\n\n09:51 │ A CONTINUACIÓN: CSI: Miami\nUn hombre es decapitado durante un truco y Horacio cree que su muerte no fue accidental cuando descubre que el sistema hidráulico había sido manipulado.\n\nCanal TNT Series",
+      "description": "09:51 │ EN VIVO AHORA: CSI: Miami\nUn hombre es decapitado durante un truco y Horacio cree que su muerte no fue accidental cuando descubre que el sistema hidráulico había sido manipulado.\n\n10:37 │ A CONTINUACIÓN: CSI: Miami\nMientras investigan un asesinato y secuestro, los CSI encuentran docenas de fotos de mujeres desaparecidas en una caja fuerte; los CSI tratan de encontrar a la víctima de un secuestro, hermana de Boa Vista, Horatio debe encontrar al asesino antes de que ataque de nuevo.\n\nCanal TNT Series",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TNTSERH.ar (m3u4u)",
       "currentProgram": "CSI: Miami",
-      "currentProgramDesc": "Incidentes extraños ocurren en el laboratorio de CSI después de que el equipo comienza su investigación en la muerte de un practicante de santería.",
+      "currentProgramDesc": "Un hombre es decapitado durante un truco y Horacio cree que su muerte no fue accidental cuando descubre que el sistema hidráulico había sido manipulado.",
       "descriptionBase": "Canal TNT Series"
     },
     {
@@ -438,16 +438,16 @@
       "name": "Telemundo",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telemundo_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telemundo_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/69Jblm3seQgiPuPQMrJqg9Nxhaz.jpg",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:30 │ EN VIVO AHORA: Noticias Telemundo en la noche\nNoticias Telemundo en la noche presenta las últimas noticias de Estados Unidos y el mundo. Arantxa Loizaga trae la información más relevante de todo lo que necesita saber al final del día.\n\n10:00 │ A CONTINUACIÓN: Al rojo vivo\nLa revista noticiosa que define la agenda de la televisión en español en EE. UU. Se caracteriza por ofrecer, antes que nadie, historias que cautivan al público hispano y por presentarlas en un formato innovador que resalta el aspecto humano.\n\nCanal Telemundo",
+      "description": "10:00 │ EN VIVO AHORA: Al rojo vivo\nLa revista noticiosa que define la agenda de la televisión en español en EE. UU. Se caracteriza por ofrecer, antes que nadie, historias que cautivan al público hispano y por presentarlas en un formato innovador que resalta el aspecto humano.\n\n11:00 │ A CONTINUACIÓN: Noticias Telemundo AHORA\nLas noticias más recientes y las historias más importantes para la comunidad latina.\n\nCanal Telemundo",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELESAP.us (m3u4u)",
-      "currentProgram": "Noticias Telemundo en la noche",
-      "currentProgramDesc": "Noticias Telemundo en la noche presenta las últimas noticias de Estados Unidos y el mundo. Arantxa Loizaga trae la información más relevante de todo lo que necesita saber al final del día.",
+      "currentProgram": "Al rojo vivo",
+      "currentProgramDesc": "La revista noticiosa que define la agenda de la televisión en español en EE. UU. Se caracteriza por ofrecer, antes que nadie, historias que cautivan al público hispano y por presentarlas en un formato innovador que resalta el aspecto humano.",
       "descriptionBase": "Canal Telemundo"
     },
     {
@@ -461,11 +461,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:30 │ EN VIVO AHORA: Un paseo por Oaxaca\nOaxaca es reconocida por la calidad de sus textiles. En distintas poblaciones hacen distintos tipos de textiles: mantas, trajes típicos, tapetes, blusas. Con hilo, con lana, con estambre. Conócelos todos y cocina con Abigail Mendoza.\n\n10:00 │ A CONTINUACIÓN: Devuélveme los tapers México\nZahie conoce a Marissa García, que le hará un pescado Rodrigo y una sopa campesina a su hijo Jorge, que está en la universidad. Luego, visita a Marcela Mercado, que le preparará mole verde a su hermana Mireya, una receta tradicional familiar.\n\nCanal El Gourmet",
+      "description": "10:00 │ EN VIVO AHORA: Devuélveme los tapers México\nZahie conoce a Marissa García, que le hará un pescado Rodrigo y una sopa campesina a su hijo Jorge, que está en la universidad. Luego, visita a Marcela Mercado, que le preparará mole verde a su hermana Mireya, una receta tradicional familiar.\n\n10:30 │ A CONTINUACIÓN: Productos artesanos: México\nEn este capítulo, se conoce la producción de carne artesanal que lleva un proceso de desarrollo natural del animal, el que crece rodeado de pastizales y manantiales. También, se conoce el proceso de elaboración de mermelada de piña y nopal con chía.\n\nCanal El Gourmet",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "GOURMETN.ar (m3u4u)",
-      "currentProgram": "Un paseo por Oaxaca",
-      "currentProgramDesc": "Oaxaca es reconocida por la calidad de sus textiles. En distintas poblaciones hacen distintos tipos de textiles: mantas, trajes típicos, tapetes, blusas. Con hilo, con lana, con estambre. Conócelos todos y cocina con Abigail Mendoza.",
+      "currentProgram": "Devuélveme los tapers México",
+      "currentProgramDesc": "Zahie conoce a Marissa García, que le hará un pescado Rodrigo y una sopa campesina a su hijo Jorge, que está en la universidad. Luego, visita a Marcela Mercado, que le preparará mole verde a su hermana Mireya, una receta tradicional familiar.",
       "descriptionBase": "Canal El Gourmet"
     },
     {
@@ -474,16 +474,16 @@
       "name": "HGTV",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hgtv_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hgtv_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/23HvwdsAQeL0MxN9fm3d8m1NaPw.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:02 │ EN VIVO AHORA: De mil a un millón\nDani y Jon superan los desafíos de una tormenta de hielo, pero descubren más problemas. EJ y Jason se enfrentan a violaciones de códigos y a un contratista que se retrasa.\n\n09:47 │ A CONTINUACIÓN: La búsqueda del diseñador estrella\nFinalistas deben crear cocinas de diseño y el mejor de ellos gana un espacio en una revista.\n\nCanal HGTV",
+      "description": "09:47 │ EN VIVO AHORA: La búsqueda del diseñador estrella\nFinalistas deben crear cocinas de diseño y el mejor de ellos gana un espacio en una revista.\n\n10:30 │ A CONTINUACIÓN: ¿Por qué compré esta casa?\nLos West se enamoraron de la sensación de nostalgia que su casa emitía, pero la falta de comodidades les causa un gran pesar. Kim Wolfe consigue salvar ese encanto que les enamoró mientras hace de la vivienda un lugar cómodo y moderno.\n\nCanal HGTV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HGTVLAS.ar (m3u4u)",
-      "currentProgram": "De mil a un millón",
-      "currentProgramDesc": "Dani y Jon superan los desafíos de una tormenta de hielo, pero descubren más problemas. EJ y Jason se enfrentan a violaciones de códigos y a un contratista que se retrasa.",
+      "currentProgram": "La búsqueda del diseñador estrella",
+      "currentProgramDesc": "Finalistas deben crear cocinas de diseño y el mejor de ellos gana un espacio en una revista.",
       "descriptionBase": "Canal HGTV"
     },
     {
@@ -533,11 +533,11 @@
       "genres": [
         "Musica"
       ],
-      "description": "09:30 │ EN VIVO AHORA: Ridiculousness\nRob, Steelo y Lolo Wood experimentan el dolor de los parques acuáticos en \"Waterpark Wounded\". Se conocen algunas parejas que aman hacer acrobacias en \"Acro-Couples\". Se presencian los peligros de la caída de hielo en \"Danger-Cicles\".\n\n09:50 │ A CONTINUACIÓN: Ridiculousness\nRob, Steelo y Brooke Schofield presentan \"Dude Smart,\" \"Strange Pups\" y \"Head to Head.\"\n\nCanal MTV",
+      "description": "09:50 │ EN VIVO AHORA: Ridiculousness\nRob, Steelo y Brooke Schofield presentan \"Dude Smart,\" \"Strange Pups\" y \"Head to Head.\"\n\n10:10 │ A CONTINUACIÓN: Ridiculousness\nRob Dyrdek, Steelo Brim y Skye Townsend.\n\nCanal MTV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "MTVL.ar (m3u4u)",
       "currentProgram": "Ridiculousness",
-      "currentProgramDesc": "Rob, Steelo y Lolo Wood experimentan el dolor de los parques acuáticos en \"Waterpark Wounded\". Se conocen algunas parejas que aman hacer acrobacias en \"Acro-Couples\". Se presencian los peligros de la caída de hielo en \"Danger-Cicles\".",
+      "currentProgramDesc": "Rob, Steelo y Brooke Schofield presentan \"Dude Smart,\" \"Strange Pups\" y \"Head to Head.\"",
       "descriptionBase": "Canal MTV"
     },
     {
@@ -551,7 +551,7 @@
       "genres": [
         "Musica"
       ],
-      "description": "06:00 │ EN VIVO AHORA: HTV Musica On Demand\n\nCanal HTV",
+      "description": "10:00 │ EN VIVO AHORA: HTV Musica On Demand\n\nCanal HTV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HTVMUDM.ar (m3u4u)",
       "currentProgram": "HTV Musica On Demand",
@@ -600,16 +600,16 @@
       "name": "Nickelodeon",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nickelodeon_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nickelodeon_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "09:30 │ EN VIVO AHORA: Bob Esponja\nCalamardo une los dientes de Bob Esponja y, desde el momento en que dejan de estar separados, la personalidad de Bob Esponja cambia por completo. Burbuja Limpia, ahora reformado, empieza a trabajar para Don Cangrejo, pero el mal lo tienta de nuevo.\n\n09:50 │ A CONTINUACIÓN: Bob Esponja\nPlankton le dice a Patricio que él es su conciencia para convencerlo de robar una cangreburguesa.\n\nCanal Nickelodeon",
+      "description": "10:00 │ EN VIVO AHORA: El show de Patricio Estrella\nPat el Desventurado va al centro comercial. Después de que el capitán Quasar sustituye a Pat-Tron por un robot más eficiente, este empieza a trabajar para la familia Estrella.\n\n10:40 │ A CONTINUACIÓN: Los Marsupilamis\nLlega el concurso de comida picante al Chahuta, y Marcel hace trampa. Hope se lleva al parque el cucharón especial de Gran Gran para jugar, y este termina por accidente en una excavación arqueológica del profesor López.\n\nCanal Nickelodeon",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "NKLACHD.ar (m3u4u)",
-      "currentProgram": "Bob Esponja",
-      "currentProgramDesc": "Calamardo une los dientes de Bob Esponja y, desde el momento en que dejan de estar separados, la personalidad de Bob Esponja cambia por completo. Burbuja Limpia, ahora reformado, empieza a trabajar para Don Cangrejo, pero el mal lo tienta de nuevo.",
+      "currentProgram": "El show de Patricio Estrella",
+      "currentProgramDesc": "Pat el Desventurado va al centro comercial. Después de que el capitán Quasar sustituye a Pat-Tron por un robot más eficiente, este empieza a trabajar para la familia Estrella.",
       "descriptionBase": "Canal Nickelodeon"
     },
     {
@@ -618,16 +618,16 @@
       "name": "Nick Jr",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nick-jr_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nick-jr_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rV6Dfl4zf57namY63053o9ccoEg.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "09:30 │ EN VIVO AHORA: PAW Patrol: Patrulla de cachorros\nUn grupo de seis perritos de rescate dirigidos por un chico experto en tecnología llamado Ryder, tienen muchas aventuras con la patrulla de cachorros, ningún trabajo es demasiado grande y ningún cachorro muy pequeño para proteger a la comunidad.\n\n09:55 │ A CONTINUACIÓN: Deer Squad\nEl equipo libera al malvado Barón Bite y a sus secuaces de su prisión de hielo. Steel y el escuadrón luchan contra él con ayuda del Profesor Scratch, pero ¿quién saldrá victorioso?\n\nCanal Nick Jr",
+      "description": "09:55 │ EN VIVO AHORA: Deer Squad\nEl equipo libera al malvado Barón Bite y a sus secuaces de su prisión de hielo. Steel y el escuadrón luchan contra él con ayuda del Profesor Scratch, pero ¿quién saldrá victorioso?\n\n10:15 │ A CONTINUACIÓN: DORA\n¡Dora y Botas ayudan a Mochila a encontrar su amuleto de la amistad!, el cual se encuentra perdido. ¡Y lo hacen muy bien!\n\nCanal Nick Jr",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "NICKJMH.ar (m3u4u)",
-      "currentProgram": "PAW Patrol: Patrulla de cachorros",
-      "currentProgramDesc": "Un grupo de seis perritos de rescate dirigidos por un chico experto en tecnología llamado Ryder, tienen muchas aventuras con la patrulla de cachorros, ningún trabajo es demasiado grande y ningún cachorro muy pequeño para proteger a la comunidad.",
+      "currentProgram": "Deer Squad",
+      "currentProgramDesc": "El equipo libera al malvado Barón Bite y a sus secuaces de su prisión de hielo. Steel y el escuadrón luchan contra él con ayuda del Profesor Scratch, pero ¿quién saldrá victorioso?",
       "descriptionBase": "Canal Nick Jr"
     },
     {
@@ -636,16 +636,16 @@
       "name": "Disney Channel",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/disney-channel_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/disney-channel_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/p2NeKlgduO58dORS0Fim1BXVaZu.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fyIrxMiPe9egL4xWDGxGILsD4tR.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "09:30 │ EN VIVO AHORA: El fantasma y Molly McGee\nMentirle constantemente a Libby sobre Scratch comienza a pasar factura, pero Molly trata de mantener a Scratch en secreto. Libby y Scratch compiten por ser el único mejor amigo de Molly.\n\n09:59 │ A CONTINUACIÓN: StuGo: Campamento de verano\nLullah quiere tiempo a solas y crea una niñera-manatí para cuidar a los niños. Pliny debe elegir entre apoyar el hábito de Larry de pescar con las manos o mantenerlo a salvo.\n\nCanal Disney Channel",
+      "description": "09:59 │ EN VIVO AHORA: StuGo: Campamento de verano\nLullah quiere tiempo a solas y crea una niñera-manatí para cuidar a los niños. Pliny debe elegir entre apoyar el hábito de Larry de pescar con las manos o mantenerlo a salvo.\n\n10:30 │ A CONTINUACIÓN: Zombies: la serie re-animada\nEn el último año de escuela de Zed y Addison, Seabrook se ha convertido en un refugio para monstruos y humanos, pero cuando unos forasteros intergalácticos aparecen para competir en un evento, se sospecha que pueden querer algo más.\n\nCanal Disney Channel",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DISNLS.ar (m3u4u)",
-      "currentProgram": "El fantasma y Molly McGee",
-      "currentProgramDesc": "Mentirle constantemente a Libby sobre Scratch comienza a pasar factura, pero Molly trata de mantener a Scratch en secreto. Libby y Scratch compiten por ser el único mejor amigo de Molly.",
+      "currentProgram": "StuGo: Campamento de verano",
+      "currentProgramDesc": "Lullah quiere tiempo a solas y crea una niñera-manatí para cuidar a los niños. Pliny debe elegir entre apoyar el hábito de Larry de pescar con las manos o mantenerlo a salvo.",
       "descriptionBase": "Canal Disney Channel"
     },
     {
@@ -1181,11 +1181,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Buen día ESPN\nCobertura de la actualidad deportiva con entrevistas, protagonistas y la mejor onda.\n\n10:00 │ A CONTINUACIÓN: ESPN F12\nUna nueva propuesta informativa a puro fútbol con un panel destacado. Además, periodistas en vivo desde los entrenamientos de los equipos más destacados del fútbol argentino.\n\nCanal ESPN",
+      "description": "10:00 │ EN VIVO AHORA: ESPN F12\nUna nueva propuesta informativa a puro fútbol con un panel destacado. Además, periodistas en vivo desde los entrenamientos de los equipos más destacados del fútbol argentino.\n\n12:00 │ A CONTINUACIÓN: ESPN F90\nUn clásico de la televisión con toda la actualidad, el mejor análisis y un muy rico debate futbolístico.\n\nCanal ESPN",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPARH.ar (m3u4u)",
-      "currentProgram": "Buen día ESPN",
-      "currentProgramDesc": "Cobertura de la actualidad deportiva con entrevistas, protagonistas y la mejor onda.",
+      "currentProgram": "ESPN F12",
+      "currentProgramDesc": "Una nueva propuesta informativa a puro fútbol con un panel destacado. Además, periodistas en vivo desde los entrenamientos de los equipos más destacados del fútbol argentino.",
       "descriptionBase": "Canal ESPN"
     },
     {
@@ -1230,16 +1230,16 @@
       "name": "ESPN 2",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-2_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn-2_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/rHY3LhSLvwQ3tMO8UFTPdHRX1bG.jpg",
       "posterShape": "poster",
       "genres": [
         "Deportes"
       ],
-      "description": "09:00 │ EN VIVO AHORA: El Show de la F1\nTransmisión en vivo con el equipo Sky Sports F1 del Gran Premio.\n\n10:00 │ A CONTINUACIÓN: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\nCanal ESPN 2",
+      "description": "10:00 │ EN VIVO AHORA: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\n13:00 │ A CONTINUACIÓN: UEFA Europa League Highlights\nUn análisis completo con los momentos destacados de los últimos partidos de la UEFA Europa League, la segunda competición internacional de fútbol europeo más importante.\n\nCanal ESPN 2",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESP2SH.ar (m3u4u)",
-      "currentProgram": "El Show de la F1",
-      "currentProgramDesc": "Transmisión en vivo con el equipo Sky Sports F1 del Gran Premio.",
+      "currentProgram": "SportsCenter",
+      "currentProgramDesc": "Las últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.",
       "descriptionBase": "Canal ESPN 2"
     },
     {
@@ -1464,16 +1464,16 @@
       "name": "DAZN La Liga",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dazn_liga_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/daznliga_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/lsyusslUiMgxfK8vgNIKWK44wLO.jpg",
       "posterShape": "poster",
       "genres": [
         "Deportes"
       ],
-      "description": "09:30 │ EN VIVO AHORA: DAZN Davide, el príncipe Ancelotti\nEntrevista con Davide Ancelotti en la que analiza la actualidad deportiva, además de repasar su trayectoria en clubes como el Real Madrid.\n\n10:00 │ A CONTINUACIÓN: Trending\nEspacio diario para el repaso de lo más actual del fútbol internacional. De lunes a viernes a las 15:00.\n\nCanal DAZN La Liga",
+      "description": "10:00 │ EN VIVO AHORA: Trending\nEspacio diario para el repaso de lo más actual del fútbol internacional. De lunes a viernes a las 15:00.\n\n11:30 │ A CONTINUACIÓN: Fútbol\n2024.\n\nCanal DAZN La Liga",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DAZNLLES.es (m3u4u)",
-      "currentProgram": "DAZN Davide, el príncipe Ancelotti",
-      "currentProgramDesc": "Entrevista con Davide Ancelotti en la que analiza la actualidad deportiva, además de repasar su trayectoria en clubes como el Real Madrid.",
+      "currentProgram": "Trending",
+      "currentProgramDesc": "Espacio diario para el repaso de lo más actual del fútbol internacional. De lunes a viernes a las 15:00.",
       "descriptionBase": "Canal DAZN La Liga"
     },
     {
@@ -1518,16 +1518,16 @@
       "name": "RT",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/russia-today_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/russia-today_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/n3PvPAdpnh1eaGXzfkXDBzm9GaJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/w5E75gF48xNfKXmBIsbWhiINwsi.jpg",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "09:30 │ EN VIVO AHORA: El Zoom\nPrograma de análisis e investigación en el que se contemplan los temas más candentes del acontecer internacional.\n\n10:00 │ A CONTINUACIÓN: Noticias\nLa mejor información nacional e internacional.\n\nCanal RT",
+      "description": "10:00 │ EN VIVO AHORA: Noticias\nLa mejor información nacional e internacional.\n\n10:30 │ A CONTINUACIÓN: La lista de Erick\nLo más interesante y atractivo de Rusia es presentado por Erick, un personaje de idiosincrasia latinoamericana que llega a Rusia para descubrir el país tal como es, sin prejuicios.\n\nCanal RT",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "RTSPAN.ar (m3u4u)",
-      "currentProgram": "El Zoom",
-      "currentProgramDesc": "Programa de análisis e investigación en el que se contemplan los temas más candentes del acontecer internacional.",
+      "currentProgram": "Noticias",
+      "currentProgramDesc": "La mejor información nacional e internacional.",
       "descriptionBase": "Canal RT"
     },
     {
@@ -1536,16 +1536,16 @@
       "name": "TeleSur",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telesur_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telesur_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/dicdnyYvA8voIodxPaTHlqds7mI.jpg",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "09:30 │ EN VIVO AHORA: Reporte 360\nLas noticias de actualidad que se producen más allá de América Latina.\n\n10:00 │ A CONTINUACIÓN: Titulares\nInformación minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.\n\nCanal TeleSur",
+      "description": "10:00 │ EN VIVO AHORA: Titulares\nInformación minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.\n\n10:05 │ A CONTINUACIÓN: Vidas\nEspacio que da a conocer las historias de vida de personajes sencillos, inmersos en el día a día de sus obras, trabajos, pasiones, creencias e historias.\n\nCanal TeleSur",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELESUR.ar (m3u4u)",
-      "currentProgram": "Reporte 360",
-      "currentProgramDesc": "Las noticias de actualidad que se producen más allá de América Latina.",
+      "currentProgram": "Titulares",
+      "currentProgramDesc": "Información minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.",
       "descriptionBase": "Canal TeleSur"
     },
     {
@@ -1554,16 +1554,16 @@
       "name": "DW America",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dw_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dw_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/pz8PNgeA9WcNPiD9ZanVY4eMl1Y.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "09:15 │ EN VIVO AHORA: DocFilm\nHistorias de distintos temas de diversas partes del mundo que dan énfasis en sus aspectos y características principales.\n\n10:00 │ A CONTINUACIÓN: Fuerza latina, mujeres inspiradoras de América Latina\nLas mujeres latinoamericanas ganan protagonismo en todos los ámbitos. Con tenacidad y perseverancia, se proponen mejorar el mundo que les rodea y alzan su voz para reclamar derechos, denunciar injusticias y un mayor protagonismo en la sociedad.\n\nCanal DW America",
+      "description": "10:00 │ EN VIVO AHORA: Fuerza latina, mujeres inspiradoras de América Latina\nLas mujeres latinoamericanas ganan protagonismo en todos los ámbitos. Con tenacidad y perseverancia, se proponen mejorar el mundo que les rodea y alzan su voz para reclamar derechos, denunciar injusticias y un mayor protagonismo en la sociedad.\n\n10:30 │ A CONTINUACIÓN: Hecho en Alemania\nUn espacio sobre las últimas noticias de negocios.\n\nCanal DW America",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DWLA.ar (m3u4u)",
-      "currentProgram": "DocFilm",
-      "currentProgramDesc": "Historias de distintos temas de diversas partes del mundo que dan énfasis en sus aspectos y características principales.",
+      "currentProgram": "Fuerza latina, mujeres inspiradoras de América Latina",
+      "currentProgramDesc": "Las mujeres latinoamericanas ganan protagonismo en todos los ámbitos. Con tenacidad y perseverancia, se proponen mejorar el mundo que les rodea y alzan su voz para reclamar derechos, denunciar injusticias y un mayor protagonismo en la sociedad.",
       "descriptionBase": "Canal DW America"
     },
     {
@@ -1626,16 +1626,16 @@
       "name": "History",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/history_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/history_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/uFs7FHQlZbeTHAEaF8rfUb7OcNP.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Mundo"
       ],
-      "description": "09:00 │ EN VIVO AHORA: La evidencia está entre nosotros\nTony analiza posibles pruebas de la existencia de Pie Grande, voces del más allá en una mina de oro y un hombre con fuerza sobrenatural.\n\n09:55 │ A CONTINUACIÓN: Grandes misterios de la historia con Laurence Fishburne\nLa Masacre del Día de San Valentín, un acontecimiento impactante en la historia de Chicago, ocurrió el 14 de febrero de 1929. Es un misterio sin resolver.\n\nCanal History",
+      "description": "09:55 │ EN VIVO AHORA: Grandes misterios de la historia con Laurence Fishburne\nLa Masacre del Día de San Valentín, un acontecimiento impactante en la historia de Chicago, ocurrió el 14 de febrero de 1929. Es un misterio sin resolver.\n\n10:49 │ A CONTINUACIÓN: Inexplicable, con William Shatner\nInvestigación sobre el mito del rey Arturo, el primer héroe de la cultura popular de Inglaterra. Sus hazañas inspiraron películas y series de televisión de gran éxito como \"Harry Potter\", \"Juego de Tronos\" y \"La Guerra de las Galaxias\".\n\nCanal History",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HISTSOU.ar (m3u4u)",
-      "currentProgram": "La evidencia está entre nosotros",
-      "currentProgramDesc": "Tony analiza posibles pruebas de la existencia de Pie Grande, voces del más allá en una mina de oro y un hombre con fuerza sobrenatural.",
+      "currentProgram": "Grandes misterios de la historia con Laurence Fishburne",
+      "currentProgramDesc": "La Masacre del Día de San Valentín, un acontecimiento impactante en la historia de Chicago, ocurrió el 14 de febrero de 1929. Es un misterio sin resolver.",
       "descriptionBase": "Canal History"
     },
     {
@@ -1662,16 +1662,16 @@
       "name": "H2",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/h2_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/h2_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/hXXFrpGZXyfWc3CwGHwRCbRvf1B.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Mundo"
       ],
-      "description": "09:31 │ EN VIVO AHORA: Boys Toys\nLos años pasan y los juegos cambian, pero el placer de jugar sigue vivo para estos hombres y sus lujuriosos juguetes: coches, aviones, relojes y la tecnología.\n\n09:54 │ A CONTINUACIÓN: Gigantes de la industria: Megamarcas\nUn vendedor de coches tiene la idea de fundar la primera empresa de alquiler de coches de Estados Unidos, y cuando une sus fuerzas con el propietario de una compañía de taxis, John Hertz, extienden su revolucionario negocio por todo el país.\n\nCanal H2",
+      "description": "09:54 │ EN VIVO AHORA: Gigantes de la industria: Megamarcas\nUn vendedor de coches tiene la idea de fundar la primera empresa de alquiler de coches de Estados Unidos, y cuando une sus fuerzas con el propietario de una compañía de taxis, John Hertz, extienden su revolucionario negocio por todo el país.\n\n10:39 │ A CONTINUACIÓN: Gigantes de la ingeniería\nDos compañías ferroviarias rivales, lideradas por Charles Crocker, de Central Pacific, y Thomas Durant, de Union Pacific, compiten en un ambicioso proyecto de ingeniería nunca antes visto.\n\nCanal H2",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "H2LAT.ar (m3u4u)",
-      "currentProgram": "Boys Toys",
-      "currentProgramDesc": "Los años pasan y los juegos cambian, pero el placer de jugar sigue vivo para estos hombres y sus lujuriosos juguetes: coches, aviones, relojes y la tecnología.",
+      "currentProgram": "Gigantes de la industria: Megamarcas",
+      "currentProgramDesc": "Un vendedor de coches tiene la idea de fundar la primera empresa de alquiler de coches de Estados Unidos, y cuando une sus fuerzas con el propietario de una compañía de taxis, John Hertz, extienden su revolucionario negocio por todo el país.",
       "descriptionBase": "Canal H2"
     },
     {
