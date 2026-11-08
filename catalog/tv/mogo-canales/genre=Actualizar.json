@@ -119,7 +119,7 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:00 │ EN VIVO AHORA: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\n10:00 │ A CONTINUACIÓN: Falco\nFalco y todo el equipo del PDJ se dejaron manipular por Michel Drouet, quien logró escapar.\n\nCanal A&E",
+      "description": "09:30 │ EN VIVO AHORA: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\n10:00 │ A CONTINUACIÓN: Falco\nFalco y todo el equipo del PDJ se dejaron manipular por Michel Drouet, quien logró escapar.\n\nCanal A&E",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "AENORH.ar (m3u4u)",
       "currentProgram": "Programa pagado",
@@ -173,7 +173,7 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:00 │ EN VIVO AHORA: Making the Movies\nUna mirada tras bastidores a cómo se crean algunas de las películas más taquilleras.\n\n10:00 │ A CONTINUACIÓN: Monster hunter: La cacería comienza\nEn un mundo extraño, la teniente Artemis y su equipo de soldados de élite deben unir fuerzas con un misterioso cazador para luchar contra poderosos monstruos.\n\nCanal AMC",
+      "description": "09:30 │ EN VIVO AHORA: Making the Movies\nUna mirada tras bastidores a cómo se crean algunas de las películas más taquilleras.\n\n10:00 │ A CONTINUACIÓN: Monster hunter: La cacería comienza\nEn un mundo extraño, la teniente Artemis y su equipo de soldados de élite deben unir fuerzas con un misterioso cazador para luchar contra poderosos monstruos.\n\nCanal AMC",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "AMCANSD.mx (m3u4u)",
       "currentProgram": "Making the Movies",
@@ -263,7 +263,7 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "08:40 │ EN VIVO AHORA: La ley y el orden: Unidad de Víctimas Especiales\nEsta innovadora serie de la franquicia \"La ley y el orden\", del productor ejecutivo Dick Wolf, relata las investigaciones de la Unidad de Víctimas Especiales de la Policía de Nueva York. Dirigida por la valiente y compasiva capitana Olivia Benson, este equipo de élite incluye al sargento Odafin Tutuola, la detective Amanda Rollins y la oficial Katriona Tamin, que se centran en encontrar justicia para las víctimas de los peores crímenes de la ciudad.\n\n12:00 │ A CONTINUACIÓN: The Irrational\nEl profesor de ciencias de comportamiento de renombre mundial, Alec Mercer, utiliza su experiencia única en psicología, lenguaje corporal, emociones y toma de decisiones humanas para ayudar a resolver casos difíciles y de alto riesgo.\n\nCanal Universal TV",
+      "description": "09:30 │ EN VIVO AHORA: La ley y el orden: Unidad de Víctimas Especiales\nEsta innovadora serie de la franquicia \"La ley y el orden\", del productor ejecutivo Dick Wolf, relata las investigaciones de la Unidad de Víctimas Especiales de la Policía de Nueva York. Dirigida por la valiente y compasiva capitana Olivia Benson, este equipo de élite incluye al sargento Odafin Tutuola, la detective Amanda Rollins y la oficial Katriona Tamin, que se centran en encontrar justicia para las víctimas de los peores crímenes de la ciudad.\n\n12:00 │ A CONTINUACIÓN: The Irrational\nEl profesor de ciencias de comportamiento de renombre mundial, Alec Mercer, utiliza su experiencia única en psicología, lenguaje corporal, emociones y toma de decisiones humanas para ayudar a resolver casos difíciles y de alto riesgo.\n\nCanal Universal TV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "UNTVCOH.co (m3u4u)",
       "currentProgram": "La ley y el orden: Unidad de Víctimas Especiales",
@@ -353,11 +353,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "08:50 │ EN VIVO AHORA: Crónicas: Historias que hacen historia\nUn programa de noticias y temas de actualidad, con una historia diferente cada semana.\n\n09:30 │ A CONTINUACIÓN: México de mil sabores\nLos vastos ingredientes típicos de la gastronomía de cada pueblo de México que dan un sabor exquisito, son los protagonistas para crear ricos y maravillosos platillos que abrirán el apetito de cualquiera.\n\nCanal Univision",
+      "description": "09:30 │ EN VIVO AHORA: México de mil sabores\nLos vastos ingredientes típicos de la gastronomía de cada pueblo de México que dan un sabor exquisito, son los protagonistas para crear ricos y maravillosos platillos que abrirán el apetito de cualquiera.\n\n10:30 │ A CONTINUACIÓN: México de mil sabores\nTodo el encanto gastronómico directo desde Santa María del Tule, Oaxaca. La receta del mole amarillo.\n\nCanal Univision",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "UNILATS.co (m3u4u)",
-      "currentProgram": "Crónicas: Historias que hacen historia",
-      "currentProgramDesc": "Un programa de noticias y temas de actualidad, con una historia diferente cada semana.",
+      "currentProgram": "México de mil sabores",
+      "currentProgramDesc": "Los vastos ingredientes típicos de la gastronomía de cada pueblo de México que dan un sabor exquisito, son los protagonistas para crear ricos y maravillosos platillos que abrirán el apetito de cualquiera.",
       "descriptionBase": "Canal Univision"
     },
     {
@@ -438,16 +438,16 @@
       "name": "Telemundo",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telemundo_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telemundo_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/q5pHoCGndSOcedKDY5nSDIrtBBH.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:00 │ EN VIVO AHORA: Caso cerrado\nSara quiere enviar a Mariana, su hija adoptiva, con su padre biológico, recién salido de prisión. La mujer teme que la niña asesine a su padrastro, cansada de verlo maltratarla una y otra vez.\n\n09:30 │ A CONTINUACIÓN: Fútbol estelar\nTodo el fútbol europeo en un solo lugar. Goles, mejores jugadas, noticias, análisis, entrevistas y la actualidad de la Premier League, Bundesliga y Serie A.\n\nCanal Telemundo",
+      "description": "09:30 │ EN VIVO AHORA: Fútbol estelar\nTodo el fútbol europeo en un solo lugar. Goles, mejores jugadas, noticias, análisis, entrevistas y la actualidad de la Premier League, Bundesliga y Serie A.\n\n09:55 │ A CONTINUACIÓN: Fútbol Premier League\nJornada 10 de la temporada 2026-27 de la Premier League. Sunderland se enfrenta a Chelsea. Desde el Stadium of Light.\n\nCanal Telemundo",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELESAP.us (m3u4u)",
-      "currentProgram": "Caso cerrado",
-      "currentProgramDesc": "Sara quiere enviar a Mariana, su hija adoptiva, con su padre biológico, recién salido de prisión. La mujer teme que la niña asesine a su padrastro, cansada de verlo maltratarla una y otra vez.",
+      "currentProgram": "Fútbol estelar",
+      "currentProgramDesc": "Todo el fútbol europeo en un solo lugar. Goles, mejores jugadas, noticias, análisis, entrevistas y la actualidad de la Premier League, Bundesliga y Serie A.",
       "descriptionBase": "Canal Telemundo"
     },
     {
@@ -461,11 +461,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "09:00 │ EN VIVO AHORA: Sonia en su huerta\nSonia comparte recetas con dos productos de su huerta: aguacates y espárragos.\n\n09:30 │ A CONTINUACIÓN: Guanajuato, tradición y vanguardia\nSe descubre el Mercado de las Artesanías. Una receta que ha pasado de abuelas a madres desde hace 500 años, con María Guadalupe del grupo de cocineras tradicionales. La cocina del chef Víctor Palma en el Restaurante Hotel Rosewood.\n\nCanal El Gourmet",
+      "description": "09:30 │ EN VIVO AHORA: Guanajuato, tradición y vanguardia\nSe descubre el Mercado de las Artesanías. Una receta que ha pasado de abuelas a madres desde hace 500 años, con María Guadalupe del grupo de cocineras tradicionales. La cocina del chef Víctor Palma en el Restaurante Hotel Rosewood.\n\n10:00 │ A CONTINUACIÓN: Fiesta en casa. Al aire libre\nCarmen López del Hierro elabora tres recetas: kokotxas rebozadas en salsa de sidra, espárragos blancos con vinagreta templada de tomate y fresas Romanoff.\n\nCanal El Gourmet",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "GOURMETN.ar (m3u4u)",
-      "currentProgram": "Sonia en su huerta",
-      "currentProgramDesc": "Sonia comparte recetas con dos productos de su huerta: aguacates y espárragos.",
+      "currentProgram": "Guanajuato, tradición y vanguardia",
+      "currentProgramDesc": "Se descubre el Mercado de las Artesanías. Una receta que ha pasado de abuelas a madres desde hace 500 años, con María Guadalupe del grupo de cocineras tradicionales. La cocina del chef Víctor Palma en el Restaurante Hotel Rosewood.",
       "descriptionBase": "Canal El Gourmet"
     },
     {
@@ -533,11 +533,11 @@
       "genres": [
         "Musica"
       ],
-      "description": "09:05 │ EN VIVO AHORA: Ridiculousness\nRob, Steelo y Carly Aquilino se enfrentan a una dura prueba en \"Ladder Express\", ven cómo su comida se echa a perder por culpa de un \"Eat Assault\" y se topan con animales \"Wildly Aggressive\".\n\n09:30 │ A CONTINUACIÓN: Ridiculousness\nRob, Steelo y Nina Agdal ponen a prueba los límites, recorren zoológicos con autocine y dan un paseo en ascensores agresivos.\n\nCanal MTV",
+      "description": "09:30 │ EN VIVO AHORA: Ridiculousness\nRob, Steelo y Nina Agdal ponen a prueba los límites, recorren zoológicos con autocine y dan un paseo en ascensores agresivos.\n\n09:50 │ A CONTINUACIÓN: Ridiculousness\nRob, Steelo y Carly Aquilino se vuelven locos por ser \"de mente cerrada\", se acaloran al rechazar algunas \"ofertas no deseadas\" y se vuelven locos con algunos \"secadores de manos fuera de lugar\".\n\nCanal MTV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "MTVL.ar (m3u4u)",
       "currentProgram": "Ridiculousness",
-      "currentProgramDesc": "Rob, Steelo y Carly Aquilino se enfrentan a una dura prueba en \"Ladder Express\", ven cómo su comida se echa a perder por culpa de un \"Eat Assault\" y se topan con animales \"Wildly Aggressive\".",
+      "currentProgramDesc": "Rob, Steelo y Nina Agdal ponen a prueba los límites, recorren zoológicos con autocine y dan un paseo en ascensores agresivos.",
       "descriptionBase": "Canal MTV"
     },
     {
@@ -618,16 +618,16 @@
       "name": "Nick Jr",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nick-jr_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/nick-jr_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "09:10 │ EN VIVO AHORA: Rubble & Crew\nLos cachorros construyen un estadio para que el beisbolista Aaron Judge participe en un derbi de jonrones. Rubble y su equipo deben construir un puente para ayudar a los surfistas a cruzar la playa y evitar la arena caliente.\n\n09:30 │ A CONTINUACIÓN: PAW Patrol: Patrulla de cachorros\nRyder, Chase y Rubble piensan ayudar a las crías de tortugas marinas a cruzar la carretera de forma segura; PAW Patrol debe trabajar para salvar a una bebé ballena encallada.\n\nCanal Nick Jr",
+      "description": "09:30 │ EN VIVO AHORA: PAW Patrol: Patrulla de cachorros\nRyder, Chase y Rubble piensan ayudar a las crías de tortugas marinas a cruzar la carretera de forma segura; PAW Patrol debe trabajar para salvar a una bebé ballena encallada.\n\n09:55 │ A CONTINUACIÓN: Deer Squad\nEl equipo libera al malvado Barón Bite y a sus secuaces de su prisión de hielo. Steel y el escuadrón luchan contra él con ayuda del Profesor Scratch, pero ¿quién saldrá victorioso?\n\nCanal Nick Jr",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "NICKJMH.ar (m3u4u)",
-      "currentProgram": "Rubble & Crew",
-      "currentProgramDesc": "Los cachorros construyen un estadio para que el beisbolista Aaron Judge participe en un derbi de jonrones. Rubble y su equipo deben construir un puente para ayudar a los surfistas a cruzar la playa y evitar la arena caliente.",
+      "currentProgram": "PAW Patrol: Patrulla de cachorros",
+      "currentProgramDesc": "Ryder, Chase y Rubble piensan ayudar a las crías de tortugas marinas a cruzar la carretera de forma segura; PAW Patrol debe trabajar para salvar a una bebé ballena encallada.",
       "descriptionBase": "Canal Nick Jr"
     },
     {
@@ -636,16 +636,16 @@
       "name": "Disney Channel",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/disney-channel_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/disney-channel_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/lH22EnM0ofC7GsVGU8dAA2RXV1c.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "09:01 │ EN VIVO AHORA: Miraculous: Las aventuras de Ladybug\nDespués de perder un concurso para convertirse en una presentadora de televisión en el canal para niños, Aurora se transforma en una persona problemática.\n\n09:29 │ A CONTINUACIÓN: Phineas y Ferb\nPhineas y Ferb encuentran un camaleón y lo llaman Steve. Jeremy opera accidentalmente el Gigantinator, agrandando a Steve al tamaño de un dinosaurio; los niños construyen toros mecánicos.\n\nCanal Disney Channel",
+      "description": "09:29 │ EN VIVO AHORA: Phineas y Ferb\nPhineas y Ferb encuentran un camaleón y lo llaman Steve. Jeremy opera accidentalmente el Gigantinator, agrandando a Steve al tamaño de un dinosaurio; los niños construyen toros mecánicos.\n\n09:59 │ A CONTINUACIÓN: High School Musical\nTroy y Gabriela se conocen en un karaoke durante las vacaciones. Troy es una estrella de baloncesto, y Gabriela es la nueva estudiante. Al volver al colegio, se presentan al casting para el musical de la escuela, pero deben superar varios obstáculos.\n\nCanal Disney Channel",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DISNLS.ar (m3u4u)",
-      "currentProgram": "Miraculous: Las aventuras de Ladybug",
-      "currentProgramDesc": "Después de perder un concurso para convertirse en una presentadora de televisión en el canal para niños, Aurora se transforma en una persona problemática.",
+      "currentProgram": "Phineas y Ferb",
+      "currentProgramDesc": "Phineas y Ferb encuentran un camaleón y lo llaman Steve. Jeremy opera accidentalmente el Gigantinator, agrandando a Steve al tamaño de un dinosaurio; los niños construyen toros mecánicos.",
       "descriptionBase": "Canal Disney Channel"
     },
     {
@@ -816,16 +816,16 @@
       "name": "Studio Universal",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/studio-universal_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/studio-universal_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/4W3Ai2ZbUZ78NI89dvR8rYi0tpY.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xz3hZViv1AwAZDlwhu9dE8yVCmX.jpg",
       "posterShape": "poster",
       "genres": [
         "Cine"
       ],
-      "description": "07:50 │ EN VIVO AHORA: La Casa Navideña\nUn padre y una madre convocan a sus hijos adultos a su casa en Navidad para anunciarles sobre unas decisiones difíciles que deben tomar.\n\n09:30 │ A CONTINUACIÓN: La Casa Navideña 2: La Competición\nLos hermanos Mitchell compiten para ver quién puede crear la mejor casa navideña.\n\nCanal Studio Universal",
+      "description": "09:30 │ EN VIVO AHORA: La Casa Navideña 2: La Competición\nLos hermanos Mitchell compiten para ver quién puede crear la mejor casa navideña.\n\n11:10 │ A CONTINUACIÓN: La Navidad de una adicta a los zapatos\nLa empleada de una tienda comercial, Noelle, visita las Navidades del pasado, presente y futuro mientras su ángel guardián la ayuda a canalizar sus deseos de contactarse con su padre, obtener su carrera soñada y disfrutar del amor.\n\nCanal Studio Universal",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "STULCOH.co (m3u4u)",
-      "currentProgram": "La Casa Navideña",
-      "currentProgramDesc": "Un padre y una madre convocan a sus hijos adultos a su casa en Navidad para anunciarles sobre unas decisiones difíciles que deben tomar.",
+      "currentProgram": "La Casa Navideña 2: La Competición",
+      "currentProgramDesc": "Los hermanos Mitchell compiten para ver quién puede crear la mejor casa navideña.",
       "descriptionBase": "Canal Studio Universal"
     },
     {
@@ -1127,11 +1127,11 @@
       "genres": [
         "Premium"
       ],
-      "description": "08:45 │ EN VIVO AHORA: FBI\nMientras el equipo investiga una serie de robos en joyerías que culminan en un doble asesinato, descubre una conexión con un chico de 16 años que intenta sobrevivir al sistema de protección de menores.\n\n09:30 │ A CONTINUACIÓN: FBI\nEl equipo busca a una estudiante universitaria secuestrada. Jubal tiene un encuentro tenso con la madre de Rina.\n\nCanal Universal Premiere Oeste",
+      "description": "09:30 │ EN VIVO AHORA: FBI\nEl equipo busca a una estudiante universitaria secuestrada. Jubal tiene un encuentro tenso con la madre de Rina.\n\n10:15 │ A CONTINUACIÓN: Murder in a Small Town\nUna famosa cantante y su equipo emprenden un viaje por la costa para componer música, pero las cosas dan un giro fatal. La unidad debe identificar al verdadero asesino entre una serie de sospechosos antes de poder escapar en ferry.\n\nCanal Universal Premiere Oeste",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "UNIPRM.mx (m3u4u)",
       "currentProgram": "FBI",
-      "currentProgramDesc": "Mientras el equipo investiga una serie de robos en joyerías que culminan en un doble asesinato, descubre una conexión con un chico de 16 años que intenta sobrevivir al sistema de protección de menores.",
+      "currentProgramDesc": "El equipo busca a una estudiante universitaria secuestrada. Jubal tiene un encuentro tenso con la madre de Rina.",
       "descriptionBase": "Canal Universal Premiere Oeste"
     },
     {
@@ -1194,16 +1194,16 @@
       "name": "ESPN Oeste",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/espn_logo.png",
-      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "background": "https://image.tmdb.org/t/p/w1280/rHY3LhSLvwQ3tMO8UFTPdHRX1bG.jpg",
       "posterShape": "poster",
       "genres": [
         "Deportes"
       ],
-      "description": "07:20 │ EN VIVO AHORA: Fútbol Serie A\nAcción de la fecha 11. Napoli enfrenta a Lazio. Desde el Stadio Diego Armando Maradona. Los visitantes defienden su liderato.\n\n09:30 │ A CONTINUACIÓN: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\nCanal ESPN Oeste",
+      "description": "09:30 │ EN VIVO AHORA: SportsCenter\nLas últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.\n\n10:15 │ A CONTINUACIÓN: Fútbol Americano NFL\nSemana 9 de la temporada regular 2026 de la NFL. Los Bengals juegan por tercera ocasión un partido internacional y por primera vez en Madrid. Atlanta Falcons busca su primera victoria frente a Cincinnati Bengals desde el 2010.\n\nCanal ESPN Oeste",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESPNM.mx (m3u4u)",
-      "currentProgram": "Fútbol Serie A",
-      "currentProgramDesc": "Acción de la fecha 11. Napoli enfrenta a Lazio. Desde el Stadio Diego Armando Maradona. Los visitantes defienden su liderato.",
+      "currentProgram": "SportsCenter",
+      "currentProgramDesc": "Las últimas noticias, momentos destacados e información de todos los rincones del mundo del deporte se presenta cada día en \"SportsCenter\", el primer programa de ESPN cuando la red se estrenó en septiembre de 1979. La serie se transmite en tres ediciones nocturnas, luego se re-transmite la última edición cuatro veces cada mañana de lunes a viernes antes de despejar el escenario para un bloque de seis horas de \"SportsCenter\" en vivo, que pone más énfasis en la interactividad de los fanáticos, noticias, análisis, comentarios y la cobertura de las conferencias de prensa.",
       "descriptionBase": "Canal ESPN Oeste"
     },
     {
@@ -1235,11 +1235,11 @@
       "genres": [
         "Deportes"
       ],
-      "description": "09:15 │ EN VIVO AHORA: ATP World Tour Weekly\nGolfistas profesionales intentan el reto de redes sociales del \"tiro imposible\" intentando anotar en un hoyo que apenas supera el diámetro de la bola.\n\n09:30 │ A CONTINUACIÓN: ATP Tour Uncovered\nLos momentos más destacados de semana.\n\nCanal ESPN 2",
+      "description": "09:30 │ EN VIVO AHORA: ATP Tour Uncovered\nLos momentos más destacados de semana.\n\n10:00 │ A CONTINUACIÓN: Rolex Paris Masters 2026\nDesde la Paris La Défense Arena, en Nanterre, París.\n\nCanal ESPN 2",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "ESP2SH.ar (m3u4u)",
-      "currentProgram": "ATP World Tour Weekly",
-      "currentProgramDesc": "Golfistas profesionales intentan el reto de redes sociales del \"tiro imposible\" intentando anotar en un hoyo que apenas supera el diámetro de la bola.",
+      "currentProgram": "ATP Tour Uncovered",
+      "currentProgramDesc": "Los momentos más destacados de semana.",
       "descriptionBase": "Canal ESPN 2"
     },
     {
@@ -1505,11 +1505,11 @@
       "genres": [
         "Noticias"
       ],
-      "description": "09:00 │ EN VIVO AHORA: GloboEconomía\nUna perspectiva nueva de las tendencias que forjan el mundo financiero. Los acontecimientos, anuncios y negociaciones que se realizan en Europa, Estados Unidos y Asia, y su impacto en las Américas.\n\n09:30 │ A CONTINUACIÓN: Conexión Global\n\nCanal CNN en Español",
+      "description": "09:30 │ EN VIVO AHORA: Conexión Global\n\n10:00 │ A CONTINUACIÓN: Choque de opiniones\nEl punto de encuentro de visiones opuestas sobre eventos importantes de actualidad con temas de debate político.\n\nCanal CNN en Español",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "CNNL.co (m3u4u)",
-      "currentProgram": "GloboEconomía",
-      "currentProgramDesc": "Una perspectiva nueva de las tendencias que forjan el mundo financiero. Los acontecimientos, anuncios y negociaciones que se realizan en Europa, Estados Unidos y Asia, y su impacto en las Américas.",
+      "currentProgram": "Conexión Global",
+      "currentProgramDesc": "",
       "descriptionBase": "Canal CNN en Español"
     },
     {
@@ -1523,7 +1523,7 @@
       "genres": [
         "Noticias"
       ],
-      "description": "09:00 │ EN VIVO AHORA: Manos que restauran el mundo\nEn diferentes regiones de Rusia hay iniciativas que demuestran que, con empeño, incluso de una sola persona, se puede hacer mucho por rescatar el patrimonio cultural que se cree perdido.\n\n10:00 │ A CONTINUACIÓN: Noticias\nLa mejor información nacional e internacional.\n\nCanal RT",
+      "description": "09:30 │ EN VIVO AHORA: Manos que restauran el mundo\nEn diferentes regiones de Rusia hay iniciativas que demuestran que, con empeño, incluso de una sola persona, se puede hacer mucho por rescatar el patrimonio cultural que se cree perdido.\n\n10:00 │ A CONTINUACIÓN: Noticias\nLa mejor información nacional e internacional.\n\nCanal RT",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "RTSPAN.ar (m3u4u)",
       "currentProgram": "Manos que restauran el mundo",
@@ -1536,16 +1536,16 @@
       "name": "TeleSur",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telesur_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telesur_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/6vLCEAVBCLCOtDxZOlnp2fkVUCw.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "09:05 │ EN VIVO AHORA: Realidades\nMás allá de los titulares y las informaciones de último minuto; análisis del contexto político, económico, social y cultural de la realidad narrada por los verdaderos protagonistas.\n\n09:30 │ A CONTINUACIÓN: Atomun\nRevista que muestra los avances tecnológicos que viven el mundo y la sociedad. Los pros y los contras, analizados a través de entrevistas a los expertos y secciones temáticas que permiten dar una mirada al futuro como naciones tecnológicas.\n\nCanal TeleSur",
+      "description": "09:30 │ EN VIVO AHORA: Atomun\nRevista que muestra los avances tecnológicos que viven el mundo y la sociedad. Los pros y los contras, analizados a través de entrevistas a los expertos y secciones temáticas que permiten dar una mirada al futuro como naciones tecnológicas.\n\n10:00 │ A CONTINUACIÓN: Titulares\nInformación minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.\n\nCanal TeleSur",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELESUR.ar (m3u4u)",
-      "currentProgram": "Realidades",
-      "currentProgramDesc": "Más allá de los titulares y las informaciones de último minuto; análisis del contexto político, económico, social y cultural de la realidad narrada por los verdaderos protagonistas.",
+      "currentProgram": "Atomun",
+      "currentProgramDesc": "Revista que muestra los avances tecnológicos que viven el mundo y la sociedad. Los pros y los contras, analizados a través de entrevistas a los expertos y secciones temáticas que permiten dar una mirada al futuro como naciones tecnológicas.",
       "descriptionBase": "Canal TeleSur"
     },
     {
@@ -1590,16 +1590,16 @@
       "name": "Discovery Channel",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/discovery_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/discovery_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/hhGw73wWW8CPW5UWE0L0RMT8RrJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uuRfg4CDfgbk4FCd3E4T2JJYKL8.jpg",
       "posterShape": "poster",
       "genres": [
         "Mundo"
       ],
-      "description": "08:40 │ EN VIVO AHORA: Contrabando en la frontera\nSe encuentra dinero de un cártel escondido en un camión. Un menor ebrio requiere tratamiento médico. Un hombre intenta entrar a los EE. UU. con una visa falsa. Dos hermanas intentan pasar medicamentos. Se halla cocaína en bolsas de basura.\n\n09:30 │ A CONTINUACIÓN: Supervivencia al desnudo\nEn las montañas de Croacia, un veterano del Ejército y un hombre que acaba de casarse luchan contra los preconceptos relacionados con el género. Una tormenta feroz amenaza con separarlos y deberán unirse para sobrevivir.\n\nCanal Discovery Channel",
+      "description": "09:30 │ EN VIVO AHORA: Supervivencia al desnudo\nEn las montañas de Croacia, un veterano del Ejército y un hombre que acaba de casarse luchan contra los preconceptos relacionados con el género. Una tormenta feroz amenaza con separarlos y deberán unirse para sobrevivir.\n\n10:20 │ A CONTINUACIÓN: Supervivencia al desnudo\nUn par de completos desconocidos se encuentran varados y literalmente expuestos en uno de los entornos climáticos más extremos del mundo.\n\nCanal Discovery Channel",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TDCL.co (m3u4u)",
-      "currentProgram": "Contrabando en la frontera",
-      "currentProgramDesc": "Se encuentra dinero de un cártel escondido en un camión. Un menor ebrio requiere tratamiento médico. Un hombre intenta entrar a los EE. UU. con una visa falsa. Dos hermanas intentan pasar medicamentos. Se halla cocaína en bolsas de basura.",
+      "currentProgram": "Supervivencia al desnudo",
+      "currentProgramDesc": "En las montañas de Croacia, un veterano del Ejército y un hombre que acaba de casarse luchan contra los preconceptos relacionados con el género. Una tormenta feroz amenaza con separarlos y deberán unirse para sobrevivir.",
       "descriptionBase": "Canal Discovery Channel"
     },
     {
