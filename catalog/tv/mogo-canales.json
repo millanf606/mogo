@@ -684,6 +684,24 @@
       "currentProgramDesc": "El Sr. Toribio construye una nueva casa club y un tobogán para Peppa y sus amigos.",
       "descriptionBase": "Canal Discovery Kids"
     },
+        {
+      "id": "mogo-canal-canal-cartoonito",
+      "type": "tv",
+      "name": "Cartoonito",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/cartoonito_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/cartoonito_logo.png",
+      "background": "https://image.tmdb.org/t/p/w1280/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "14:36 │ EN VIVO AHORA: Tres espías sin límite\nCorren rumores de que una extraña criatura mítica está provocando la desaparición de los practicantes de snowboard. Pero eso no impedirá que Clover vuelva a conectarse con Blaine en las pistas. El camino del amor verdadero es más difícil en la nieve.\n\n15:00 │ A CONTINUACIÓN: Peppa\nEl Sr. Toribio construye una nueva casa club y un tobogán para Peppa y sus amigos.\n\nCanal Discovery Kids",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "Canal.Cartoonito.(México).mx (src05)",
+      "currentProgram": "Tres espías sin límite",
+      "currentProgramDesc": "Corren rumores de que una extraña criatura mítica está provocando la desaparición de los practicantes de snowboard. Pero eso no impedirá que Clover vuelva a conectarse con Blaine en las pistas. El camino del amor verdadero es más difícil en la nieve.",
+      "descriptionBase": "Canal Cartoonito"
+    },
     {
       "id": "mogo-canal-canal-dreamworks",
       "type": "tv",
@@ -719,6 +737,24 @@
       "currentProgram": "Dragon Ball Z",
       "currentProgramDesc": "Goku muere después de luchar contra Cell y parte en busca de nuevos desafíos junto a Kaio Sama en el otro mundo.",
       "descriptionBase": "Canal Adult Swim"
+    },
+        {
+      "id": "mogo-canal-canal-tooncast",
+      "type": "tv",
+      "name": "Tooncast",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/tooncast_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/tooncast_logo.png",
+      "background": "https://image.tmdb.org/t/p/w1280/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Infantil"
+      ],
+      "description": "14:36 │ EN VIVO AHORA: Tres espías sin límite\nCorren rumores de que una extraña criatura mítica está provocando la desaparición de los practicantes de snowboard. Pero eso no impedirá que Clover vuelva a conectarse con Blaine en las pistas. El camino del amor verdadero es más difícil en la nieve.\n\n15:00 │ A CONTINUACIÓN: Peppa\nEl Sr. Toribio construye una nueva casa club y un tobogán para Peppa y sus amigos.\n\nCanal Discovery Kids",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "TOONCST.ar (m3u4u)",
+      "currentProgram": "Tres espías sin límite",
+      "currentProgramDesc": "Corren rumores de que una extraña criatura mítica está provocando la desaparición de los practicantes de snowboard. Pero eso no impedirá que Clover vuelva a conectarse con Blaine en las pistas. El camino del amor verdadero es más difícil en la nieve.",
+      "descriptionBase": "Canal Tooncast"
     },
     {
       "id": "mogo-canal-canal-tnt-oeste",
