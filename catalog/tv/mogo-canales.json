@@ -468,6 +468,24 @@
       "currentProgramDesc": "La localidad de Perdiguera, en Los Monegros zaragozanos, conserva algunos guisos tradicionales del recetario popular. En la bodega de Costan, Ángel Luis, Pepe y Feli preparan al fuego lento del hogar huevos al salmorejo y carne de membrillo.",
       "descriptionBase": "Canal El Gourmet"
     },
+        {
+      "id": "mogo-canal-canal-food-network",
+      "type": "tv",
+      "name": "Food Network",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/food_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/food_logo.png",
+      "background": "https://image.tmdb.org/t/p/w1280/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Entretenimiento"
+      ],
+      "description": "14:36 │ EN VIVO AHORA: Tres espías sin límite\nCorren rumores de que una extraña criatura mítica está provocando la desaparición de los practicantes de snowboard. Pero eso no impedirá que Clover vuelva a conectarse con Blaine en las pistas. El camino del amor verdadero es más difícil en la nieve.\n\n15:00 │ A CONTINUACIÓN: Peppa\nEl Sr. Toribio construye una nueva casa club y un tobogán para Peppa y sus amigos.\n\nCanal Discovery Kids",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "FOODLAH.ar (m3u4u)",
+      "currentProgram": "Tres espías sin límite",
+      "currentProgramDesc": "Corren rumores de que una extraña criatura mítica está provocando la desaparición de los practicantes de snowboard. Pero eso no impedirá que Clover vuelva a conectarse con Blaine en las pistas. El camino del amor verdadero es más difícil en la nieve.",
+      "descriptionBase": "Canal Food Network"
+    },
     {
       "id": "mogo-canal-canal-hgtv",
       "type": "tv",
