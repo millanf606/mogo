@@ -24,15 +24,15 @@
       "name": "Televen",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/televen_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/televen_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/A7ODGhzz20NXVpSM0P4K45niMBs.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Nacional"
       ],
-      "description": "16:00 │ EN VIVO AHORA: No desista\nReligioso\n\n16:45 │ A CONTINUACIÓN: Problemas y soluciones\nReligioso\n\nCanal Televen",
+      "description": "16:45 │ EN VIVO AHORA: Problemas y soluciones\nReligioso\n\n17:30 │ A CONTINUACIÓN: Adam Sandler en ocho noches de locura\nAcción\n\nCanal Televen",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELEVEN.ve (src09)",
-      "currentProgram": "No desista",
+      "currentProgram": "Problemas y soluciones",
       "currentProgramDesc": "Religioso",
       "descriptionBase": "Canal Televen"
     },
@@ -353,11 +353,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "15:50 │ EN VIVO AHORA: De noche ya se armó\nSe adentran en temas tabú que pocos se atreven a cuestionar.\n\n16:45 │ A CONTINUACIÓN: Montse & Joe\nUn show totalmente irreverente donde las reglas cambian para generar las propias. Segmentos musicales, sketches y entrevistas con un estilo bien marcado donde los invitados terminan hablando más de la cuenta.\n\nCanal Univision",
+      "description": "16:45 │ EN VIVO AHORA: Montse & Joe\nUn show totalmente irreverente donde las reglas cambian para generar las propias. Segmentos musicales, sketches y entrevistas con un estilo bien marcado donde los invitados terminan hablando más de la cuenta.\n\n17:40 │ A CONTINUACIÓN: Terapia de shock\nUn programa que aborda situaciones reales, actuales y de interés público, con temas novedosos y controvertidos.\n\nCanal Univision",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "UNILATS.co (m3u4u)",
-      "currentProgram": "De noche ya se armó",
-      "currentProgramDesc": "Se adentran en temas tabú que pocos se atreven a cuestionar.",
+      "currentProgram": "Montse & Joe",
+      "currentProgramDesc": "Un show totalmente irreverente donde las reglas cambian para generar las propias. Segmentos musicales, sketches y entrevistas con un estilo bien marcado donde los invitados terminan hablando más de la cuenta.",
       "descriptionBase": "Canal Univision"
     },
     {
@@ -1739,11 +1739,11 @@
       "genres": [
         "Mundo"
       ],
-      "description": "15:57 │ EN VIVO AHORA: 4 esposas, 1 marido\nChristine deja la familia y los problemas con el matrimonio de Kody y Janelle salen a la superficie. Sin embargo, antes de que puedan abordarlos, Kody y Robyn contraen COVID-19 y Robyn termina en el hospital.\n\n16:45 │ A CONTINUACIÓN: 4 esposas, 1 marido\nMientras Christine se instala en su nueva vida en Utah, las esposas restantes y Kody tienen otra conversación tensa en la casa de Robyn. Janelle siente que Kody la obliga a elegir entre él y sus hijos.\n\nCanal TLC",
+      "description": "16:45 │ EN VIVO AHORA: 4 esposas, 1 marido\nMientras Christine se instala en su nueva vida en Utah, las esposas restantes y Kody tienen otra conversación tensa en la casa de Robyn. Janelle siente que Kody la obliga a elegir entre él y sus hijos.\n\n17:34 │ A CONTINUACIÓN: Vida de gemelas\nLa cita romántica de Darcey y Georgi en Nueva York. Darcey y Stacey planean su viaje a Los Ángeles, pero Mike revela algo que puede descarrilar sus planes.\n\nCanal TLC",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TLCLASP.co (m3u4u)",
       "currentProgram": "4 esposas, 1 marido",
-      "currentProgramDesc": "Christine deja la familia y los problemas con el matrimonio de Kody y Janelle salen a la superficie. Sin embargo, antes de que puedan abordarlos, Kody y Robyn contraen COVID-19 y Robyn termina en el hospital.",
+      "currentProgramDesc": "Mientras Christine se instala en su nueva vida en Utah, las esposas restantes y Kody tienen otra conversación tensa en la casa de Robyn. Janelle siente que Kody la obliga a elegir entre él y sus hijos.",
       "descriptionBase": "Canal TLC"
     },
     {
