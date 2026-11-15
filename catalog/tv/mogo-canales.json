@@ -1152,6 +1152,24 @@
       "currentProgramDesc": "Dos jóvenes obsesionados con las conspiraciones secuestran a la poderosa directora ejecutiva de una importante empresa, convencidos de que es una extraterrestre.",
       "descriptionBase": "Canal HBO Xtreme"
     },
+        {
+      "id": "mogo-canal-canal-golden-pre",
+      "type": "tv",
+      "name": "Golden Premiere",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/golden-premier_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/golden-premier_logo.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Nacional"
+      ],
+      "description": "EN VIVO AHORA: Sin información de programa\n\nCanal Venevision",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "GLDPREM.co (m3u4u)",
+      "currentProgram": "Sin información de programa",
+      "currentProgramDesc": "",
+      "descriptionBase": "Golden Premiere"
+    },
     {
       "id": "mogo-canal-canal-universal-premiere",
       "type": "tv",
