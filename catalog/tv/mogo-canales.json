@@ -65,11 +65,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Scrubs\nDr. Cox le cuenta su día en el hospital a su hijo a través de un cuento imaginativo.\n\n08:27 │ A CONTINUACIÓN: Scrubs\nJ.D y Turk tratan de lucirse cuando el Dr. Cox parece no poder diagnosticar el problema de su paciente; Elliot y Carla intentan convencer a la junta de no forzar al Dr. Kelso para que se pensione; el Dr. Kelso reflexiona sobre su tiempo en el hospital.\n\nCanal Star Channel",
+      "description": "08:27 │ EN VIVO AHORA: Scrubs\nJ.D y Turk tratan de lucirse cuando el Dr. Cox parece no poder diagnosticar el problema de su paciente; Elliot y Carla intentan convencer a la junta de no forzar al Dr. Kelso para que se pensione; el Dr. Kelso reflexiona sobre su tiempo en el hospital.\n\n09:33 │ A CONTINUACIÓN: Alta fidelidad\nEl dueño de una tienda que solo vende discos de vinilo, sufre una crisis de la mediana edad, evalúa su vida e intenta recuperar a su exnovia.\n\nCanal Star Channel",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "STRANHD.ar (m3u4u)",
       "currentProgram": "Scrubs",
-      "currentProgramDesc": "Dr. Cox le cuenta su día en el hospital a su hijo a través de un cuento imaginativo.",
+      "currentProgramDesc": "J.D y Turk tratan de lucirse cuando el Dr. Cox parece no poder diagnosticar el problema de su paciente; Elliot y Carla intentan convencer a la junta de no forzar al Dr. Kelso para que se pensione; el Dr. Kelso reflexiona sobre su tiempo en el hospital.",
       "descriptionBase": "Canal Star Channel"
     },
     {
@@ -119,7 +119,7 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\n10:00 │ A CONTINUACIÓN: Falco\nLa investigación sobre la desaparición de Audrey revela a un asesino en serie que lleva años fingiendo estar muerto. Tras la desaparición de otra mujer, el equipo debe encontrarlo rápidamente.\n\nCanal A&E",
+      "description": "08:30 │ EN VIVO AHORA: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\n10:00 │ A CONTINUACIÓN: Falco\nLa investigación sobre la desaparición de Audrey revela a un asesino en serie que lleva años fingiendo estar muerto. Tras la desaparición de otra mujer, el equipo debe encontrarlo rápidamente.\n\nCanal A&E",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "AENORH.ar (m3u4u)",
       "currentProgram": "Programa pagado",
@@ -155,7 +155,7 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Tevecompras\nCompras por TV donde encuentra los últimos productos del mercado.\n\n09:00 │ A CONTINUACIÓN: CSI: NY\nEn el Día de San Valentín, Mac y el equipo investigan tres historias de amor que terminaron mal.\n\nCanal AXN",
+      "description": "08:30 │ EN VIVO AHORA: Tevecompras\nCompras por TV donde encuentra los últimos productos del mercado.\n\n09:00 │ A CONTINUACIÓN: CSI: NY\nEn el Día de San Valentín, Mac y el equipo investigan tres historias de amor que terminaron mal.\n\nCanal AXN",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "AXNARGH.ar (m3u4u)",
       "currentProgram": "Tevecompras",
@@ -438,16 +438,16 @@
       "name": "Telemundo",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telemundo_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telemundo_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/6JU2ysRVOHqav0Hs6BUv4mvvDxZ.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Entretenimiento"
       ],
-      "description": "06:30 │ EN VIVO AHORA: Plane\nEl piloto Brodie Torrance salva a los pasajeros de la aeronave de un accidente al realizar un aterrizaje forzoso en una isla en guerra. Los rebeldes toman a todos como rehenes, y solo Torrance y un pasajero, un asesino, pueden salvarlos.\n\n08:30 │ A CONTINUACIÓN: Noticias Telemundo en la noche\nNoticias Telemundo en la noche presenta las últimas noticias de Estados Unidos y el mundo. Arantxa Loizaga trae la información más relevante de todo lo que necesita saber al final del día.\n\nCanal Telemundo",
+      "description": "08:30 │ EN VIVO AHORA: Noticias Telemundo en la noche\nNoticias Telemundo en la noche presenta las últimas noticias de Estados Unidos y el mundo. Arantxa Loizaga trae la información más relevante de todo lo que necesita saber al final del día.\n\n09:00 │ A CONTINUACIÓN: Caso cerrado\nMelisa tiene un programa que busca demostrar que cualquier persona puede ser infiel; para ello, contrató a Victoria, una mujer casada, para que viva dos semanas con otro hombre.\n\nCanal Telemundo",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELESAP.us (m3u4u)",
-      "currentProgram": "Plane",
-      "currentProgramDesc": "El piloto Brodie Torrance salva a los pasajeros de la aeronave de un accidente al realizar un aterrizaje forzoso en una isla en guerra. Los rebeldes toman a todos como rehenes, y solo Torrance y un pasajero, un asesino, pueden salvarlos.",
+      "currentProgram": "Noticias Telemundo en la noche",
+      "currentProgramDesc": "Noticias Telemundo en la noche presenta las últimas noticias de Estados Unidos y el mundo. Arantxa Loizaga trae la información más relevante de todo lo que necesita saber al final del día.",
       "descriptionBase": "Canal Telemundo"
     },
     {
@@ -461,11 +461,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Fiestas con sabor mexicano\nBenito participa de la Feria Nacional del Burro, que se celebra en el pueblo de Otumba, en el Estado de México, desde 1965, y cuyo objetivo es reconocer y festejar al burro, ya que tiene un simbolismo con las arduas labores en el campo.\n\n08:30 │ A CONTINUACIÓN: Pueblos para comérselos: México\nUna visita a Valladolid para conocer su historia y sus platillos típicos. Cómo se prepara un escabeche oriental y las tradicionales marquesitas, y se descubre cómo comenzó la tradición de la longaniza de Valladolid y su proceso.\n\nCanal El Gourmet",
+      "description": "08:30 │ EN VIVO AHORA: Pueblos para comérselos: México\nUna visita a Valladolid para conocer su historia y sus platillos típicos. Cómo se prepara un escabeche oriental y las tradicionales marquesitas, y se descubre cómo comenzó la tradición de la longaniza de Valladolid y su proceso.\n\n09:00 │ A CONTINUACIÓN: Sonia en su huerta\nSonia comparte recetas con dos productos de su huerta: tomates verdes y arándanos.\n\nCanal El Gourmet",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "GOURMETN.ar (m3u4u)",
-      "currentProgram": "Fiestas con sabor mexicano",
-      "currentProgramDesc": "Benito participa de la Feria Nacional del Burro, que se celebra en el pueblo de Otumba, en el Estado de México, desde 1965, y cuyo objetivo es reconocer y festejar al burro, ya que tiene un simbolismo con las arduas labores en el campo.",
+      "currentProgram": "Pueblos para comérselos: México",
+      "currentProgramDesc": "Una visita a Valladolid para conocer su historia y sus platillos típicos. Cómo se prepara un escabeche oriental y las tradicionales marquesitas, y se descubre cómo comenzó la tradición de la longaniza de Valladolid y su proceso.",
       "descriptionBase": "Canal El Gourmet"
     },
     {
@@ -479,11 +479,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "07:32 │ EN VIVO AHORA: Todos contra la chef Alex\nChefs de Arizona, Nuevo México y Texas quieren mostrarle a Alex lo mejor del suroeste. Los jueces del suroeste Beau MacMillan y María Mason deciden que chef aguanta dos rondas.\n\n08:17 │ A CONTINUACIÓN: Bobby Flay: triple desafío\nEl chef Kelvin Fernández ya venció a Bobby Flay con su legendario plato estrella. Ahora, Bobby lo ha invitado para intentar enfrentarse a los Titanes, donde la jueza Adrienne Cheatham debe decidir si la estrategia de Kelvin vale la pena.\n\nCanal Food Network",
+      "description": "08:17 │ EN VIVO AHORA: Bobby Flay: triple desafío\nEl chef Kelvin Fernández ya venció a Bobby Flay con su legendario plato estrella. Ahora, Bobby lo ha invitado para intentar enfrentarse a los Titanes, donde la jueza Adrienne Cheatham debe decidir si la estrategia de Kelvin vale la pena.\n\n09:02 │ A CONTINUACIÓN: Guerra de pasteles\nLos pasteleros trabajan en creaciones para celebrar el 50 aniversario del icónico especial \"Charlie Brown's All-Stars!\"; jueza invitada Lindsey Schulz, nieta del creador de Peanuts, Charles Schulz.\n\nCanal Food Network",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "FOODLAH.ar (m3u4u)",
-      "currentProgram": "Todos contra la chef Alex",
-      "currentProgramDesc": "Chefs de Arizona, Nuevo México y Texas quieren mostrarle a Alex lo mejor del suroeste. Los jueces del suroeste Beau MacMillan y María Mason deciden que chef aguanta dos rondas.",
+      "currentProgram": "Bobby Flay: triple desafío",
+      "currentProgramDesc": "El chef Kelvin Fernández ya venció a Bobby Flay con su legendario plato estrella. Ahora, Bobby lo ha invitado para intentar enfrentarse a los Titanes, donde la jueza Adrienne Cheatham debe decidir si la estrategia de Kelvin vale la pena.",
       "descriptionBase": "Canal Food Network"
     },
     {
@@ -497,11 +497,11 @@
       "genres": [
         "Entretenimiento"
       ],
-      "description": "07:32 │ EN VIVO AHORA: Hogares increíbles\nUna mansión en la costa de Rhode Island; bodega de vino antigua; casa futurista junto al mar; apartamento francés con imponentes vistas; cubierta de nieve; manipulando la luz del sol; un subterráneo en casa; una casa puede aguantar cualquier clima.\n\n08:17 │ A CONTINUACIÓN: Nuestro hogar en la montaña\nUna pareja quiere marcharse de Seattle y volver al lugar del que proceden, el condado de Humboldt, al norte de California. Una de las personas quiere una oficina en casa para trabajar, mientras que la otra prefiere una cocina muy grande.\n\nCanal HGTV",
+      "description": "08:17 │ EN VIVO AHORA: Nuestro hogar en la montaña\nUna pareja quiere marcharse de Seattle y volver al lugar del que proceden, el condado de Humboldt, al norte de California. Una de las personas quiere una oficina en casa para trabajar, mientras que la otra prefiere una cocina muy grande.\n\n08:39 │ A CONTINUACIÓN: Nuestro hogar en la montaña\nPadres cuyos hijos pronto se irán de casa están listos para cambiar los suburbios de Illinois por los picos hermosos de las Montañas Rocosas. Ellos buscan la casa de sus sueños en las montañas de Colorado en las ciudades de Conifer y Evergreen.\n\nCanal HGTV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HGTVLAS.ar (m3u4u)",
-      "currentProgram": "Hogares increíbles",
-      "currentProgramDesc": "Una mansión en la costa de Rhode Island; bodega de vino antigua; casa futurista junto al mar; apartamento francés con imponentes vistas; cubierta de nieve; manipulando la luz del sol; un subterráneo en casa; una casa puede aguantar cualquier clima.",
+      "currentProgram": "Nuestro hogar en la montaña",
+      "currentProgramDesc": "Una pareja quiere marcharse de Seattle y volver al lugar del que proceden, el condado de Humboldt, al norte de California. Una de las personas quiere una oficina en casa para trabajar, mientras que la otra prefiere una cocina muy grande.",
       "descriptionBase": "Canal HGTV"
     },
     {
@@ -551,11 +551,11 @@
       "genres": [
         "Musica"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Ridiculousness\nRob, Steelo y la invitada especial Karrueche Tran se aferran a un hilo en \"Sucky Silky Dancers\" y consiguen diversión de primera clase en \"Airport Amusement\".\n\n08:20 │ A CONTINUACIÓN: Ridiculousness\nRob, Steelo y Karrueche Tran se topan de frente con unos \"Immovable Men\". Se relacionan con unos animales que son \"Nearly Human\". Pierden el sueño con unos \"Sonic Snorers\".\n\nCanal MTV",
+      "description": "08:20 │ EN VIVO AHORA: Ridiculousness\nRob, Steelo y Karrueche Tran se topan de frente con unos \"Immovable Men\". Se relacionan con unos animales que son \"Nearly Human\". Pierden el sueño con unos \"Sonic Snorers\".\n\n08:45 │ A CONTINUACIÓN: Ridiculousness\nSteelo y la invitada especial Karrueche Tran aprenden a no pararse en las sillas, con \"Feet in the Seat\". Rob duda de sus habilidades en la parrilla en \"Grill Master Disasters\".\n\nCanal MTV",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "MTVL.ar (m3u4u)",
       "currentProgram": "Ridiculousness",
-      "currentProgramDesc": "Rob, Steelo y la invitada especial Karrueche Tran se aferran a un hilo en \"Sucky Silky Dancers\" y consiguen diversión de primera clase en \"Airport Amusement\".",
+      "currentProgramDesc": "Rob, Steelo y Karrueche Tran se topan de frente con unos \"Immovable Men\". Se relacionan con unos animales que son \"Nearly Human\". Pierden el sueño con unos \"Sonic Snorers\".",
       "descriptionBase": "Canal MTV"
     },
     {
@@ -641,7 +641,7 @@
       "genres": [
         "Infantil"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Tim Rex en el espacio\nTim, Tommy y Tía encuentran un juguete perdido y prometen devolverlo. Kai está muy emocionado por viajar en el Nebulizador. Tim y Kai intentan fotografiar al escurridizo SpaceBug.\n\n08:45 │ A CONTINUACIÓN: Rubble & Crew\nEs el primer día de clase en Caleta Constructor... ¡Si Rubble y equipo consiguen terminar la construcción a tiempo! ¡Los cachorros necesitan una solución para salvar los vegetales de la granjera Zoe y evitar que Crunchy, el castor, se lleve el agua!\n\nCanal Nick Jr",
+      "description": "08:20 │ EN VIVO AHORA: Tim Rex en el espacio\nTim, Tommy y Tía encuentran un juguete perdido y prometen devolverlo. Kai está muy emocionado por viajar en el Nebulizador. Tim y Kai intentan fotografiar al escurridizo SpaceBug.\n\n08:45 │ A CONTINUACIÓN: Rubble & Crew\nEs el primer día de clase en Caleta Constructor... ¡Si Rubble y equipo consiguen terminar la construcción a tiempo! ¡Los cachorros necesitan una solución para salvar los vegetales de la granjera Zoe y evitar que Crunchy, el castor, se lleve el agua!\n\nCanal Nick Jr",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "NICKJMH.ar (m3u4u)",
       "currentProgram": "Tim Rex en el espacio",
@@ -654,16 +654,16 @@
       "name": "Disney Channel",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/disney-channel_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/disney-channel_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/l0XvAI856XdyDYEfr1njztjH7u0.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vVGmv5mle6lCrgnx8lNv5Q1vZPw.jpg",
       "posterShape": "poster",
       "genres": [
         "Infantil"
       ],
-      "description": "07:59 │ EN VIVO AHORA: Gravity Falls: Un verano de misterios\nDipper intenta impresionar a Wendy actuando mayor de lo que es en realidad y va en un viaje que los lleva a una tienda que quizás esté embrujada.\n\n08:27 │ A CONTINUACIÓN: Los vecinos Green\nTilly y Cricket no logran ponerse de acuerdo en una parada de camiones. Tilly se convierte en la mejor compositora de villancicos de Big City.\n\nCanal Disney Channel",
+      "description": "08:27 │ EN VIVO AHORA: Los vecinos Green\nTilly y Cricket no logran ponerse de acuerdo en una parada de camiones. Tilly se convierte en la mejor compositora de villancicos de Big City.\n\n09:00 │ A CONTINUACIÓN: Miraculous: Las aventuras de Ladybug\nLadybug y Cat Noir se enfrentan a un ejército de momias cuando un historiador intenta hacer revivir a una antigua princesa egipcia mediante el sacrificio de Alya.\n\nCanal Disney Channel",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DISNLS.ar (m3u4u)",
-      "currentProgram": "Gravity Falls: Un verano de misterios",
-      "currentProgramDesc": "Dipper intenta impresionar a Wendy actuando mayor de lo que es en realidad y va en un viaje que los lleva a una tienda que quizás esté embrujada.",
+      "currentProgram": "Los vecinos Green",
+      "currentProgramDesc": "Tilly y Cricket no logran ponerse de acuerdo en una parada de camiones. Tilly se convierte en la mejor compositora de villancicos de Big City.",
       "descriptionBase": "Canal Disney Channel"
     },
     {
@@ -767,7 +767,7 @@
       "genres": [
         "Infantil"
       ],
-      "description": "08:10 │ EN VIVO AHORA: Hi Hi Puffy AmiYumi\nLas divertidas aventuras de las estrellas del pop japonés Ami Onuki y Yumi Yoshimura, integrantes del dueto de J-Pop Puffy AmiYumi.\n\n08:32 │ A CONTINUACIÓN: Mike, Lu y Og\nUn estudiante de intercambio buscando aventura llega a una isla apartada.\n\nCanal Tooncast",
+      "description": "08:24 │ EN VIVO AHORA: Hi Hi Puffy AmiYumi\nLas divertidas aventuras de las estrellas del pop japonés Ami Onuki y Yumi Yoshimura, integrantes del dueto de J-Pop Puffy AmiYumi.\n\n08:32 │ A CONTINUACIÓN: Mike, Lu y Og\nUn estudiante de intercambio buscando aventura llega a una isla apartada.\n\nCanal Tooncast",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TOONCST.ar (m3u4u)",
       "currentProgram": "Hi Hi Puffy AmiYumi",
@@ -1068,16 +1068,16 @@
       "name": "HBO Plus",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-plus_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-plus_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/g6Bppew6A1PxpHfraNroo0mRBcm.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gNdLJU9TxrpGx4dkZidjys3fyy0.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "06:35 │ EN VIVO AHORA: Wrath of the Titans\nCon la ayuda de la reina Andrómeda, Hefesto y el hijo de Poseidón, Perseo emprende la misión de rescatar a Zeus del inframundo, derrotar a los Titanes y salvar a la humanidad.\n\n08:19 │ A CONTINUACIÓN: Blade Runner 2049\nEn el año 2049 el oficial K, un nuevo replicante de la policía de Los Ángeles, emprende la búsqueda del replicante Rick Deckard, desaparecido 30 años antes. K piensa que en Deckard reside la clave que podría permitir salvar a la sociedad del caos en el que está inmersa.\n\nCanal HBO Plus",
+      "description": "08:19 │ EN VIVO AHORA: Blade Runner 2049\nEn el año 2049 el oficial K, un nuevo replicante de la policía de Los Ángeles, emprende la búsqueda del replicante Rick Deckard, desaparecido 30 años antes. K piensa que en Deckard reside la clave que podría permitir salvar a la sociedad del caos en el que está inmersa.\n\n11:05 │ A CONTINUACIÓN: Annabelle\nUna mujer embarazada, Mia, recibe una muñeca antigua como regalo de su esposo, John. Tras ser atacados por los integrantes de un culto satánico, la pareja comienza a sufrir la influencia maligna del ser que posee a la muñeca Annabelle.\n\nCanal HBO Plus",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HBOPPHD.ar (m3u4u)",
-      "currentProgram": "Wrath of the Titans",
-      "currentProgramDesc": "Con la ayuda de la reina Andrómeda, Hefesto y el hijo de Poseidón, Perseo emprende la misión de rescatar a Zeus del inframundo, derrotar a los Titanes y salvar a la humanidad.",
+      "currentProgram": "Blade Runner 2049",
+      "currentProgramDesc": "En el año 2049 el oficial K, un nuevo replicante de la policía de Los Ángeles, emprende la búsqueda del replicante Rick Deckard, desaparecido 30 años antes. K piensa que en Deckard reside la clave que podría permitir salvar a la sociedad del caos en el que está inmersa.",
       "descriptionBase": "Canal HBO Plus"
     },
     {
@@ -1104,16 +1104,16 @@
       "name": "HBO Mundi",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/mundi_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/mundi_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/6Sa3iAcZcPW1mM35112m9hXHHLh.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "05:00 │ EN VIVO AHORA: La lista de Schindler\nEl empresario alemán Oskar Schindler, miembro del Partido Nazi, pone en marcha un elaborado, costoso y arriesgado plan para salvar a más de mil judíos del Holocausto.\n\n08:20 │ A CONTINUACIÓN: La última gran actuación\nUna bailarina debe decidir qué hacer con su vida luego de que su espectáculo en Las Vegas es abruptamente cancelado luego de 30 años en cartelera. Mientras busca una nueva oportunidad laboral, trata de restaurar la relación con su hija.\n\nCanal HBO Mundi",
+      "description": "08:20 │ EN VIVO AHORA: La última gran actuación\nUna bailarina debe decidir qué hacer con su vida luego de que su espectáculo en Las Vegas es abruptamente cancelado luego de 30 años en cartelera. Mientras busca una nueva oportunidad laboral, trata de restaurar la relación con su hija.\n\n09:55 │ A CONTINUACIÓN: Ella dijo\nLas periodistas Megan Twohey y Jodi Kantor publican un reportaje que denuncia décadas de abusos sexuales en Hollywood, personificados en la figura del magnate Harvey Weinstein.\n\nCanal HBO Mundi",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "MUNLA.ar (m3u4u)",
-      "currentProgram": "La lista de Schindler",
-      "currentProgramDesc": "El empresario alemán Oskar Schindler, miembro del Partido Nazi, pone en marcha un elaborado, costoso y arriesgado plan para salvar a más de mil judíos del Holocausto.",
+      "currentProgram": "La última gran actuación",
+      "currentProgramDesc": "Una bailarina debe decidir qué hacer con su vida luego de que su espectáculo en Las Vegas es abruptamente cancelado luego de 30 años en cartelera. Mientras busca una nueva oportunidad laboral, trata de restaurar la relación con su hija.",
       "descriptionBase": "Canal HBO Mundi"
     },
     {
@@ -1122,16 +1122,16 @@
       "name": "HBO Pop",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-pop_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/hbo-pop_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/1rzQCRE4CSJOuuc5AueAdOHyU9k.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/n6eIm882V7cj0In0xp8QXNItoTp.jpg",
       "posterShape": "poster",
       "genres": [
         "Premium"
       ],
-      "description": "06:52 │ EN VIVO AHORA: La boda de mi ex\nLos invitados a la boda, Frank y Lindsay, descubren que tienen mucho en común: no les cae bien ni la novia, ni el novio, ni les gusta la ceremonia, ni ellos mismos, ni los demás.\n\n08:27 │ A CONTINUACIÓN: Click: Perdiendo el control\nUn arquitecto que trabaja demasiado obtiene un control remoto universal que le permite controlar el mundo que lo rodea.\n\nCanal HBO Pop",
+      "description": "08:27 │ EN VIVO AHORA: Click: Perdiendo el control\nUn arquitecto que trabaja demasiado obtiene un control remoto universal que le permite controlar el mundo que lo rodea.\n\n10:22 │ A CONTINUACIÓN: Una esposa de mentira\nEl cirujano Danny decide contratar a su ayudante Katherine, una madre soltera con hijos, para que finjan ser su familia. Su intención es demostrarle a Palmer que su amor por ella es tan grande que está a punto de divorciarse de su mujer.\n\nCanal HBO Pop",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "POPLA.ar (m3u4u)",
-      "currentProgram": "La boda de mi ex",
-      "currentProgramDesc": "Los invitados a la boda, Frank y Lindsay, descubren que tienen mucho en común: no les cae bien ni la novia, ni el novio, ni les gusta la ceremonia, ni ellos mismos, ni los demás.",
+      "currentProgram": "Click: Perdiendo el control",
+      "currentProgramDesc": "Un arquitecto que trabaja demasiado obtiene un control remoto universal que le permite controlar el mundo que lo rodea.",
       "descriptionBase": "Canal HBO Pop"
     },
     {
@@ -1595,7 +1595,7 @@
       "genres": [
         "Noticias"
       ],
-      "description": "08:00 │ EN VIVO AHORA: La cuenta regresiva\n\n09:00 │ A CONTINUACIÓN: Por amor\n\nCanal RT",
+      "description": "08:30 │ EN VIVO AHORA: La cuenta regresiva\n\n09:00 │ A CONTINUACIÓN: Por amor\n\nCanal RT",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "RTSPAN.ar (m3u4u)",
       "currentProgram": "La cuenta regresiva",
@@ -1608,16 +1608,16 @@
       "name": "TeleSur",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telesur_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/telesur_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/cWczNud8Y8i8ab0Z4bxos4myWYO.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "08:05 │ EN VIVO AHORA: Enredados\nIncursión al mundo digital para analizar los pros y contras de las redes sociales y conocer las nuevas herramientas tecnológicas.\n\n08:30 │ A CONTINUACIÓN: Telesur Noticias\nLas noticias más importantes de América Latina y el resto del mundo integrados en una sola voz informativa.\n\nCanal TeleSur",
+      "description": "08:30 │ EN VIVO AHORA: Telesur Noticias\nLas noticias más importantes de América Latina y el resto del mundo integrados en una sola voz informativa.\n\n09:00 │ A CONTINUACIÓN: Titulares\nInformación minuto a minuto sobre todos los acontecimientos nacionales e internacionales del interés público.\n\nCanal TeleSur",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "TELESUR.ar (m3u4u)",
-      "currentProgram": "Enredados",
-      "currentProgramDesc": "Incursión al mundo digital para analizar los pros y contras de las redes sociales y conocer las nuevas herramientas tecnológicas.",
+      "currentProgram": "Telesur Noticias",
+      "currentProgramDesc": "Las noticias más importantes de América Latina y el resto del mundo integrados en una sola voz informativa.",
       "descriptionBase": "Canal TeleSur"
     },
     {
@@ -1626,16 +1626,16 @@
       "name": "DW America",
       "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dw_poster.png",
       "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/dw_logo.png",
-      "background": "https://image.tmdb.org/t/p/w1280/qs0ARjJizmdq83TfmK8T2E7k73z.jpg",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
       "posterShape": "poster",
       "genres": [
         "Noticias"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Visión futuro\nInformación dirigida a todos aquellos que se interesan por el avance de la ciencia en Europa y, específicamente, en Alemania.\n\n08:30 │ A CONTINUACIÓN: Enlaces: Ventana abierta al mundo digital\nUn magacín sobre tecnología digital donde se analizan los temas del momento, se habla con expertos y se proporcionan los principales datos y hechos en la materia.\n\nCanal DW America",
+      "description": "08:30 │ EN VIVO AHORA: Enlaces: Ventana abierta al mundo digital\nUn magacín sobre tecnología digital donde se analizan los temas del momento, se habla con expertos y se proporcionan los principales datos y hechos en la materia.\n\n09:00 │ A CONTINUACIÓN: Engánchate a la economía\nMuchos piensan que la economía es difícil e incomprensible, pero tres expertos en economía demuestran lo contrario.\n\nCanal DW America",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "DWLA.ar (m3u4u)",
-      "currentProgram": "Visión futuro",
-      "currentProgramDesc": "Información dirigida a todos aquellos que se interesan por el avance de la ciencia en Europa y, específicamente, en Alemania.",
+      "currentProgram": "Enlaces: Ventana abierta al mundo digital",
+      "currentProgramDesc": "Un magacín sobre tecnología digital donde se analizan los temas del momento, se habla con expertos y se proporcionan los principales datos y hechos en la materia.",
       "descriptionBase": "Canal DW America"
     },
     {
@@ -1703,7 +1703,7 @@
       "genres": [
         "Mundo"
       ],
-      "description": "08:00 │ EN VIVO AHORA: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\n09:00 │ A CONTINUACIÓN: Lo mejor de El precio de la historia\nRick se encuentra con un original de la declaración de independencia.\n\nCanal History",
+      "description": "08:30 │ EN VIVO AHORA: Programa pagado\nPrograma que muestra diversos productos para la venta.\n\n09:00 │ A CONTINUACIÓN: Lo mejor de El precio de la historia\nRick se encuentra con un original de la declaración de independencia.\n\nCanal History",
       "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
       "tvgId": "HISTSOU.ar (m3u4u)",
       "currentProgram": "Programa pagado",
