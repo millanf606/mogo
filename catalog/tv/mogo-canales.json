@@ -918,6 +918,24 @@
       "currentProgramDesc": "La peluquería ha cambiado mucho y ahora es para hombres y mujeres. Calvin, Eddie y el resto de la pandilla cuentan con un plan para salvar al vecindario del crimen.",
       "descriptionBase": "Canal DHE"
     },
+        {
+      "id": "mogo-canal-canal-de-pelicula",
+      "type": "tv",
+      "name": "De Pelicula",
+      "poster": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/depelicula_poster.png",
+      "logo": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/logos/depelicula_logo.png",
+      "background": "https://raw.githubusercontent.com/millanf606/mogo/refs/heads/main/fondo/fondo-canales.png",
+      "posterShape": "poster",
+      "genres": [
+        "Cine"
+      ],
+      "description": "EN VIVO AHORA: Sin información de programa\n\nCanal Venevision",
+      "epgUrl": "http://m3u4u.com/xml/5z3endqqrxap47gjyqpk",
+      "tvgId": "DEPEL.co (m3u4u)",
+      "currentProgram": "Sin información de programa",
+      "currentProgramDesc": "",
+      "descriptionBase": "Canal De Pelicula"
+    },
     {
       "id": "mogo-canal-canal-golden-edge",
       "type": "tv",
