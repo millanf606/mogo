@@ -1,8 +1,12 @@
 {
   "streams": [
     {
-      "title": "Las Estrellas",
+      "title": "Las Estrellas HD",
       "url": "http://181.78.14.26:4000/play/a07r/index.m3u8?hls"
+    },
+        {
+      "title": "Las Estrellas HD",
+      "url": "http://179.0.104.255:8010/play/a01s/index.m3u8?hls"
     }
   ]
 }
